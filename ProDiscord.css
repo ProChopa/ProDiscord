@@ -1,0 +1,402 @@
+@import url("https://discordstyles.github.io/SoftX/RadialGlow.css");
+
+:root {
+	--main-color: #1b222a;
+	--additional-color: #1b222a;
+	--voice-color: #1b222a;
+	--button-color: linear-gradient(#2a3742, #2a3742);
+	--blue-color-text: #cdd6f4;
+	--hover-color: #2a3742;
+	--link-color: #5785ba;
+	--checkbox-cheked-color: #5785ba;
+	--message-background: linear-gradient(100deg, #2a3742 0%, #2a3742 15%, #1b222a 50%);
+	}
+
+/* Скрытие кнопок */
+button[aria-label="Начать активность"],
+button[aria-label="Камера недоступна"],
+button[aria-label="Шумоподавление с помощью Krisp"],
+[role="button"][aria-label="Показать профиль пользователя (недоступно)"],
+[role="button"][aria-label="Показать профиль пользователя"],
+[role="button"][aria-label="Почта"],
+[role="button"][aria-label="Помощь"],
+div:has(> button[aria-label="Открыть звуковую панель"]),
+div:has(> span[class*="disabledButtonWrapper__69c70"]),
+[role="button"][aria-label="Начать видеозвонок"],
+button[aria-label="Розпочати дію"],
+button[aria-label="Поглинання шуму від Krisp"],
+[role="button"][aria-label="Показати профіль користувача (недоступно)"],
+[role="button"][aria-label="Показати профіль користувача"],
+[role="button"][aria-label="Вхідні"],
+[role="button"][aria-label="Довідка"],
+div:has(> button[aria-label="Відкрити звукову панель"]),
+[role="button"][aria-label="Розпочати відеовиклик"] {
+    display: none;
+}
+button[aria-label="Продемонстрируйте свой экран"],
+button[aria-label="Почати демонстрацію екрану"] {
+    background: var(--button-color);
+}
+
+/*Фон сообщений */
+.message__80c10.cozyMessage__64ce7.groupStart__56db5 {
+    position: relative;
+    margin: 16px 5px 0 70px;
+    padding: 8px 10px;
+    padding-bottom: 3px;
+    background: var(--message-background);
+    border-bottom: none !important;
+    overflow: visible !important;
+    border-radius: 0 5px 5px 5px;
+}
+.promptContent__63c03 .overlay_ef4f80 {
+    background: var(--message-background) !important;
+	}
+.tierCard_f6953a, .tierCardCurrentTier_df8c32, .recommendedTierHighlightTag-2Vgifo {
+    background-image: var(--message-background);
+}
+.message__80c10.systemMessage__6e6a4.groupStart__56db5:after, .message__80c10:not(.groupStart__56db5):after {
+    display: none;
+}
+.message__80c10.systemMessage__6e6a4.groupStart__56db5 {
+    border-radius: 5px;
+}
+.message__80c10.groupStart__56db5 .avatar__08316, .systemMessage__6e6a4.message__80c10:not(.groupStart__56db5) .avatar__08316 {
+    top: 0px;
+    left: -50px;
+}
+.avatarDecoration__14b3c {
+    left: -55px;
+    top: 0;
+}
+.avatar__08316 {
+    top: 0px;
+    left: 20px;
+}
+.preview_a8dd8d .avatar__08316 {
+    left: -55px;
+}
+.message__80c10:not(.groupStart__56db5).cozy_f5c119.wrapper__09ecc {
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    border-radius: 0 0 5px 5px;
+    margin-top: -3px;
+}
+.message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {
+    background-color: var(--message-background);
+}
+.message__80c10:not(.groupStart__56db5) {
+    margin: 0 5px 0 70px;
+    background: var(--message-background);
+    overflow: visible;
+}
+.cozy_f5c119 .timestamp_cdbd93.alt__6c563 {
+    left: -65px;
+}
+
+/* Nitro and Shop in DMs */
+.channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/shop"],
+.channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/store"] {
+    display: none;
+}
+.buttonContainer__66ac7 {
+    display: none;
+}
+.controlButton_ab2899.fauxDisabled_e7913a.contextMenuContainer_fc4df6 {
+    display: none;
+}
+.scroller__3d071 > .listItem_fa7b36 > .listItemWrapper__1f93b {
+    display: none;
+}
+.children__32014 > .akaBadge__7df41,
+.children__32014 > .nicknames__7447d,
+.children__32014 > .divider_c09b64 {
+    display: none;
+}
+.withFrame__485f4 {
+    height: 22px;
+    margin-top: 0;
+    background-color: var(--main-color) !important;
+}
+.scroller__3d071,
+.theme-dark .panel_bd8c76,
+.chatContent__5dca8 {
+    background: var(--main-color);
+}
+.root__3eef0 {
+    background: var(--voice-color);
+}
+.container_ca50b9,
+.container_d667ff {
+    background: var(--main-color) !important;
+}
+.scroller__4b984,
+.searchBar_e4ea2a {
+    background: var(--additional-color) !important;
+}
+.searchBarComponent__22760,
+.searchBar_e0c60b {
+    background: var(--main-color) !important;
+}
+[data-list-id="chat-messages"],
+.form__13a2c:before,
+.form__13a2c {
+    background: var(--main-color) !important;
+}
+.placeholder_e68c63,
+.scrollableContainer__33e06 {
+    background: var(--hover-color);
+}
+.themed_b152d4,
+.children__32014:after {
+    background: var(--additional-color) !important;
+}
+.members__9f47b {
+    background: var(--additional-color);
+}
+
+/* Скролл-бар */
+::-webkit-scrollbar {
+    border: 0px !important;
+    width: 6px !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #2a3742 !important;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #cdd6f4 !important;
+}
+.auto_a48086::-webkit-scrollbar-track {
+    background-color: var(--main-color);
+}
+.auto_a48086::-webkit-scrollbar-thumb,
+.auto_a48086::-webkit-scrollbar-track {
+    border: 4px;
+}
+
+/* Selected */
+.modeSelected__487d6 .wrapper__7bcde,
+.button_d553e5.selected__63428 {
+    background: var(--hover-color) !important;
+}
+
+/* Home Button */
+.childWrapper__01b9c {
+    background: transparent
+}
+.theme-dark .container__590e2,
+.container_b2ce9c {
+    background: var(--additional-color);
+}
+
+/* Mention */
+.mentioned__58017.message__80c10.groupStart__56db5 {
+    background: linear-gradient(100deg, #2a3742 0%, #2a3742 15%, #1b222a 50%) !important;
+}
+.mentioned__58017:before {
+    background-color: var(--link-color);
+}
+
+/* Кнопка выключения просмотра демонстрации экрана и кнопка Отключиться */
+button[aria-label="Прекратить просмотр"],
+.colorable_c84c4c.red_a51ba8 {
+    background: var(--link-color) !important;
+}
+
+/* Цвет строки поиска во вкладке Друзья */
+.inner__999f6 {
+    background:  var(--hover-color);
+}
+
+/* Загружаемые файлы и разные фоны в сообщениях */
+.attachment_f3cf2c.newMosaicStyle__235c9,
+.newMosaicStyle__8d3be .codeView__8b1ff,
+.newMosaicStyle__8d3be .footer__06f4b,
+.newMosaicStyle__8d3be .textContainer__709ff,
+.grid_c7c4e6,
+.wrapper_c727b6 {
+    background: linear-gradient(100deg, #1b222a 0%, #2a3742 15%, #2a3742 50%, #1b222a 100%);
+}
+
+/* Кнопка + (зайти на сервер) */
+.circleIcon__428dd > path {
+    display: none;
+}
+.circleIconButton_d8df29 {
+    background: transparent;
+}
+
+/* Отображение цвета разговора */
+.border_d9a17b.speaking__9b95a,
+.border_e782de.speaking__1dd69,
+.speaking-3K28iH,
+.speaking_c1b30e,
+.avatarSpeaking__61fb1 {
+    box-shadow: inset 0 0 10px rgb(140, 140, 140);
+}
+
+/* Меню настроек */
+.sidebarRegionScroller__1fa7e,
+.contentRegionShownSidebar__610ed {
+    background: var(--main-color) !important;
+}
+.container__871ba.checked__6bdb0,
+.bd-switch input:checked + .bd-switch-body {
+    background-color: var(--checkbox-cheked-color) !important;
+}
+.bd-switch-symbol,
+.slider__41d94 > svg {
+    display: none;
+}
+
+/* Зеленый значок показывающий нахождение в голосовом канале */
+.iconBadge_fdf33a {
+    background-color: var(--link-color) !important;
+}
+
+/* Правая панель серверов */
+.member_b44d5d {
+    background: #ff000000;
+}
+
+/* Профили */
+.overlayBackground__86b78 {
+    background-color: var(--main-color);
+}
+.userProfileInner__8065b:before,
+.userProfileInnerThemedNonPremium__3d0a6 {
+    background: var(--additional-color);
+}
+
+//* Подсказки при наведении */
+.tooltipPrimary_e5c00d,
+.tooltipGrey_a35fcf {
+    background: var(--button-color) !important;
+    border-radius: 10px;
+}
+.theme-dark {
+    /* Цвет контекстного меню */
+    --background-floating: var(--additional-color);
+    /* Цвет ссылок */
+    --text-link: var(--link-color);
+    /* Цвет голосовых сообщений */
+    --background-secondary: var(--additional-color);
+    /* Цвет в закрепах и тд */
+    --background-primary: var(--main-color);
+    /* Цвет бейджей важных сообщений */
+    --status-danger: var(--link-color);
+    /* Цвет экрана выбора демки */
+    --modal-background: var(--main-color);
+    --modal-footer-background: var(--additional-color);
+    /* Задний цвет выбранного канала на сервере */
+    --background-modifier-selected: var(--hover-color);
+    --background-modifier-active: var(--hover-color);
+    /* Кнопка Добавить в друзья на главном экране */
+    --status-positive-background: var(--hover-color);
+}
+
+:root {
+    /* Цвет загрузки демок и прочего */
+    --primary-700: var(--additional-color);
+    /* Цвет в контекстном меню при наведении */
+    --brand-experiment-560: var(--hover-color);
+    /* Цвет текста при хорошем сигнале */
+    --text-positive: var(--text-link);
+    /* Цвет контекстного меню выбора региона звонка */
+    --primary-630: var(--additional-color);
+    --background-modifier-hover: var(--hover-color);
+    --background-primary: var(--main-color);
+    /* Кнопка В эфире */
+    --red-400: var(--link-color);
+    /* Выбранное разрешение и фпс демки */
+    --brand-experiment: var(--hover-color);
+    /* Серые цвета кнопок */
+    --button-secondary-background: var(--hover-color);
+    --button-secondary-background-hover: var(--link-color);
+    /* Цвет твоей панели активности */
+    --background-secondary-alt: var(--additional-color);
+    /* Цвета кнопок удалить сообщения */
+    --red-430: var(--hover-color);
+    --red-500: var(--link-color);
+    --red-530: var(--link-color);
+    /* Задний цвет сообщения в модальном окне удаления сообщений */
+    --primary-600: var(--main-color);
+}
+
+/* Цвет контекстного меню выбора региона звонка при наведении */
+.theme-dark .quickSelectPopoutOption__39224:hover {
+    background-color: var(--hover-color);
+}
+.quickSelectPopoutOption__39224:focus {
+    background-color: transparent;
+}
+
+/* Реклама нитро при выборе качества демки */
+.gradientBackground-MytxDL {
+    display: none;
+}
+
+/* Иллюстрация при включении демки */
+.art-1TvEXv,
+.modalCloseButton-3jqiBN {
+    display: none;
+}
+
+/* Зеленый индикатор демки рабочего стола */
+.icon_c1b424 {
+    background-color: var(--hover-color) !important;
+}
+
+/* Нижняя панель где ава, статус, муты микро */
+.container_ca50b9,
+.container_d667ff,
+.panel_bd8c76 {
+    background-color: var(--main-color) !important;
+}
+
+/* Выделение текста */
+::selection {
+    background: var(--link-color) !important;
+}
+
+/* Цвет хедера плагинов */
+.bd-addon-header {
+    background-color: var(--hover-color) !important;
+}
+	
+/* Возвращение микрофона как до обновления */
+svg div button[aria-label="Вкл. микрофон"] {
+    background: var(--white-500) !important;
+}
+svg div button[aria-label="Вкл. микрофон"] svg {
+    color: var(--primary-860) !important;
+}
+
+svg div > button[aria-label="Откл. микрофон"] {
+    background: var(--primary-630) !important;
+}
+svg div > button[aria-label="Откл. микрофон"]:hover {
+    background: var(--primary-700) !important;
+}
+svg div button[aria-label="Откл. микрофон"] svg {
+    color: var(--white-500) !important;
+}
+
+[role="button"][aria-label="Другие настройки"][class*="primaryDark__6b700"] {
+    color: var(--primary-860) !important;
+    background: var(--white-500) !important;
+}
+
+[role="button"][aria-label="Другие настройки"][class*="white__10e89"] {
+    color: var(--white-500) !important;
+    background: var(--primary-630) !important;
+}
+
+/* Theme info and version */
+.info__755e1:after {
+    content: "Theme by ProChopa";
+    position: relative;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--text-muted);
