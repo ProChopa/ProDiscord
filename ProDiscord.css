@@ -400,3 +400,9 @@ svg div button[aria-label="Откл. микрофон"] svg {
     font-size: 12px;
     line-height: 16px;
     color: var(--text-muted);
+
+/* Ползунок громкости */
+.barFill__30e17 {
+    background: var(--link-color);
+    height: 100%;
+}
