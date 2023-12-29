@@ -250,6 +250,10 @@ button[aria-label="Прекратить просмотр"],
     display: none;
 }
 
+/* Ползунок громкости */
+.barFill__30e17 {
+    background: var(--link-color);
+
 /* Зеленый значок показывающий нахождение в голосовом канале */
 .iconBadge_fdf33a {
     background-color: var(--link-color) !important;
