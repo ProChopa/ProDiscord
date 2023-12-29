@@ -255,6 +255,12 @@ button[aria-label="Прекратить просмотр"],
     background-color: var(--link-color) !important;
 }
 
+/* Ползунок громкости */
+.barFill__30e17 {
+    background: var(--link-color);
+    height: 100%;
+}
+
 /* Правая панель серверов */
 .member_b44d5d {
     background: #ff000000;
