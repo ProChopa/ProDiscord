@@ -249,12 +249,11 @@ button[aria-label="Прекратить просмотр"],
 .slider__41d94 > svg {
     display: none;
 }
-
 /* Ползунок громкости */
 .barFill__30e17 {
     background: var(--link-color);
     height: 100%;
-
+}
 /* Зеленый значок показывающий нахождение в голосовом канале */
 .iconBadge_fdf33a {
     background-color: var(--link-color) !important;
