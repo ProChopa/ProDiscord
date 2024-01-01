@@ -95,6 +95,31 @@ button[aria-label="Почати демонстрацію екрану"] {
     left: -65px;
 }
 
+/* Эмодзи панель */
+.inspector__993e1 {
+    background-color: var(--main-color);
+}
+
+.emojiItem_b15dee.emojiItemSelected__1a09a, .navButtonActive__735cb, .categoryItemDefaultCategorySelected__8245a, .categoryItemDefaultCategorySelected__8245a:hover, .categoryItemDefaultCategory__67fe7:hover {
+    background-color: var(--hover-color);
+}
+
+/* Добавить в друзья */
+.tabBar__73938 .addFriend__80542.addFriend__80542.addFriend__80542[aria-selected=true] {
+    background-color: var(--hover-color);
+	color: var(--link-color);
+}
+
+/* Верхние иконки и их текст */
+.container__11d72 * {
+    color: var(--link-color);
+}
+
+/* Мероприятия */
+.content_c6490e {
+    display: none;
+}
+
 /* Nitro and Shop in DMs */
 .channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/shop"],
 .channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/store"] {
@@ -173,6 +198,11 @@ button[aria-label="Почати демонстрацію екрану"] {
 .auto_a48086::-webkit-scrollbar-thumb,
 .auto_a48086::-webkit-scrollbar-track {
     border: 4px;
+}
+
+/* Hover */
+.topPill__0cdf1 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__85bca) {
+    background-color: var(--hover-color);
 }
 
 /* Selected */
@@ -275,7 +305,7 @@ button[aria-label="Прекратить просмотр"],
     background: var(--additional-color);
 }
 
-//* Подсказки при наведении */
+/* Подсказки при наведении */
 .tooltipPrimary_e5c00d,
 .tooltipGrey_a35fcf {
     background: var(--button-color) !important;
@@ -300,7 +330,7 @@ button[aria-label="Прекратить просмотр"],
     --background-modifier-active: var(--hover-color);
     /* Кнопка Добавить в друзья на главном экране */
     --status-positive-background: var(--hover-color);
-}
+	}
 
 :root {
     /* Цвет загрузки демок и прочего */
@@ -406,9 +436,3 @@ svg div button[aria-label="Откл. микрофон"] svg {
     font-size: 12px;
     line-height: 16px;
     color: var(--text-muted);
-
-/* Ползунок громкости */
-.barFill__30e17 {
-    background: var(--link-color);
-    height: 100%;
-}
