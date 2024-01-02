@@ -115,9 +115,24 @@ button[aria-label="Почати демонстрацію екрану"] {
     color: var(--link-color);
 }
 
-/* Мероприятия */
+/* Сервер */
 .content_c6490e {
     display: none;
+}
+.name_c08dbc {
+    color: var(--link-color);
+}
+.colorBrand__471df {
+    color: var(--interactive-normal);
+}
+.colorDefault__0b482 .checkbox__45366, .colorDefault__0b482 .checkbox__45366:hover, .colorDefault__0b482 .radioSelection__5ed39, .iconContainer__829e7 {
+    color: var(--link-color);
+}
+.button__07e07 path, .button__07e07.open_a0ea08 path {
+    color: var(--link-color);
+}
+.name__8d1ec {
+    color: var(--blue-color-text);
 }
 
 /* Nitro and Shop in DMs */
@@ -266,7 +281,7 @@ button[aria-label="Прекратить просмотр"],
     box-shadow: inset 0 0 10px rgb(140, 140, 140);
 }
 
-/* Меню настроек */
+/* Настройки */
 .sidebarRegionScroller__1fa7e,
 .contentRegionShownSidebar__610ed {
     background: var(--main-color) !important;
@@ -290,19 +305,52 @@ button[aria-label="Прекратить просмотр"],
     background: var(--link-color);
     height: 100%;
 }
+.theme-dark .bar_e58961, .theme-dark .markDash_dc3ae9 {
+    background: var(--hover-color);
+}
+.mini_d6d84c .grabber_d2868c {
+    color: var(--blue-color-text);
+}
 
 /* Правая панель серверов */
 .member_b44d5d {
     background: #ff000000;
 }
 
-/* Профили */
-.overlayBackground__86b78 {
-    background-color: var(--main-color);
-}
-.userProfileInner__8065b:before,
+/* Профиль */
 .userProfileInnerThemedNonPremium__3d0a6 {
     background: var(--additional-color);
+}
+.rolePill_ee1aa1, .listRow__60937:hover {
+    background-color: var(--hover-color);
+}
+.lookFilled__19298.colorPrimary__6ed40, .lookFilled__19298.colorPrimary__6ed40:hover {
+    background-color: var(--hover-color);
+}
+
+/* Плеер */
+.theme-dark .container__79822:not(.playing_eb5c63) .playButtonContainer_d887d6, .theme-dark .container__79822:not(.playing_eb5c63) .playButtonContainer_d887d6:hover, .mediaBarPreview__2937c, .mediaBarProgress__29db2, .mediaBarProgress__29db2:before, .mediaBarProgress__29db2:after {
+    background: var(--link-color);
+}
+.mediaBarInteractionVolume_f4c833 {
+    background: var(--main-color);
+	box-shadow: var(--elevation-high);
+}
+.mediaBarInteraction__0633c, .mediaBarInteractionDragging__0a2ee {
+    background: var(--main-color);
+}
+.mediaBarWrapperVolume_e2bd94, .mediaBarWrapper_f312bd, .mediaBarwrapper_f312bd:before, .mediaBarWrapper_f312bd:after {
+    background: var(--hover-color);
+}
+.mediaBarGrabber_c64ff9 {
+    background: var(--blue-color-text);
+    cursor: pointer;
+}
+
+
+/* Предупреждение */
+.card__4dc22:not(.outline_cb0aed), .card__3087a, .cardWarning_d49e9e, .card__4dc22 {
+    background-color: var(--hover-color);
 }
 
 /* Подсказки при наведении */
@@ -311,6 +359,7 @@ button[aria-label="Прекратить просмотр"],
     background: var(--button-color) !important;
     border-radius: 10px;
 }
+
 .theme-dark {
     /* Цвет контекстного меню */
     --background-floating: var(--additional-color);
@@ -330,6 +379,19 @@ button[aria-label="Прекратить просмотр"],
     --background-modifier-active: var(--hover-color);
     /* Кнопка Добавить в друзья на главном экране */
     --status-positive-background: var(--hover-color);
+	/* Цвет текста */
+	--primary-360: var(--blue-color-text);
+	--white-500: var(--blue-color-text);
+	--interactive-hover: var(--blue-color-text);
+    --interactive-muted: var(--blue-color-text);
+    --interactive-normal: var(--blue-color-text);
+	--channel-text-area-placeholder: var(--blue-color-text);
+	--channeltextarea-background: var(--blue-color-text);
+	--deprecated-text-input-bg: var(--blue-color-text);
+    --deprecated-text-input-border: var(--blue-color-text);
+    --deprecated-text-input-border-disabled: var(--blue-color-text);
+    --deprecated-text-input-border-hover: var(--blue-color-text);
+    --deprecated-text-input-prefix: var(--blue-color-text);
 	}
 
 :root {
@@ -337,6 +399,7 @@ button[aria-label="Прекратить просмотр"],
     --primary-700: var(--additional-color);
     /* Цвет в контекстном меню при наведении */
     --brand-experiment-560: var(--hover-color);
+	--brand-experiment-600: var(--hover-color);
     /* Цвет текста при хорошем сигнале */
     --text-positive: var(--text-link);
     /* Цвет контекстного меню выбора региона звонка */
