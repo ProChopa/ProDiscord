@@ -274,6 +274,9 @@ button[aria-label="Прекратить просмотр"], .colorable_c84c4c.re
 .bd-switch-symbol, .slider__41d94 > svg {
     display: none;
 }
+.icon__8f621 {
+    color: var(--blue-color-text);
+}
 
 /* Зеленый значок показывающий нахождение в голосовом канале */
 .iconBadge_fdf33a {
@@ -394,6 +397,7 @@ button[aria-label="Прекратить просмотр"], .colorable_c84c4c.re
 	--primary-360: var(--blue-color-text);
 	--primary-400: var(--hover-color);
 	--primary-500: var(--hover-color);
+	--primary-530: var(--hover-color);
 	--primary-800: var(--hover-color);
 	--interactive-hover: var(--blue-color-text);
     --interactive-muted: var(--blue-color-text);
