@@ -243,7 +243,7 @@ button[aria-label="Почати демонстрацію екрану"] {
 
 /* Кнопка выключения просмотра демонстрации экрана и кнопка "Отключиться" */
 button[aria-label="Прекратить просмотр"], .colorable_c84c4c.red_a51ba8 {
-    background: var(--link-color) !important;
+    background: var(--main-color);
 }
 
 /* Загружаемые файлы и разные фоны в сообщениях */
