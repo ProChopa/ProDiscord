@@ -34,12 +34,8 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 [role="button"][aria-label="Розпочати відеовиклик"] {
     display: none;
 }
-button[aria-label="Продемонстрируйте свой экран"],
-button[aria-label="Почати демонстрацію екрану"] {
-    background: var(--button-color);
-}
 
-/* Фон сообщений */
+/* Сообщения */
 .message__80c10.cozyMessage__64ce7.groupStart__56db5 {
     position: relative;
     margin: 16px 5px 0 70px;
@@ -85,7 +81,7 @@ button[aria-label="Почати демонстрацію екрану"] {
     margin-top: -3px;
 }
 .message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {
-    background-color: var(--message-background);
+    background: var(--message-background);
 }
 .message__80c10:not(.groupStart__56db5) {
     margin: 0 5px 0 70px;
@@ -95,19 +91,61 @@ button[aria-label="Почати демонстрацію екрану"] {
 .cozy_f5c119 .timestamp_cdbd93.alt__6c563 {
     left: -65px;
 }
+.attachment_f3cf2c.newMosaicStyle__235c9, .newMosaicStyle__8d3be .codeView__8b1ff, .newMosaicStyle__8d3be .footer__06f4b, .newMosaicStyle__8d3be .textContainer__709ff, .grid_c7c4e6, .wrapper_c727b6 {
+    background: linear-gradient(100deg, #1b222a 0%, #2a3742 15%, #2a3742 50%, #1b222a 100%);
+}
 
-/* Эмодзи панель */
-.inspector__993e1 {
-    background-color: var(--main-color);
+.theme-dark {
+	/* Текст */
+	--brand-260: var(--blue-color-text);
+	--primary-130: var(--blue-color-text);
+	--primary-230: var(--blue-color-text);
+	--primary-330: var(--blue-color-text);
+	--primary-360: var(--blue-color-text);
+	--primary-430: var(--blue-color-text);
+	--primary-560: var(--blue-color-text);
+	--interactive-hover: var(--blue-color-text);
+    --interactive-muted: var(--blue-color-text);
+    --interactive-normal: var(--blue-color-text);
+	--channel-text-area-placeholder: var(--blue-color-text);
+	--channeltextarea-background: var(--blue-color-text);
+	--deprecated-text-input-bg: var(--blue-color-text);
+    --deprecated-text-input-border: var(--blue-color-text);
+    --deprecated-text-input-border-disabled: var(--blue-color-text);
+    --deprecated-text-input-border-hover: var(--blue-color-text);
+    --deprecated-text-input-prefix: var(--blue-color-text);
+	--white-500: var(--blue-color-text);
+	--input-placeholder-text-dark: var(--blue-color-text);
+    --button-outline-danger-text-active: var(--blue-color-text);
+	/* Каналы на сервере */
+    --background-modifier-active: var(--hover-color);
+	--background-modifier-hover: var(--hover-color);
+	--background-modifier-selected: var(--hover-color);
+	/* Контекстное меню */
+    --background-floating: var(--additional-color);
+	/* Цвет ссылок */
+    --text-link: var(--link-color);
+	/* Закреплённые сообщения */
+    --background-primary: var(--message-background);
+	/* Различные цвета */
+	--brand-500: var(--link-color);
+	--green-330: var(--link-color);
+	--green-360: var(--link-color);
+	--background-modifier-accent: var(--hover-color);
+}
+
+/* Панель "Переподключиться" */
+.colorWarning__216d2 {
+    background: transparent;
+    color: var(--main-color);
+}
+
+/* Панель "Эмодзи" */
+.categoryList_f8c48f, .inspector__993e1 {
+    background: var(--main-color);
 }
 .emojiItem_b15dee.emojiItemSelected__1a09a, .navButtonActive__735cb, .categoryItemDefaultCategorySelected__8245a, .categoryItemDefaultCategorySelected__8245a:hover, .categoryItemDefaultCategory__67fe7:hover {
-    background-color: var(--hover-color);
-}
-
-/* Кнопка "Добавить в друзья" */
-.tabBar__73938 .addFriend__80542.addFriend__80542.addFriend__80542[aria-selected=true] {
-    background-color: var(--hover-color);
-	color: var(--link-color);
+    background: var(--hover-color);
 }
 
 /* Верхние иконки и их текст */
@@ -119,7 +157,7 @@ button[aria-label="Почати демонстрацію екрану"] {
 .content_c6490e {
     display: none;
 }
-.modeUnreadImportant_efb53e .icon_eff5d4, .modeUnreadImportant_efb53e:hover .icon_eff5d4, .modeSelected__487d6 .icon_eff5d4, .modeSelected__487d6:hover .icon_eff5d4, .icon_eff5d4, .name_c08dbc, .colorDefault__0b482 .checkbox__45366, .colorDefault__0b482 .checkbox__45366:hover, .colorDefault__0b482 .radioSelection__5ed39, .iconContainer__829e7, .button__07e07 path, .button__07e07.open_a0ea08 path {
+.modeUnreadImportant_efb53e .icon_eff5d4, .modeUnreadImportant_efb53e:hover .icon_eff5d4, .modeSelected__487d6 .icon_eff5d4, .modeSelected__487d6:hover .icon_eff5d4, .icon_eff5d4, .name_c08dbc, .colorDefault__0b482 .checkbox__45366, .colorDefault__0b482 .radioSelection__5ed39, .iconContainer__829e7, .button__07e07 path, .button__07e07.open_a0ea08 path {
     color: var(--link-color);
 }
 .colorBrand__471df {
@@ -129,76 +167,18 @@ button[aria-label="Почати демонстрацію екрану"] {
     color: var(--blue-color-text);
 }
 
-/* Разделители и рамки */
-.divider_d66e63, .divider__2bbbc, .divider_c09b64, .guildSeparator_dcb3cc, .sectionDivider__68d2a {
-    background-color: var(--hover-color);
-}
-.voiceChannelsButton__46c37 {
-    border: 2px solid var(--hover-color);
-    cursor: pointer;
-}
-.separator__8424b:before {
-    content: " ";
-    border-left: 1px solid var(--main-color);
-    height: 65%;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.messageInputContainer__768e6, .wrapper__6e669 {
-    border: 1px solid var(--hover-color);
-}
-.menu__5cf7f div[role=separator] {
-    border-color: var(--hover-color);
-}
-
-/* Нитро */
-.channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/shop"], .channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/store"] {
+/* Подписка "Nitro" */
+.children__32014 > .akaBadge__7df41, .children__32014 > .nicknames__7447d, .children__32014 > .divider_c09b64, .scroller__3d071 > .listItem_fa7b36 > .listItemWrapper__1f93b, .controlButton_ab2899.fauxDisabled_e7913a.contextMenuContainer_fc4df6, .buttonContainer__66ac7, .channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/shop"], .channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/store"] {
     display: none;
 }
-.buttonContainer__66ac7 {
-    display: none;
-}
-.controlButton_ab2899.fauxDisabled_e7913a.contextMenuContainer_fc4df6 {
-    display: none;
-}
-.scroller__3d071 > .listItem_fa7b36 > .listItemWrapper__1f93b {
-    display: none;
-}
-.children__32014 > .akaBadge__7df41, .children__32014 > .nicknames__7447d, .children__32014 > .divider_c09b64 {
-    display: none;
-}
-.withFrame__485f4 {
-    height: 22px;
-    margin-top: 0;
-    background-color: var(--main-color) !important;
-}
-.scroller__3d071, .theme-dark .panel_bd8c76, .chatContent__5dca8 {
-    background: var(--main-color);
+.members__9f47b, .scroller__3d071, .theme-dark .panel_bd8c76, .chatContent__5dca8, .themed_b152d4, .children__32014:after, [data-list-id="chat-messages"], .form__13a2c:before, .form__13a2c, .scroller__4b984, .searchBar_e4ea2a, .searchBarComponent__22760, .searchBar_e0c60b, .container_ca50b9, .container_d667ff, .withFrame__485f4 {
+    background: var(--main-color) !important;
 }
 .root__3eef0 {
     background: var(--voice-color);
 }
-.container_ca50b9, .container_d667ff {
-    background: var(--main-color) !important;
-}
-.scroller__4b984, .searchBar_e4ea2a {
-    background: var(--additional-color) !important;
-}
-.searchBarComponent__22760, .searchBar_e0c60b {
-    background: var(--main-color) !important;
-}
-[data-list-id="chat-messages"],
-.form__13a2c:before, .form__13a2c {
-    background: var(--main-color) !important;
-}
 .placeholder_e68c63, .scrollableContainer__33e06 {
     background: var(--hover-color);
-}
-.themed_b152d4, .children__32014:after {
-    background: var(--additional-color) !important;
-}
-.members__9f47b {
-    background: var(--additional-color);
 }
 
 /* Скролл-бар */
@@ -233,12 +213,15 @@ button[aria-label="Почати демонстрацію екрану"] {
     background: var(--additional-color);
 }
 
-/* Упоминание */
-.mentioned__58017.message__80c10.groupStart__56db5 {
-    background: linear-gradient(100deg, #2a3742 0%, #2a3742 15%, #1b222a 50%) !important;
+/* Кнопка "Продемонстрируйте свой экран" */
+.button__66e8c .buttonColor_a6eb73.buttonActive__407a7:hover, .button__66e8c.buttonColor_a6eb73.buttonActive__407a7:hover {
+    background: var(--link-color);
 }
-.mentioned__58017:before {
-    background-color: var(--link-color);
+.button__66e8c .buttonColor_a6eb73.buttonActive__407a7, .button__66e8c.buttonColor_a6eb73.buttonActive__407a7 {
+    background: var(--hover-color);
+}
+.button__66e8c .buttonColor_a6eb73.buttonActive__407a7, .button__66e8c.buttonColor_a6eb73.buttonActive__407a7:active {
+    background: var(--hover-color);
 }
 
 /* Кнопка выключения просмотра демонстрации экрана и кнопка "Отключиться" */
@@ -246,30 +229,28 @@ button[aria-label="Прекратить просмотр"], .colorable_c84c4c.re
     background: var(--main-color);
 }
 
-/* Загружаемые файлы и разные фоны в сообщениях */
-.attachment_f3cf2c.newMosaicStyle__235c9, .newMosaicStyle__8d3be .codeView__8b1ff, .newMosaicStyle__8d3be .footer__06f4b, .newMosaicStyle__8d3be .textContainer__709ff, .grid_c7c4e6, .wrapper_c727b6 {
-    background: linear-gradient(100deg, #1b222a 0%, #2a3742 15%, #2a3742 50%, #1b222a 100%);
+/* Кнопка "Добавить сервер" */
+.circleIconButton_d8df29 {
+    color: transparent;
+}
+.circleIconButton_d8df29.selected__5250e {
+    background: var(--link-color)
 }
 
-/* Кнопка + (зайти на сервер) */
-.circleIcon__428dd > path {
-    display: none;
-}
-.circleIconButton_d8df29 {
+/* Кнопка "Добавить в друзья" */
+.tabBar__73938 .addFriend__80542.addFriend__80542.addFriend__80542 {
     background: transparent;
 }
-
-/* Отображение цвета разговора */
-/*.border_d9a17b.speaking__9b95a, .border_e782de.speaking__1dd69, .speaking-3K28iH, .speaking_c1b30e, .avatarSpeaking__61fb1 {
-    box-shadow: inset 0 0 10px rgb(140, 140, 140);
-}*/
+.tabBar__73938 .addFriend__80542.addFriend__80542.addFriend__80542[aria-selected=true] {
+    background: var(--hover-color);
+}
 
 /* Настройки */
-.sidebarRegionScroller__1fa7e, .contentRegionShownSidebar__610ed {
+.accountProfileCard__22589, .sidebarRegionScroller__1fa7e, .contentRegionShownSidebar__610ed {
     background: var(--main-color) !important;
 }
 .container__871ba.checked__6bdb0, .bd-switch input:checked + .bd-switch-body {
-    background-color: var(--checkbox-cheked-color) !important;
+    background: var(--checkbox-cheked-color) !important;
 }
 .bd-switch-symbol, .slider__41d94 > svg {
     display: none;
@@ -277,10 +258,24 @@ button[aria-label="Прекратить просмотр"], .colorable_c84c4c.re
 .icon__8f621 {
     color: var(--blue-color-text);
 }
+.bar_e58961, .iconContainer__82920, .circle__7dd22 {
+    background: var(--hover-color);
+}
+.top__592a7 .brand_ce3ecf.selected__5711d.item__48dda {
+    border-bottom-color: var(--link-color);
+}
+.settingsTabBar__19aa3, .settingsTabBar__17e8a {
+    border-bottom-color: transparent;
+}
 
-/* Зеленый значок показывающий нахождение в голосовом канале */
+/* Активные контакты */
+.itemCard__1f162:first-of-type, .section_efc22d:hover, .accountProfileCard__22589 {
+    background: var(--main-color);
+}
+
+/* Значок, показывающий нахождение в голосовом канале */
 .iconBadge_fdf33a {
-    background-color: var(--link-color) !important;
+    background: var(--link-color) !important;
 }
 
 /* Ползунок громкости */
@@ -304,22 +299,50 @@ button[aria-label="Прекратить просмотр"], .colorable_c84c4c.re
 .userProfileInnerThemedNonPremium__3d0a6 {
     background: var(--additional-color);
 }
-.inner__999f6, .button__3ecb4:hover, .topPill__0cdf1 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .theme-dark .friendSelected_f0db37, .menu__5cf7f .menuItemFocused__1490f, .lookFilled__19298.colorPrimary__6ed40, .lookFilled__19298.colorPrimary__6ed40:hover, .bar_e63719, .rolePill_ee1aa1, .listRow__60937:hover {
+.addFriendInputWrapper__4bf8e, .inner__999f6, .button__3ecb4:hover, .topPill__0cdf1 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .theme-dark .friendSelected_f0db37, .menu__5cf7f .menuItemFocused__1490f, .lookFilled__19298.colorPrimary__6ed40, .lookFilled__19298.colorPrimary__6ed40:hover, .bar_e63719, .rolePill_ee1aa1, .listRow__60937:hover {
     background-color: var(--hover-color);
 }
-.themed__857a7 .barInner_d1abc6 {
-    background-color: var(--link-color);
-}
-.theme-dark .checkbox_c7f690, .checkbox__47b1a {
+.addFriendInputWrapper__4bf8e:focus-within, .theme-dark .checkbox_c7f690, .checkbox__47b1a, .addFriendInputWrapper__4bf8e {
     border-color: var(--hover-color);
+}
+.themed__857a7 .barInner_d1abc6 {
+    background: var(--link-color);
 }
 .colorDanger_eec36d, .colorDanger_eec36d .checkbox__45366, .colorDanger_eec36d .radioSelection__5ed39 {
     color: var(--blue-color-text);
 }
+.theme-dark .outer_a41cf3.interactive__01cfa:hover, .theme-dark .outer_a41cf3.active__76f42 {
+    background: var(--hover-color);
+}
+
+/* Разделители и рамки */
+.divider_d66e63, .divider__2bbbc, .divider_c09b64, .guildSeparator_dcb3cc, .sectionDivider__68d2a {
+    background: var(--hover-color);
+}
+.voiceChannelsButton__46c37 {
+    border: 2px solid var(--hover-color);
+    cursor: pointer;
+}
+.separator__8424b:before {
+    content: " ";
+    border-left: 1px solid var(--main-color);
+    height: 65%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.messageInputContainer__768e6, .wrapper__6e669 {
+    border: 1px solid var(--hover-color);
+}
+.menu__5cf7f div[role=separator] {
+    border-color: var(--hover-color);
+}
+.theme-dark .footerSeparator__57d95 {
+    box-shadow: var(--main-color);
+}
 
 /* Реакции */
 .reaction_fef95b.reactionMe__98f57 {
-    background-color: var(--link-color);
+    background: var(--link-color);
     border-color: var(--link-color);
 }
 .reaction_fef95b.reactionMe__98f57 .reactionCount_b49901 {
@@ -337,20 +360,16 @@ button[aria-label="Прекратить просмотр"], .colorable_c84c4c.re
     background: var(--main-color);
 	box-shadow: var(--elevation-high);
 }
-.mediaBarInteraction__0633c, .mediaBarInteractionDragging__0a2ee {
-    background: var(--main-color);
-}
 .mediaBarWrapperVolume_e2bd94, .mediaBarWrapper_f312bd, .mediaBarwrapper_f312bd:before, .mediaBarWrapper_f312bd:after {
     background: var(--hover-color);
 }
-.mediaBarGrabber_c64ff9 {
+.mediaBarInteraction__0633c:hover .mediaBarGrabber_c64ff9, .mediaBarlnteractionDragging__0а2ее .mediaBarGrabber_c64ff9 {
     background: var(--blue-color-text);
-    cursor: pointer;
 }
 
 /* Предупреждение */
 .card__4dc22:not(.outline_cb0aed), .card__3087a, .cardWarning_d49e9e, .card__4dc22 {
-    background-color: var(--hover-color);
+    background: var(--hover-color);
 }
 
 /* Подсказки при наведении */
@@ -362,86 +381,182 @@ button[aria-label="Прекратить просмотр"], .colorable_c84c4c.re
     color: var(--main-color);
 }
 
-.theme-dark {
-    /* Цвет контекстного меню */
-    --background-floating: var(--additional-color);
-    /* Цвет ссылок */
-    --text-link: var(--link-color);
-    /* Цвет голосовых сообщений */
-    --background-secondary: var(--additional-color);
-    /* Цвет в закрепах и тд */
-    --background-primary: var(--main-color);
-    /* Цвет бейджей важных сообщений */
-    --status-danger: var(--link-color);
-    /* Цвет экрана выбора демки */
-    --modal-background: var(--main-color);
-    --modal-footer-background: var(--additional-color);
-    /* Задний цвет выбранного канала на сервере */
-    --background-modifier-selected: var(--hover-color);
-    --background-modifier-active: var(--hover-color);
-    /* Кнопка Добавить в друзья на главном экране */
-    --status-positive-background: var(--hover-color);
-	/* Цвет текста и различных элементов */
-	--brand-260: var(--blue-color-text);
-	--brand-360: var(--link-color);
-	--brand-430: var(--link-color);
-	--brand-500: var(--link-color);	
-	--green-330: var(--link-color);
-	--green-360: var(--link-color);
-	--green-430: var(--link-color);
-    --green-500: var(--link-color);
-	--green-530: var(--link-color);
-	--primary-130: var(--blue-color-text);
-	--primary-230: var(--blue-color-text);
-	--primary-330: var(--blue-color-text);
-	--primary-360: var(--blue-color-text);
-	--primary-400: var(--hover-color);
-	--primary-500: var(--hover-color);
-	--primary-530: var(--hover-color);
-	--primary-800: var(--hover-color);
-	--interactive-hover: var(--blue-color-text);
-    --interactive-muted: var(--blue-color-text);
-    --interactive-normal: var(--blue-color-text);
-	--channel-text-area-placeholder: var(--blue-color-text);
-	--channeltextarea-background: var(--blue-color-text);
-	--deprecated-text-input-bg: var(--blue-color-text);
-    --deprecated-text-input-border: var(--blue-color-text);
-    --deprecated-text-input-border-disabled: var(--blue-color-text);
-    --deprecated-text-input-border-hover: var(--blue-color-text);
-    --deprecated-text-input-prefix: var(--blue-color-text);
-	--mention-background: var(--link-color);
-	--white-500: var(--blue-color-text);
-	}
+/* Упоминание */
+.mention {
+    color: var(--main-color);
+}
+
+/* Разделы при упоминании */
+.wrapper_f46140, .wrapper_f46140:hover {
+    background: var(--link-color);
+	color: var(--main-color);
+}
+
+/* Кнопка 1 */
+.button_afdfd9 {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+}
+.button_afdfd9:hover {
+	color: var(--main-color);
+}
+.button_afdfd9:active {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+}
+
+/* Кнопка 2 */
+.lookFilled__19298.colorRed_d6b062 {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-color: var(--hover-color);
+}
+.lookFilled__19298.colorRed_d6b062:hover {
+	background: var(--link-color);
+	color: var(--main-color);
+}
+.lookFilled__19298.colorRed_d6b062:active {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+}
+
+/* Кнопка 3 */
+.lookOutlined__46d54.colorRed_d6b062 {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-color: var(--hover-color);
+}
+.lookOutlined__46d54.colorRed_d6b062:hover{
+	background: var(--link-color);
+	color: var(--main-color);
+	border-color: var(--link-color);
+}
+.lookOutlined__46d54.colorRed_d6b062:active {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-color: var(--hover-color);
+}
+
+/* Кнопка 4 */
+.lookFilled__19298.colorBrand_b2253e, .lookFilled__19298.colorPrimary__6ed40 {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+}
+.lookFilled__19298.colorBrand_b2253e:hover, .lookFilled__19298.colorPrimary__6ed40:hover {
+	background: var(--link-color);
+	color: var(--main-color);
+}
+.lookFilled__19298.colorBrand_b2253e:active, .lookFilled__19298.colorPrimary__6ed40:active {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+}
+
+/* Кнопка "Удалить/Отмена" */
+.theme-dark .lookLink__93965.colorPrimary__6ed40 {
+    background: var(--hover-color);
+    color: var(--blue-color-text);
+}
+.theme-dark .lookLink__93965.colorPrimary__6ed40:hover {
+    background: var(--link-color);
+    color: var(--main-color);
+}
+.theme-dark .lookLink__93965.colorPrimary__6ed40:active {
+    background: var(--hover-color);
+    color: var(--blue-color-text);
+}
+.theme-dark .lookLink__93965.colorPrimary__6ed40:hover .contents_fb6220{
+	--button--underline-color: transparent;
+}
+
+/* Кнопка "Показать/Скрыть" */
+.lookLink__93965.colorLink_b651e5 {
+	background: none;
+	color: var(--link-color);
+}
+.lookLink__93965.colorLink_b651e5:hover {
+	background: none;
+	color: var(--link-color);
+}
+.lookLink__93965.colorLink_b651e5:active {
+	background: none;
+	color: var(--link-color);
+}
+
+/* Кнопка "Попробовать"*/
+.lookInverted_ee4261.colorBrand_b2253e {
+    background: var(--hover-color);
+    color: var(--blue-color-text);
+}
+.lookInverted_ee4261.colorBrand_b2253e:hover {
+    background: var(--link-color);
+    color: var(--main-color);
+}
+.lookInverted_ee4261.colorBrand_b2253e:active {
+    background: var(--hover-color);
+    color: var(--blue-color-text);
+}
+
+/* Кнопка "Отправить сообщение"  */
+.button__8d734[disabled]>.innerButton_debeee>.buttonChild__7b90d, .buttonChild__7b90d {
+    color: var(--link-color);
+}
+.theme-dark .button__8d734:hover .activeButtonChild__6e162, .theme-dark .button__8d734:focus .activeButtonChild__6e162, .theme-dark .button__8d734:focus-within .activeButtonChild__6e162 {
+    color: var(--link-color);
+}
+
+/* Кнопка "Бета" */
+.base__92a12 {
+	color: var(--main-color);
+}
+
+/* Фон мини-кнопок */
+.lookBlank__7ca0a {
+    background: transparent;
+}
+
+/* Выбранный сервер */
+.item_f9d377 {
+    background-color: var(--link-color);
+}
+
+/* Голосовая связь подключена */
+.rtcConnectionStatusConnected__1d5b0 {
+	background: transparent;
+	color: var(--link-color);
+	--button--underline-color: transparent;
+}
+.rtcConnectionStatusConnected__1d5b0:hover {
+	background: transparent;
+	color: var(--link-color);
+	--button--underline-color: transparent;
+}
+.rtcConnectionStatusConnected__1d5b0:active {
+	background: transparent;
+	color: var(--link-color);
+	--button--underline-color: transparent;
+}
 
 :root {
     /* Цвет загрузки демок и прочего */
-    --primary-700: var(--additional-color);
+    --primary-700: var(--hover-color);
     /* Цвет в контекстном меню при наведении */
     --brand-experiment-560: var(--hover-color);
 	--brand-experiment-600: var(--hover-color);
-    /* Цвет текста при хорошем сигнале */
-    --text-positive: var(--text-link);
     /* Цвет контекстного меню выбора региона звонка */
     --primary-630: var(--additional-color);
-    --background-modifier-hover: var(--hover-color);
     --background-primary: var(--main-color);
     /* Кнопка В эфире */
     --red-400: var(--link-color);
     /* Выбранное разрешение и фпс демки */
     --brand-experiment: var(--hover-color);
-    /* Серые цвета кнопок */
-    --button-secondary-background: var(--hover-color);
-    --button-secondary-background-hover: var(--link-color);
-    /* Цвет твоей панели активности */
+     /* Цвет твоей панели активности */
     --background-secondary-alt: var(--additional-color);
     /* Цвета кнопок удалить сообщения */
     --red-430: var(--hover-color);
-    --red-500: var(--link-color);
-    --red-530: var(--link-color);
+    --red-500: var(--hover-color);
+    --red-530: var(--hover-color);
     /* Задний цвет сообщения в модальном окне удаления сообщений */
     --primary-600: var(--main-color);
-	/* Цвет разделителей */
-	--background-modifier-accent: var(--hover-color);
 }
 
 /* Цвет контекстного меню выбора региона звонка при наведении */
