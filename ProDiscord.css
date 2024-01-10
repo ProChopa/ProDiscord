@@ -71,6 +71,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 	--brand-500: var(--link-color);
 	--green-330: var(--link-color);
 	--green-360: var(--link-color);
+	--yellow-260: var(--link-color);
 	--yellow-300: var(--link-color);
 	--background-modifier-accent: var(--hover-color);
 }
@@ -133,26 +134,6 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 .attachment_f3cf2c.newMosaicStyle__235c9, .newMosaicStyle__8d3be .codeView__8b1ff, .newMosaicStyle__8d3be .footer__06f4b, .newMosaicStyle__8d3be .textContainer__709ff, .grid_c7c4e6, .wrapper_c727b6 {
     background: linear-gradient(100deg, #1b222a 0%, #2a3742 15%, #2a3742 50%, #1b222a 100%);
-}
-
-/* Панель "Эмодзи" */
-.categoryList_f8c48f, .inspector__993e1 {
-    background: var(--main-color);
-}
-.emojiItem_b15dee.emojiItemSelected__1a09a, .navButtonActive__735cb, .categoryItemDefaultCategorySelected__8245a, .categoryItemDefaultCategorySelected__8245a:hover, .categoryItemDefaultCategory__67fe7:hover {
-    background: var(--hover-color);
-}
-
-/* Реакции */
-.reaction_fef95b.reactionMe__98f57 {
-    background: var(--link-color);
-    border-color: var(--link-color);
-}
-.reaction_fef95b.reactionMe__98f57 .reactionCount_b49901 {
-    color: var(--main-color);
-}
-.reaction_fef95b:hover {
-    border: 0.0625rem solid transparent;
 }
 
 /* Панель "Переподключиться" */
@@ -243,7 +224,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 .icon__8f621 {
     color: var(--blue-color-text);
 }
-.bar_e58961, .iconContainer__82920, .circle__7dd22 {
+.connectionOptionsWrapper_abe849, .connectionHeader__3c82d, .theme-dark .progress__2cc1d, .bar_e58961, .iconContainer__82920, .circle__7dd22 {
     background: var(--hover-color);
 }
 .top__592a7 .brand_ce3ecf.selected__5711d.item__48dda, .top__592a7 .brand_ce3ecf.item__48dda:hover, .top__592a7 .brand_ce3ecf.item__48dda:active {
@@ -251,6 +232,9 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 .settingsTabBar__19aa3, .settingsTabBar__17e8a {
     border-bottom-color: transparent;
+}
+.metadataContainer__7b316 {
+    background: transparent;
 }
 
 /* Раздел "Активные контакты" */
@@ -473,7 +457,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 
 /* Кнопка 4 */
-.lookFilled__19298.colorGreen__5f181, .actionColor__21cca, .button__13ec4, .buttonColor__6f6b0, .lookFilled__19298.colorBrand_b2253e, .lookFilled__19298.colorPrimary__6ed40 {
+.lookFilled__19298.colorGreen__5f181:disabled, .lookFilled__19298.colorGreen__5f181[aria-disabled=true], .lookFilled__19298.colorGreen__5f181, .actionColor__21cca, .button__13ec4, .buttonColor__6f6b0, .lookFilled__19298.colorBrand_b2253e, .lookFilled__19298.colorPrimary__6ed40 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 }
@@ -585,8 +569,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 .childWrapper__01b9c {
     background: transparent
 }
-.theme-dark .container__590e2,
-.container_b2ce9c {
+.theme-dark .container__590e2, .container_b2ce9c {
     background: var(--additional-color);
 }
 
@@ -620,6 +603,27 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 /* Кнопка "Отключиться" */
 button[aria-label="Прекратить просмотр"], .colorable_c84c4c.red_a51ba8 {
     background: var(--main-color);
+}
+
+/* Панель "Эмодзи" */
+.scroller_e89578, .listItems__699d1, .categoryList_f8c48f, .inspector__993e1 {
+    background: var(--main-color);
+}
+.navButton__05cc7:hover, .navButtonActive__735cb, .navButtonActive__735cb:hover, .emojiItem_b15dee.emojiItemSelected__1a09a, .categoryItemDefaultCategorySelected__8245a, .categoryItemDefaultCategorySelected__8245a:hover, .categoryItemDefaultCategory__67fe7:hover {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+}
+
+/* Реакции */
+.reaction_fef95b.reactionMe__98f57 {
+    background: var(--link-color);
+    border-color: var(--link-color);
+}
+.reaction_fef95b.reactionMe__98f57 .reactionCount_b49901 {
+    color: var(--main-color);
+}
+.reaction_fef95b:hover {
+    border: 0.0625rem solid transparent;
 }
 
 /* Возвращение микрофона */
