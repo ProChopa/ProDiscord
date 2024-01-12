@@ -152,7 +152,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 .modeUnreadImportant_efb53e .icon_eff5d4, .modeUnreadImportant_efb53e:hover .icon_eff5d4, .modeSelected__487d6 .icon_eff5d4, .modeSelected__487d6:hover .icon_eff5d4, .icon_eff5d4, .name_c08dbc, .colorDefault__0b482 .checkbox__45366, .colorDefault__0b482 .radioSelection__5ed39, .iconContainer__829e7, .button__07e07 path, .button__07e07.open_a0ea08 path {
     color: var(--link-color);
 }
-.name__8d1ec {
+.label__73cb9, .name__8d1ec {
     color: var(--blue-color-text);
 }
 
@@ -388,59 +388,17 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 
 /* Кнопка */
-.button__13ec4 {
-    background: var(--hover-color);
-	color: var(--blue-color-text);
-}
-.button__13ec4:hover {
-	background: var(--link-color);
-	color: var(--main-color);
-}
-.button__13ec4:active {
-    background: var(--hover-color);
-	color: var(--blue-color-text);
-}
-
-/* Кнопка 1 */
-.button_afdfd9 {
-    background: var(--hover-color);
-	color: var(--blue-color-text);
-}
-.button_afdfd9:hover {
-	color: var(--main-color);
-}
-.button_afdfd9:active {
-    background: var(--hover-color);
-	color: var(--blue-color-text);
-}
-
-/* Кнопка 2 */
-.lookFilled__19298.colorRed_d6b062 {
+.button__13ec4, .lookFilled__19298.colorRed_d6b062, .theme-dark .lookLink__93965.colorPrimary__6ed40, .buttonColor__01bf8, .lookFilled__19298.colorGreen__5f181:disabled, .lookFilled__19298.colorGreen__5f181[aria-disabled=true], .lookFilled__19298.colorGreen__5f181, .actionColor__21cca, .button__13ec4, .buttonColor__6f6b0, .lookFilled__19298.colorBrand_b2253e, .lookFilled__19298.colorPrimary__6ed40, .lookInverted_ee4261.colorBrand_b2253e, .lookOutlined__46d54.colorBrand_b2253e, .lookOutlined__46d54.colorGreen__5f181, .lookFilled__19298.colorGreen__5f181, .lookOutlined__46d54.colorRed_d6b062 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-color: var(--hover-color);
 }
-.lookFilled__19298.colorRed_d6b062:hover {
-	background: var(--link-color);
-	color: var(--main-color);
-}
-.lookFilled__19298.colorRed_d6b062:active {
-    background: var(--hover-color);
-	color: var(--blue-color-text);
-}
-
-/* Кнопка 3 */
-.theme-dark .lookLink__93965.colorPrimary__6ed40, .buttonColor__01bf8, .lookFilled__19298.colorGreen__5f181:disabled, .lookFilled__19298.colorGreen__5f181[aria-disabled=true], .lookFilled__19298.colorGreen__5f181, .actionColor__21cca, .button__13ec4, .buttonColor__6f6b0, .lookFilled__19298.colorBrand_b2253e, .lookFilled__19298.colorPrimary__6ed40, .lookInverted_ee4261.colorBrand_b2253e, .lookOutlined__46d54.colorBrand_b2253e, .lookOutlined__46d54.colorGreen__5f181, .lookFilled__19298.colorGreen__5f181, .lookOutlined__46d54.colorRed_d6b062 {
-    background: var(--hover-color);
-	color: var(--blue-color-text);
-	border-color: var(--hover-color);
-}
-.theme-dark .lookLink__93965.colorPrimary__6ed40:hover, .buttonColor__01bf8:hover, .lookFilled__19298.colorGreen__5f181:hover, .actionColor__21cca:hover, .button__13ec4:hover, .buttonColor__6f6b0:hover, .lookFilled__19298.colorBrand_b2253e:hover, .lookFilled__19298.colorPrimary__6ed40:hover, .lookInverted_ee4261.colorBrand_b2253e:hover, .lookOutlined__46d54.colorBrand_b2253e:hover, .lookOutlined__46d54.colorGreen__5f181:hover, .lookFilled__19298.colorGreen__5f181:hover, .lookOutlined__46d54.colorRed_d6b062:hover{
+.button__13ec4:hover, .lookFilled__19298.colorRed_d6b062:hover, .theme-dark .lookLink__93965.colorPrimary__6ed40:hover, .buttonColor__01bf8:hover, .lookFilled__19298.colorGreen__5f181:hover, .actionColor__21cca:hover, .button__13ec4:hover, .buttonColor__6f6b0:hover, .lookFilled__19298.colorBrand_b2253e:hover, .lookFilled__19298.colorPrimary__6ed40:hover, .lookInverted_ee4261.colorBrand_b2253e:hover, .lookOutlined__46d54.colorBrand_b2253e:hover, .lookOutlined__46d54.colorGreen__5f181:hover, .lookFilled__19298.colorGreen__5f181:hover, .lookOutlined__46d54.colorRed_d6b062:hover{
 	background: var(--link-color);
 	color: var(--main-color);
 	border-color: var(--link-color);
 }
-.theme-dark .lookLink__93965.colorPrimary__6ed40:active, .buttonColor__01bf8:active, .lookFilled__19298.colorGreen__5f181:active, .actionColor__21cca:active, .button__13ec4:active, .buttonColor__6f6b0:active, .lookFilled__19298.colorBrand_b2253e:active, .lookFilled__19298.colorPrimary__6ed40:active, .lookInverted_ee4261.colorBrand_b2253e:active, .lookOutlined__46d54.colorBrand_b2253e:active, .lookOutlined__46d54.colorGreen__5f181:active, .lookFilled__19298.colorGreen__5f181:active, .lookOutlined__46d54.colorRed_d6b062:active {
+.button__13ec4:active, .lookFilled__19298.colorRed_d6b062:active, .theme-dark .lookLink__93965.colorPrimary__6ed40:active, .buttonColor__01bf8:active, .lookFilled__19298.colorGreen__5f181:active, .actionColor__21cca:active, .button__13ec4:active, .buttonColor__6f6b0:active, .lookFilled__19298.colorBrand_b2253e:active, .lookFilled__19298.colorPrimary__6ed40:active, .lookInverted_ee4261.colorBrand_b2253e:active, .lookOutlined__46d54.colorBrand_b2253e:active, .lookOutlined__46d54.colorGreen__5f181:active, .lookFilled__19298.colorGreen__5f181:active, .lookOutlined__46d54.colorRed_d6b062:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-color: var(--hover-color);
