@@ -16,8 +16,6 @@
 button[aria-label="Начать активность"],
 button[aria-label="Камера недоступна"],
 button[aria-label="Шумоподавление с помощью Krisp"],
-[role="button"][aria-label="Показать профиль пользователя (недоступно)"],
-[role="button"][aria-label="Показать профиль пользователя"],
 [role="button"][aria-label="Почта"],
 [role="button"][aria-label="Помощь"],
 [role="button"][aria-label="Параметры уведомлений"],
@@ -26,8 +24,6 @@ div:has(> span[class*="disabledButtonWrapper__69c70"]),
 [role="button"][aria-label="Начать видеозвонок"],
 button[aria-label="Розпочати дію"],
 button[aria-label="Поглинання шуму від Krisp"],
-[role="button"][aria-label="Показати профіль користувача (недоступно)"],
-[role="button"][aria-label="Показати профіль користувача"],
 [role="button"][aria-label="Вхідні"],
 [role="button"][aria-label="Довідка"],
 div:has(> button[aria-label="Відкрити звукову панель"]),
@@ -44,9 +40,10 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 	--primary-360: var(--blue-color-text);
 	--primary-430: var(--blue-color-text);
 	--primary-560: var(--blue-color-text);
+	--primary-660: var(--main-color);
+	--white-500: var(--blue-color-text);
 	--interactive-hover: var(--blue-color-text);
     --interactive-muted: var(--blue-color-text);
-    --interactive-normal: var(--blue-color-text);
 	--channel-text-area-placeholder: var(--blue-color-text);
 	--channeltextarea-background: var(--blue-color-text);
 	--deprecated-text-input-bg: var(--blue-color-text);
@@ -54,7 +51,6 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     --deprecated-text-input-border-disabled: var(--blue-color-text);
     --deprecated-text-input-border-hover: var(--blue-color-text);
     --deprecated-text-input-prefix: var(--blue-color-text);
-	--white-500: var(--blue-color-text);
 	--input-placeholder-text-dark: var(--blue-color-text);
     --button-outline-danger-text-active: var(--blue-color-text);
 	/* Каналы на сервере */
@@ -153,14 +149,8 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 
 /* Сервер */
-.content_c6490e {
-    display: none;
-}
 .modeUnreadImportant_efb53e .icon_eff5d4, .modeUnreadImportant_efb53e:hover .icon_eff5d4, .modeSelected__487d6 .icon_eff5d4, .modeSelected__487d6:hover .icon_eff5d4, .icon_eff5d4, .name_c08dbc, .colorDefault__0b482 .checkbox__45366, .colorDefault__0b482 .radioSelection__5ed39, .iconContainer__829e7, .button__07e07 path, .button__07e07.open_a0ea08 path {
     color: var(--link-color);
-}
-.colorBrand__471df {
-    color: var(--interactive-normal);
 }
 .name__8d1ec {
     color: var(--blue-color-text);
@@ -440,66 +430,20 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 
 /* Кнопка 3 */
-.lookOutlined__46d54.colorGreen__5f181, .lookFilled__19298.colorGreen__5f181, .lookOutlined__46d54.colorRed_d6b062 {
+.theme-dark .lookLink__93965.colorPrimary__6ed40, .buttonColor__01bf8, .lookFilled__19298.colorGreen__5f181:disabled, .lookFilled__19298.colorGreen__5f181[aria-disabled=true], .lookFilled__19298.colorGreen__5f181, .actionColor__21cca, .button__13ec4, .buttonColor__6f6b0, .lookFilled__19298.colorBrand_b2253e, .lookFilled__19298.colorPrimary__6ed40, .lookInverted_ee4261.colorBrand_b2253e, .lookOutlined__46d54.colorBrand_b2253e, .lookOutlined__46d54.colorGreen__5f181, .lookFilled__19298.colorGreen__5f181, .lookOutlined__46d54.colorRed_d6b062 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-color: var(--hover-color);
 }
-.lookOutlined__46d54.colorGreen__5f181:hover, .lookFilled__19298.colorGreen__5f181:hover, .lookOutlined__46d54.colorRed_d6b062:hover{
+.theme-dark .lookLink__93965.colorPrimary__6ed40:hover, .buttonColor__01bf8:hover, .lookFilled__19298.colorGreen__5f181:hover, .actionColor__21cca:hover, .button__13ec4:hover, .buttonColor__6f6b0:hover, .lookFilled__19298.colorBrand_b2253e:hover, .lookFilled__19298.colorPrimary__6ed40:hover, .lookInverted_ee4261.colorBrand_b2253e:hover, .lookOutlined__46d54.colorBrand_b2253e:hover, .lookOutlined__46d54.colorGreen__5f181:hover, .lookFilled__19298.colorGreen__5f181:hover, .lookOutlined__46d54.colorRed_d6b062:hover{
 	background: var(--link-color);
 	color: var(--main-color);
 	border-color: var(--link-color);
 }
-.lookOutlined__46d54.colorGreen__5f181:active, .lookFilled__19298.colorGreen__5f181:active, .lookOutlined__46d54.colorRed_d6b062:active {
+.theme-dark .lookLink__93965.colorPrimary__6ed40:active, .buttonColor__01bf8:active, .lookFilled__19298.colorGreen__5f181:active, .actionColor__21cca:active, .button__13ec4:active, .buttonColor__6f6b0:active, .lookFilled__19298.colorBrand_b2253e:active, .lookFilled__19298.colorPrimary__6ed40:active, .lookInverted_ee4261.colorBrand_b2253e:active, .lookOutlined__46d54.colorBrand_b2253e:active, .lookOutlined__46d54.colorGreen__5f181:active, .lookFilled__19298.colorGreen__5f181:active, .lookOutlined__46d54.colorRed_d6b062:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-color: var(--hover-color);
-}
-
-/* Кнопка 4 */
-.lookFilled__19298.colorGreen__5f181:disabled, .lookFilled__19298.colorGreen__5f181[aria-disabled=true], .lookFilled__19298.colorGreen__5f181, .actionColor__21cca, .button__13ec4, .buttonColor__6f6b0, .lookFilled__19298.colorBrand_b2253e, .lookFilled__19298.colorPrimary__6ed40 {
-    background: var(--hover-color);
-	color: var(--blue-color-text);
-}
-.lookFilled__19298.colorGreen__5f181:hover, .actionColor__21cca:hover, .button__13ec4:hover, .buttonColor__6f6b0:hover, .lookFilled__19298.colorBrand_b2253e:hover, .lookFilled__19298.colorPrimary__6ed40:hover {
-	background: var(--link-color);
-	color: var(--main-color);
-}
-.lookFilled__19298.colorGreen__5f181:active, .actionColor__21cca:active, .button__13ec4:active, .buttonColor__6f6b0:active, .lookFilled__19298.colorBrand_b2253e:active, .lookFilled__19298.colorPrimary__6ed40:active {
-    background: var(--hover-color);
-	color: var(--blue-color-text);
-}
-
-/* Кнопка 5 */
-.lookInverted_ee4261.colorBrand_b2253e, .lookOutlined__46d54.colorBrand_b2253e {
-    background: var(--hover-color);
-	color: var(--blue-color-text);
-	border-color: var(--hover-color);
-}
-.lookInverted_ee4261.colorBrand_b2253e:hover, .lookOutlined__46d54.colorBrand_b2253e:hover{
-	background: var(--link-color);
-	color: var(--main-color);
-	border-color: var(--link-color);
-}
-.lookInverted_ee4261.colorBrand_b2253e:active, .lookOutlined__46d54.colorBrand_b2253e:active {
-    background: var(--hover-color);
-	color: var(--blue-color-text);
-	border-color: var(--hover-color);
-}
-
-
-/* Кнопка "Удалить/Отмена" */
-.theme-dark .lookLink__93965.colorPrimary__6ed40 {
-    background: var(--hover-color);
-    color: var(--blue-color-text);
-}
-.theme-dark .lookLink__93965.colorPrimary__6ed40:hover {
-    background: var(--link-color);
-    color: var(--main-color);
-}
-.theme-dark .lookLink__93965.colorPrimary__6ed40:active {
-    background: var(--hover-color);
-    color: var(--blue-color-text);
 }
 .theme-dark .lookLink__93965.colorPrimary__6ed40:hover .contents_fb6220{
 	--button--underline-color: transparent;
@@ -606,10 +550,10 @@ button[aria-label="Прекратить просмотр"], .colorable_c84c4c.re
 }
 
 /* Панель "Эмодзи" */
-.scroller_e89578, .listItems__699d1, .categoryList_f8c48f, .inspector__993e1 {
+.sticker__7d2dd, .scroller_e89578, .listItems__699d1, .categoryList_f8c48f, .inspector__993e1 {
     background: var(--main-color);
 }
-.navButton__05cc7:hover, .navButtonActive__735cb, .navButtonActive__735cb:hover, .emojiItem_b15dee.emojiItemSelected__1a09a, .categoryItemDefaultCategorySelected__8245a, .categoryItemDefaultCategorySelected__8245a:hover, .categoryItemDefaultCategory__67fe7:hover {
+.assetWrapper_f2e406:hover, .navButton__05cc7:hover, .navButtonActive__735cb, .navButtonActive__735cb:hover, .emojiItem_b15dee.emojiItemSelected__1a09a, .categoryItemDefaultCategorySelected__8245a, .categoryItemDefaultCategorySelected__8245a:hover, .categoryItemDefaultCategory__67fe7:hover {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 }
