@@ -336,7 +336,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 
 :root {
     /* Цвет загрузки демок и прочего */
-    --primary-700: var(--hover-color);
+    --primary-700: var(--main-color);
     /* Цвет в контекстном меню при наведении */
     --brand-experiment-560: var(--hover-color);
 	--brand-experiment-600: var(--hover-color);
