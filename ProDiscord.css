@@ -397,6 +397,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 	background: var(--link-color);
 	color: var(--main-color);
 	border-color: var(--link-color);
+	opacity: .9;
 }
 .VoiceActivity-voiceprofilesection-button:active, .lookFilled__19298.colorBrandNew_fd170a:active, .button__13ec4:active, .lookFilled__19298.colorRed_d6b062:active, .theme-dark .lookLink__93965.colorPrimary__6ed40:active, .buttonColor__01bf8:active, .lookFilled__19298.colorGreen__5f181:active, .actionColor__21cca:active, .button__13ec4:active, .buttonColor__6f6b0:active, .lookFilled__19298.colorBrand_b2253e:active, .lookFilled__19298.colorPrimary__6ed40:active, .lookInverted_ee4261.colorBrand_b2253e:active, .lookOutlined__46d54.colorBrand_b2253e:active, .lookOutlined__46d54.colorGreen__5f181:active, .lookFilled__19298.colorGreen__5f181:active, .lookOutlined__46d54.colorRed_d6b062:active {
     background: var(--hover-color);
