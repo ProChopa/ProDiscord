@@ -554,6 +554,11 @@ svg div button[aria-label="Откл. микрофон"] svg {
     background: var(--primary-630) !important;
 }
 
+/* Просмотр каналов */
+.pageBody_db54f5 {
+    background: var(--main-color);
+}
+
 /* Авторство */
 .info__755e1:after {
     content: "Theme by ProChopa";
@@ -561,3 +566,4 @@ svg div button[aria-label="Откл. микрофон"] svg {
     font-size: 12px;
     line-height: 16px;
     color: var(--text-muted);
+}
