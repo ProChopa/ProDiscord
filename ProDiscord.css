@@ -125,9 +125,9 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     background: var(--message-background);
     overflow: visible;
 }
-.cozy_f5c119 .timestamp_cdbd93.alt__6c563 {
+/*.cozy_f5c119 .timestamp_cdbd93.alt__6c563 {
     left: -65px;
-}
+}*/
 .attachment_f3cf2c.newMosaicStyle__235c9, .newMosaicStyle__8d3be .codeView__8b1ff, .newMosaicStyle__8d3be .footer__06f4b, .newMosaicStyle__8d3be .textContainer__709ff, .grid_c7c4e6, .wrapper_c727b6 {
     background: linear-gradient(100deg, #1b222a 0%, #2a3742 15%, #2a3742 50%, #1b222a 100%);
 }
