@@ -272,7 +272,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 .userProfileInnerThemedNonPremium__3d0a6 {
     background: var(--additional-color);
 }
-.addFriendInputWrapper__4bf8e, .inner__999f6, .button__3ecb4:hover, .topPill__0cdf1 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .theme-dark .friendSelected_f0db37, .menu__5cf7f .menuItemFocused__1490f, .lookFilled__19298.colorPrimary__6ed40, .lookFilled__19298.colorPrimary__6ed40:hover, .bar_e63719, .rolePill_ee1aa1, .listRow__60937:hover {
+.theme-dark .inviteRow_a25947:hover, .theme-dark .outer_a41cf3.interactive__01cfa:hover, .theme-dark .outer_a41cf3.active__76f42, .addFriendInputWrapper__4bf8e, .inner__999f6, .button__3ecb4:hover, .topPill__0cdf1 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .theme-dark .friendSelected_f0db37, .menu__5cf7f .menuItemFocused__1490f, .bar_e63719, .rolePill_ee1aa1, .listRow__60937:hover {
     background: var(--hover-color);
 }
 .addFriendInputWrapper__4bf8e:focus-within, .theme-dark .checkbox_c7f690, .checkbox__47b1a, .addFriendInputWrapper__4bf8e {
@@ -283,9 +283,6 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 .colorDanger_eec36d, .colorDanger_eec36d .checkbox__45366, .colorDanger_eec36d .radioSelection__5ed39 {
     color: var(--blue-color-text);
-}
-.theme-dark .inviteRow_a25947:hover, .theme-dark .outer_a41cf3.interactive__01cfa:hover, .theme-dark .outer_a41cf3.active__76f42 {
-    background: var(--hover-color);
 }
 
 /* Разделители и рамки */
@@ -392,18 +389,18 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 
 /* Кнопка */
-.VoiceActivity-voiceprofilesection-button, .VoiceActivity-voiceprofilesection-button:disabled, .lookFilled__19298.colorBrandNew_fd170a, .button__13ec4, .lookFilled__19298.colorRed_d6b062, .theme-dark .lookLink__93965.colorPrimary__6ed40, .buttonColor__01bf8, .lookFilled__19298.colorGreen__5f181:disabled, .lookFilled__19298.colorGreen__5f181[aria-disabled=true], .lookFilled__19298.colorGreen__5f181, .actionColor__21cca, .button__13ec4, .buttonColor__6f6b0, .lookFilled__19298.colorBrand_b2253e, .lookFilled__19298.colorPrimary__6ed40, .lookInverted_ee4261.colorBrand_b2253e, .lookOutlined__46d54.colorBrand_b2253e, .lookOutlined__46d54.colorGreen__5f181, .lookFilled__19298.colorGreen__5f181, .lookOutlined__46d54.colorRed_d6b062 {
+.lookOutlined__46d54.colorPrimary__6ed40, .VoiceActivity-voiceprofilesection-button, .VoiceActivity-voiceprofilesection-button:disabled, .lookFilled__19298.colorBrandNew_fd170a, .button__13ec4, .lookFilled__19298.colorRed_d6b062, .theme-dark .lookLink__93965.colorPrimary__6ed40, .buttonColor__01bf8, .lookFilled__19298.colorGreen__5f181:disabled, .lookFilled__19298.colorGreen__5f181[aria-disabled=true], .lookFilled__19298.colorGreen__5f181, .actionColor__21cca, .button__13ec4, .buttonColor__6f6b0, .lookFilled__19298.colorBrand_b2253e, .lookFilled__19298.colorPrimary__6ed40, .lookInverted_ee4261.colorBrand_b2253e, .lookOutlined__46d54.colorBrand_b2253e, .lookOutlined__46d54.colorGreen__5f181, .lookFilled__19298.colorGreen__5f181, .lookOutlined__46d54.colorRed_d6b062 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-color: var(--hover-color);
 }
-.VoiceActivity-voiceprofilesection-button:hover, .lookFilled__19298.colorBrandNew_fd170a:hover, .button__13ec4:hover, .lookFilled__19298.colorRed_d6b062:hover, .theme-dark .lookLink__93965.colorPrimary__6ed40:hover, .buttonColor__01bf8:hover, .lookFilled__19298.colorGreen__5f181:hover, .actionColor__21cca:hover, .button__13ec4:hover, .buttonColor__6f6b0:hover, .lookFilled__19298.colorBrand_b2253e:hover, .lookFilled__19298.colorPrimary__6ed40:hover, .lookInverted_ee4261.colorBrand_b2253e:hover, .lookOutlined__46d54.colorBrand_b2253e:hover, .lookOutlined__46d54.colorGreen__5f181:hover, .lookFilled__19298.colorGreen__5f181:hover, .lookOutlined__46d54.colorRed_d6b062:hover{
+.lookOutlined__46d54.colorPrimary__6ed40:hover, .VoiceActivity-voiceprofilesection-button:hover, .lookFilled__19298.colorBrandNew_fd170a:hover, .button__13ec4:hover, .lookFilled__19298.colorRed_d6b062:hover, .theme-dark .lookLink__93965.colorPrimary__6ed40:hover, .buttonColor__01bf8:hover, .lookFilled__19298.colorGreen__5f181:hover, .actionColor__21cca:hover, .button__13ec4:hover, .buttonColor__6f6b0:hover, .lookFilled__19298.colorBrand_b2253e:hover, .lookFilled__19298.colorPrimary__6ed40:hover, .lookInverted_ee4261.colorBrand_b2253e:hover, .lookOutlined__46d54.colorBrand_b2253e:hover, .lookOutlined__46d54.colorGreen__5f181:hover, .lookFilled__19298.colorGreen__5f181:hover, .lookOutlined__46d54.colorRed_d6b062:hover{
 	background: var(--link-color);
 	color: var(--main-color);
 	border-color: var(--link-color);
 	opacity: .9;
 }
-.VoiceActivity-voiceprofilesection-button:active, .lookFilled__19298.colorBrandNew_fd170a:active, .button__13ec4:active, .lookFilled__19298.colorRed_d6b062:active, .theme-dark .lookLink__93965.colorPrimary__6ed40:active, .buttonColor__01bf8:active, .lookFilled__19298.colorGreen__5f181:active, .actionColor__21cca:active, .button__13ec4:active, .buttonColor__6f6b0:active, .lookFilled__19298.colorBrand_b2253e:active, .lookFilled__19298.colorPrimary__6ed40:active, .lookInverted_ee4261.colorBrand_b2253e:active, .lookOutlined__46d54.colorBrand_b2253e:active, .lookOutlined__46d54.colorGreen__5f181:active, .lookFilled__19298.colorGreen__5f181:active, .lookOutlined__46d54.colorRed_d6b062:active {
+.lookOutlined__46d54.colorPrimary__6ed40:active, .VoiceActivity-voiceprofilesection-button:active, .lookFilled__19298.colorBrandNew_fd170a:active, .button__13ec4:active, .lookFilled__19298.colorRed_d6b062:active, .theme-dark .lookLink__93965.colorPrimary__6ed40:active, .buttonColor__01bf8:active, .lookFilled__19298.colorGreen__5f181:active, .actionColor__21cca:active, .button__13ec4:active, .buttonColor__6f6b0:active, .lookFilled__19298.colorBrand_b2253e:active, .lookFilled__19298.colorPrimary__6ed40:active, .lookInverted_ee4261.colorBrand_b2253e:active, .lookOutlined__46d54.colorBrand_b2253e:active, .lookOutlined__46d54.colorGreen__5f181:active, .lookFilled__19298.colorGreen__5f181:active, .lookOutlined__46d54.colorRed_d6b062:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-color: var(--hover-color);
@@ -558,8 +555,8 @@ svg div button[aria-label="Откл. микрофон"] svg {
     background: var(--primary-630) !important;
 }
 
-/* Просмотр каналов */
-.pageBody_db54f5 {
+/* Просмотр каналов, Участники */
+.pageBody_db54f5, .content__1a4fe, .content__1a4fe, .thin__62e51 {
     background: var(--main-color);
 }
 
