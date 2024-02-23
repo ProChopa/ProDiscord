@@ -188,13 +188,13 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     width: 6px !important;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #2a3742 !important;
+    background: #2a3742 !important;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #cdd6f4 !important;
+    background: #cdd6f4 !important;
 }
 .auto_a48086::-webkit-scrollbar-track {
-    background-color: var(--main-color);
+    background: var(--main-color);
 }
 .auto_a48086::-webkit-scrollbar-thumb, .auto_a48086::-webkit-scrollbar-track {
     border: 4px;
