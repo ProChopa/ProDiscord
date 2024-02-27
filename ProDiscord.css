@@ -142,6 +142,18 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     color: var(--main-color);
 }
 
+/* Панель "Вы просматриваете старые сообщения" */
+.barButtonBase__8fa46 {
+    background: var(--main-color);
+	color: var(--blue-color-text);
+}
+
+/* Панель "Новые сообщения" */
+.newMessagesBar__8b6d7 {
+    background: var(--main-color);
+	color: var(--blue-color-text);
+}
+
 /* Окно "Пригласить" */
 .tile_a411a4 {
     background: var(--main-color);
@@ -333,6 +345,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 .wrapper_f46140, .wrapper_f46140:hover {
     background: var(--link-color);
 	color: var(--main-color);
+	border-radius: var(--radius-xs);
 }
 
 :root {
@@ -360,10 +373,10 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 
 /* Цвет контекстного меню выбора региона звонка при наведении */
 .theme-dark .quickSelectPopoutOption__39224:hover {
-    background-color: var(--hover-color);
+    background: var(--hover-color);
 }
 .quickSelectPopoutOption__39224:focus {
-    background-color: transparent;
+    background: transparent;
 }
 
 /* Панель "Профиль и голос" */
@@ -389,21 +402,24 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 
 /* Кнопка */
-.lookOutlined__46d54.colorPrimary__6ed40, .VoiceActivity-voiceprofilesection-button, .VoiceActivity-voiceprofilesection-button:disabled, .lookFilled__19298.colorBrandNew_fd170a, .button__13ec4, .lookFilled__19298.colorRed_d6b062, .theme-dark .lookLink__93965.colorPrimary__6ed40, .buttonColor__01bf8, .lookFilled__19298.colorGreen__5f181:disabled, .lookFilled__19298.colorGreen__5f181[aria-disabled=true], .lookFilled__19298.colorGreen__5f181, .actionColor__21cca, .button__13ec4, .buttonColor__6f6b0, .lookFilled__19298.colorBrand_b2253e, .lookFilled__19298.colorPrimary__6ed40, .lookInverted_ee4261.colorBrand_b2253e, .lookOutlined__46d54.colorBrand_b2253e, .lookOutlined__46d54.colorGreen__5f181, .lookFilled__19298.colorGreen__5f181, .lookOutlined__46d54.colorRed_d6b062 {
+.barButtonAlt__4b48f, .lookOutlined__46d54.colorPrimary__6ed40, .VoiceActivity-voiceprofilesection-button, .VoiceActivity-voiceprofilesection-button:disabled, .lookFilled__19298.colorBrandNew_fd170a, .button__13ec4, .lookFilled__19298.colorRed_d6b062, .theme-dark .lookLink__93965.colorPrimary__6ed40, .buttonColor__01bf8, .lookFilled__19298.colorGreen__5f181:disabled, .lookFilled__19298.colorGreen__5f181[aria-disabled=true], .lookFilled__19298.colorGreen__5f181, .actionColor__21cca, .button__13ec4, .buttonColor__6f6b0, .lookFilled__19298.colorBrand_b2253e, .lookFilled__19298.colorPrimary__6ed40, .lookInverted_ee4261.colorBrand_b2253e, .lookOutlined__46d54.colorBrand_b2253e, .lookOutlined__46d54.colorGreen__5f181, .lookFilled__19298.colorGreen__5f181, .lookOutlined__46d54.colorRed_d6b062 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-color: var(--hover-color);
+	border-radius: var(--radius-xs);
 }
-.lookOutlined__46d54.colorPrimary__6ed40:hover, .VoiceActivity-voiceprofilesection-button:hover, .lookFilled__19298.colorBrandNew_fd170a:hover, .button__13ec4:hover, .lookFilled__19298.colorRed_d6b062:hover, .theme-dark .lookLink__93965.colorPrimary__6ed40:hover, .buttonColor__01bf8:hover, .lookFilled__19298.colorGreen__5f181:hover, .actionColor__21cca:hover, .button__13ec4:hover, .buttonColor__6f6b0:hover, .lookFilled__19298.colorBrand_b2253e:hover, .lookFilled__19298.colorPrimary__6ed40:hover, .lookInverted_ee4261.colorBrand_b2253e:hover, .lookOutlined__46d54.colorBrand_b2253e:hover, .lookOutlined__46d54.colorGreen__5f181:hover, .lookFilled__19298.colorGreen__5f181:hover, .lookOutlined__46d54.colorRed_d6b062:hover{
+.barButtonAlt__4b48f:hover, .lookOutlined__46d54.colorPrimary__6ed40:hover, .VoiceActivity-voiceprofilesection-button:hover, .lookFilled__19298.colorBrandNew_fd170a:hover, .button__13ec4:hover, .lookFilled__19298.colorRed_d6b062:hover, .theme-dark .lookLink__93965.colorPrimary__6ed40:hover, .buttonColor__01bf8:hover, .lookFilled__19298.colorGreen__5f181:hover, .actionColor__21cca:hover, .button__13ec4:hover, .buttonColor__6f6b0:hover, .lookFilled__19298.colorBrand_b2253e:hover, .lookFilled__19298.colorPrimary__6ed40:hover, .lookInverted_ee4261.colorBrand_b2253e:hover, .lookOutlined__46d54.colorBrand_b2253e:hover, .lookOutlined__46d54.colorGreen__5f181:hover, .lookFilled__19298.colorGreen__5f181:hover, .lookOutlined__46d54.colorRed_d6b062:hover{
 	background: var(--link-color);
 	color: var(--main-color);
 	border-color: var(--link-color);
 	opacity: .9;
+	border-radius: var(--radius-xs);
 }
-.lookOutlined__46d54.colorPrimary__6ed40:active, .VoiceActivity-voiceprofilesection-button:active, .lookFilled__19298.colorBrandNew_fd170a:active, .button__13ec4:active, .lookFilled__19298.colorRed_d6b062:active, .theme-dark .lookLink__93965.colorPrimary__6ed40:active, .buttonColor__01bf8:active, .lookFilled__19298.colorGreen__5f181:active, .actionColor__21cca:active, .button__13ec4:active, .buttonColor__6f6b0:active, .lookFilled__19298.colorBrand_b2253e:active, .lookFilled__19298.colorPrimary__6ed40:active, .lookInverted_ee4261.colorBrand_b2253e:active, .lookOutlined__46d54.colorBrand_b2253e:active, .lookOutlined__46d54.colorGreen__5f181:active, .lookFilled__19298.colorGreen__5f181:active, .lookOutlined__46d54.colorRed_d6b062:active {
+.barButtonAlt__4b48f:active, .lookOutlined__46d54.colorPrimary__6ed40:active, .VoiceActivity-voiceprofilesection-button:active, .lookFilled__19298.colorBrandNew_fd170a:active, .button__13ec4:active, .lookFilled__19298.colorRed_d6b062:active, .theme-dark .lookLink__93965.colorPrimary__6ed40:active, .buttonColor__01bf8:active, .lookFilled__19298.colorGreen__5f181:active, .actionColor__21cca:active, .button__13ec4:active, .buttonColor__6f6b0:active, .lookFilled__19298.colorBrand_b2253e:active, .lookFilled__19298.colorPrimary__6ed40:active, .lookInverted_ee4261.colorBrand_b2253e:active, .lookOutlined__46d54.colorBrand_b2253e:active, .lookOutlined__46d54.colorGreen__5f181:active, .lookFilled__19298.colorGreen__5f181:active, .lookOutlined__46d54.colorRed_d6b062:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-color: var(--hover-color);
+	border-radius: var(--radius-xs);
 }
 .theme-dark .lookLink__93965.colorPrimary__6ed40:hover .contents_fb6220{
 	--button--underline-color: transparent;
