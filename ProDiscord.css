@@ -571,8 +571,8 @@ svg div button[aria-label="Откл. микрофон"] svg {
     background: var(--primary-630) !important;
 }
 
-/* Просмотр каналов, Участники */
-.pageBody_db54f5, .content__1a4fe, .content__1a4fe, .thin__62e51 {
+/* Просмотр каналов, Участники, Форум */
+.content__23cab, .pageBody_db54f5, .content__1a4fe, .content__1a4fe, .thin__62e51 {
     background: var(--main-color);
 }
 
