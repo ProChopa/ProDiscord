@@ -43,26 +43,26 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 	--primary-660: var(--main-color);
 	--white-500: var(--blue-color-text);
 	--interactive-hover: var(--blue-color-text);
-    --interactive-muted: var(--blue-color-text);
+        --interactive-muted: var(--blue-color-text);
 	--channel-text-area-placeholder: var(--blue-color-text);
 	--channeltextarea-background: var(--blue-color-text);
 	--deprecated-text-input-bg: var(--blue-color-text);
-    --deprecated-text-input-border: var(--blue-color-text);
-    --deprecated-text-input-border-disabled: var(--blue-color-text);
-    --deprecated-text-input-border-hover: var(--blue-color-text);
-    --deprecated-text-input-prefix: var(--blue-color-text);
+        --deprecated-text-input-border: var(--blue-color-text);
+        --deprecated-text-input-border-disabled: var(--blue-color-text);
+        --deprecated-text-input-border-hover: var(--blue-color-text);
+        --deprecated-text-input-prefix: var(--blue-color-text);
 	--input-placeholder-text-dark: var(--blue-color-text);
-    --button-outline-danger-text-active: var(--blue-color-text);
+        --button-outline-danger-text-active: var(--blue-color-text);
 	/* Каналы на сервере */
-    --background-modifier-active: var(--hover-color);
+        --background-modifier-active: var(--hover-color);
 	--background-modifier-hover: var(--hover-color);
 	--background-modifier-selected: var(--hover-color);
 	/* Контекстное меню */
-    --background-floating: var(--additional-color);
+        --background-floating: var(--additional-color);
 	/* Цвет ссылок */
-    --text-link: var(--link-color);
+        --text-link: var(--link-color);
 	/* Закреплённые сообщения */
-    --background-primary: var(--message-background);
+        --background-primary: var(--message-background);
 	/* Различные цвета */
 	--brand-500: var(--link-color);
 	--green-330: var(--link-color);
@@ -583,4 +583,9 @@ svg div button[aria-label="Откл. микрофон"] svg {
     font-size: 12px;
     line-height: 16px;
     color: var(--text-muted);
+}
+
+/* Поле Ввода */
+.themedBackground__3a4c0 {
+    background: var(--hover-color);
 }
