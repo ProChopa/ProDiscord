@@ -10,6 +10,7 @@
 	--link-color: #5785ba;
 	--checkbox-cheked-color: #5785ba;
 	--message-background: linear-gradient(100deg, #2a3742 0%, #2a3742 15%, #1b222a 50%);
+	--border-radius: 19px;
 }
 
 /* Скрытие кнопок */
@@ -43,26 +44,26 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 	--primary-660: var(--main-color);
 	--white-500: var(--blue-color-text);
 	--interactive-hover: var(--blue-color-text);
-        --interactive-muted: var(--blue-color-text);
+    --interactive-muted: var(--blue-color-text);
 	--channel-text-area-placeholder: var(--blue-color-text);
 	--channeltextarea-background: var(--blue-color-text);
 	--deprecated-text-input-bg: var(--blue-color-text);
-        --deprecated-text-input-border: var(--blue-color-text);
-        --deprecated-text-input-border-disabled: var(--blue-color-text);
-        --deprecated-text-input-border-hover: var(--blue-color-text);
-        --deprecated-text-input-prefix: var(--blue-color-text);
+    --deprecated-text-input-border: var(--blue-color-text);
+    --deprecated-text-input-border-disabled: var(--blue-color-text);
+    --deprecated-text-input-border-hover: var(--blue-color-text);
+    --deprecated-text-input-prefix: var(--blue-color-text);
 	--input-placeholder-text-dark: var(--blue-color-text);
-        --button-outline-danger-text-active: var(--blue-color-text);
+    --button-outline-danger-text-active: var(--blue-color-text);
 	/* Каналы на сервере */
-        --background-modifier-active: var(--hover-color);
+    --background-modifier-active: var(--hover-color);
 	--background-modifier-hover: var(--hover-color);
 	--background-modifier-selected: var(--hover-color);
 	/* Контекстное меню */
-        --background-floating: var(--additional-color);
+    --background-floating: var(--additional-color);
 	/* Цвет ссылок */
-        --text-link: var(--link-color);
+    --text-link: var(--link-color);
 	/* Закреплённые сообщения */
-        --background-primary: var(--message-background);
+    --background-primary: var(--message-background);
 	/* Различные цвета */
 	--brand-500: var(--link-color);
 	--green-330: var(--link-color);
@@ -73,7 +74,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 
 /* Сообщения */
-.message__80c10.cozyMessage__64ce7.groupStart__56db5 {
+.cozy_f5c119.wrapper_a62503, .group-spacing-16 .groupStart__7b93c {
     position: relative;
     margin: 16px 5px 0 70px;
     padding: 8px 10px;
@@ -81,59 +82,52 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     background: var(--message-background);
     border-bottom: none !important;
     overflow: visible !important;
-    border-radius: 0 5px 5px 5px;
+    border-radius: var(--border-radius);
 }
-.promptContent__63c03 .overlay_ef4f80 {
-    background: var(--message-background) !important;
-	}
-.tierCard_f6953a, .tierCardCurrentTier_df8c32, .recommendedTierHighlightTag-2Vgifo {
-    background-image: var(--message-background);
+.originalLink__0d99e {
+    border-radius: var(--border-radius);
 }
-.message__80c10.systemMessage__6e6a4.groupStart__56db5:after, .message__80c10:not(.groupStart__56db5):after {
-    display: none;
+.theme-dark .message_ccca67.selected_e3bc5d {
+    background: var(--message-background);
 }
-.message__80c10.systemMessage__6e6a4.groupStart__56db5 {
-    border-radius: 5px;
+.attachment__06ca3.newMosaicStyle_b4aa24, .newMosaicStyle_ed53d8 .codeView_e4dd18, .newMosaicStyle_ed53d8 .footer__90194, .newMosaicStyle_ed53d8 .textContainer__65f57, .grid__35551 {
+    background: linear-gradient(100deg, #1b222a 0%, #2a3742 15%, #2a3742 50%, #1b222a 100%);
+	border-radius: 19px 0 19px 0;
 }
-.message__80c10.groupStart__56db5 .avatar__08316, .systemMessage__6e6a4.message__80c10:not(.groupStart__56db5) .avatar__08316 {
-    top: 0px;
-    left: -50px;
+.wrapper__4e6b6 {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
 }
-.avatarDecoration__14b3c {
-    left: -55px;
-    top: 0;
+.button_d4bf9b:hover, .button_d4bf9b.selected__74fee {
+    background: var(--link-color);
+	color: var(--main-color);
 }
 .avatar__08316 {
     top: 0px;
-    left: 20px;
+    left: -50px;
 }
-.preview_a8dd8d .avatar__08316 {
-    left: -55px;
+.wrapper_a62503.groupStart__7b93c .avatarDecoration__8a0c2 {
+  top: 0;
+  left: -54px;
 }
-.message__80c10:not(.groupStart__56db5).cozy_f5c119.wrapper__09ecc {
-    padding-left: 10px;
-    padding-top: 1px;
-    padding-bottom: 3px;
-    border-radius: 0 0 5px 5px;
-    margin-top: -3px;
-}
-.message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {
-    background: var(--message-background);
-}
-.message__80c10:not(.groupStart__56db5) {
+.message_ccca67:not(.groupStart__7b93c) {
     margin: 0 5px 0 70px;
     background: var(--message-background);
     overflow: visible;
 }
-.cozy_f5c119 .timestamp_cdbd93.alt__6c563 {
+.wrapper_a62503 .dot_e3691c {
+    margin: 0 4px;
+}
+.cozy_f5c119:not(.groupStart__7b93c) {
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    border-radius: var(--border-radius);
+    margin-top: 2px;
+}
+.cozy_f5c119 .timestamp_c79dd2.alt__6c563 {
     left: -65px;
-}
-.attachment_f3cf2c.newMosaicStyle__235c9, .newMosaicStyle__8d3be .codeView__8b1ff, .newMosaicStyle__8d3be .footer__06f4b, .newMosaicStyle__8d3be .textContainer__709ff, .grid_c7c4e6, .wrapper_c727b6 {
-    background: linear-gradient(100deg, #1b222a 0%, #2a3742 15%, #2a3742 50%, #1b222a 100%);
-}
-.cozy_f5c119 .repliedMessage_e2bf4a:before {
-    --spine-width: 0px;
-	--gutter: none;
 }
 
 /* Панель "Переподключиться" */
@@ -330,22 +324,22 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 /* Подсказки при наведении */
 .tooltipPrimary_e5c00d, .tooltipGrey_a35fcf {
     background: var(--button-color) !important;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 .lookFilled__19298.colorGreen__5f181 {
     color: var(--main-color);
 }
 
 /* Упоминание */
-.mention {
-    color: var(--main-color);
+.mentioned_fa6fd2 {
+    background: var(--hover-color);
 }
 
 /* Каналы в упоминании */
 .wrapper_f46140, .wrapper_f46140:hover {
     background: var(--link-color);
 	color: var(--main-color);
-	border-radius: var(--radius-xs);
+	border-radius: var(--border-radius);
 }
 
 :root {
@@ -384,7 +378,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     background-color: var(--main-color) !important;
 }
 .container_d667ff {
-    border-bottom: 1px solid var(--hover-color);
+    border-bottom: var(--hover-color);
 }
 /* Значок демонстрации */
 .icon_c1b424 {
@@ -406,20 +400,20 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-color: var(--hover-color);
-	border-radius: var(--radius-xs);
+	border-radius: var(--border-radius);
 }
 .barButtonAlt__4b48f:hover, .lookOutlined__46d54.colorPrimary__6ed40:hover, .VoiceActivity-voiceprofilesection-button:hover, .lookFilled__19298.colorBrandNew_fd170a:hover, .button__13ec4:hover, .lookFilled__19298.colorRed_d6b062:hover, .theme-dark .lookLink__93965.colorPrimary__6ed40:hover, .buttonColor__01bf8:hover, .lookFilled__19298.colorGreen__5f181:hover, .actionColor__21cca:hover, .button__13ec4:hover, .buttonColor__6f6b0:hover, .lookFilled__19298.colorBrand_b2253e:hover, .lookFilled__19298.colorPrimary__6ed40:hover, .lookInverted_ee4261.colorBrand_b2253e:hover, .lookOutlined__46d54.colorBrand_b2253e:hover, .lookOutlined__46d54.colorGreen__5f181:hover, .lookFilled__19298.colorGreen__5f181:hover, .lookOutlined__46d54.colorRed_d6b062:hover{
 	background: var(--link-color);
 	color: var(--main-color);
 	border-color: var(--link-color);
 	opacity: .9;
-	border-radius: var(--radius-xs);
+	border-radius: var(--border-radius);
 }
 .barButtonAlt__4b48f:active, .lookOutlined__46d54.colorPrimary__6ed40:active, .VoiceActivity-voiceprofilesection-button:active, .lookFilled__19298.colorBrandNew_fd170a:active, .button__13ec4:active, .lookFilled__19298.colorRed_d6b062:active, .theme-dark .lookLink__93965.colorPrimary__6ed40:active, .buttonColor__01bf8:active, .lookFilled__19298.colorGreen__5f181:active, .actionColor__21cca:active, .button__13ec4:active, .buttonColor__6f6b0:active, .lookFilled__19298.colorBrand_b2253e:active, .lookFilled__19298.colorPrimary__6ed40:active, .lookInverted_ee4261.colorBrand_b2253e:active, .lookOutlined__46d54.colorBrand_b2253e:active, .lookOutlined__46d54.colorGreen__5f181:active, .lookFilled__19298.colorGreen__5f181:active, .lookOutlined__46d54.colorRed_d6b062:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-color: var(--hover-color);
-	border-radius: var(--radius-xs);
+	border-radius: var(--border-radius);
 }
 .theme-dark .lookLink__93965.colorPrimary__6ed40:hover .contents_fb6220{
 	--button--underline-color: transparent;
@@ -494,29 +488,31 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 
 /* Кнопка "Добавить сервер" */
-.circleIconButton_d8df29 {
+.circleIconButton__05cf2 {
     color: transparent;
 }
-.circleIconButton_d8df29.selected__5250e {
-    background: var(--link-color)
+.circleIconButton__05cf2.selected_aded59 {
+    color: var(--blue-color-text);
+	background: var(--hover-color)
 }
 
 /* Кнопка "Добавить в друзья" */
-.tabBar__73938 .addFriend__80542.addFriend__80542.addFriend__80542 {
+.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2 {
     background: transparent;
 }
-.tabBar__73938 .addFriend__80542.addFriend__80542.addFriend__80542[aria-selected=true] {
+.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2[aria-selected=true] {
     background: var(--hover-color);
 }
 
 /* Кнопка "Продемонстрируйте свой экран" */
-.button__66e8c .buttonColor_a6eb73.buttonActive__407a7, .button__66e8c.buttonColor_a6eb73.buttonActive__407a7 {
+.button_b82d53.buttonColor__7bad9 {
     background: var(--hover-color);
 }
-.button__66e8c .buttonColor_a6eb73.buttonActive__407a7:hover, .button__66e8c.buttonColor_a6eb73.buttonActive__407a7:hover {
-    background: var(--link-color);
+.button_b82d53.buttonColor__7bad9:hover {
+    /*color: var(--main-color);*/
+	background: var(--link-color);
 }
-.button__66e8c .buttonColor_a6eb73.buttonActive__407a7, .button__66e8c.buttonColor_a6eb73.buttonActive__407a7:active {
+.button_b82d53.buttonColor__7bad9:active {
     background: var(--hover-color);
 }
 
@@ -526,53 +522,28 @@ button[aria-label="Прекратить просмотр"], .colorable_c84c4c.re
 }
 
 /* Панель "Эмодзи" */
-.sticker__7d2dd, .scroller_e89578, .listItems__699d1, .categoryList_f8c48f, .inspector__993e1 {
+.stickerAsset_ab864f, .listItems__699d1, .categoryList_f8c48f, .inspector__993e1 {
     background: var(--main-color);
 }
-.assetWrapper_f2e406:hover, .navButton__05cc7:hover, .navButtonActive__735cb, .navButtonActive__735cb:hover, .emojiItem_b15dee.emojiItemSelected__1a09a, .categoryItemDefaultCategorySelected__8245a, .categoryItemDefaultCategorySelected__8245a:hover, .categoryItemDefaultCategory__67fe7:hover {
+.stickerAsset_ab864f:hover, .navButton__05cc7:hover, .navButtonActive__0c878, .navButtonActive__0c878:hover, .emojiItem_de65fd.emojiItemSelected__023be, .categoryItemDefaultCategorySelected__8245a, .categoryItemDefaultCategorySelected__8245a:hover, .categoryItemDefaultCategory__67fe7:hover {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 }
 
 /* Реакции */
-.reaction_fef95b.reactionMe__98f57 {
+.reaction__4a43f.reactionMe__0fffc {
     background: var(--link-color);
     border-color: var(--link-color);
 }
-.reaction_fef95b.reactionMe__98f57 .reactionCount_b49901 {
+.reaction__4a43f.reactionMe__0fffc .reactionCount__2c34d {
     color: var(--main-color);
 }
 .reaction_fef95b:hover {
     border: 0.0625rem solid transparent;
 }
 
-/* Возвращение микрофона */
-svg div button[aria-label="Вкл. микрофон"] {
-    background: var(--white-500) !important;
-}
-svg div button[aria-label="Вкл. микрофон"] svg {
-    color: var(--primary-860) !important;
-}
-svg div > button[aria-label="Откл. микрофон"] {
-    background: var(--primary-630) !important;
-}
-svg div > button[aria-label="Откл. микрофон"]:hover {
-    background: var(--primary-700) !important;
-}
-svg div button[aria-label="Откл. микрофон"] svg {
-    color: var(--white-500) !important;
-}
-[role="button"][aria-label="Другие настройки"][class*="primaryDark__6b700"] {
-    color: var(--primary-860) !important;
-    background: var(--white-500) !important;
-}
-[role="button"][aria-label="Другие настройки"][class*="white__10e89"] {
-    color: var(--white-500) !important;
-    background: var(--primary-630) !important;
-}
-
-/* Просмотр каналов, Участники, Форум */
-.content__23cab, .pageBody_db54f5, .content__1a4fe, .content__1a4fe, .thin__62e51 {
+/* Просмотр каналов, Участники */
+.content__23cab, .pageBody_c0e5dd, .content__1a4fe, .content__1a4fe, .thin__62e51 {
     background: var(--main-color);
 }
 
@@ -588,4 +559,237 @@ svg div button[aria-label="Откл. микрофон"] svg {
 /* Поле Ввода */
 .themedBackground__3a4c0 {
     background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+
+/* Анимации при переключении табов разных */
+.messagesWrapper_add28b, .container__7e23c, .content__690c5, .peopleColumn__0c784 {
+    animation: show 0.3s ease;
+}
+
+/* Список Участников */
+.members__573eb {
+    width: 276px;
+}
+.member_aa4760 {
+    position: relative;
+    max-width: 500px;
+    margin-left: 8px;
+}
+
+/* Список Каналов */
+
+
+/* BETTERDISCORD ADDONS */
+.bd-settings-title {
+  color: var(--header-primary);
+}
+
+.bd-modal-root {
+  background-color: var(--popout-color);
+  border-radius: var(--popout-radius-big);
+  box-shadow: var(--shadow-3dp);
+}
+.bd-modal-root .bd-modal-footer {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.bd-button {
+  background-color: hsl(var(--accent-hsl--material-you)) !important;
+  border-radius: var(--button-radius);
+  color: var(--accent-text-color--material-you) !important;
+}
+.bd-button.bd-button-danger {
+  background-color: hsl(var(--alert-hsl)) !important;
+  color: var(--alert-text-color) !important;
+}
+.bd-button.bd-button-color-brand .bd-button-content svg:not([fill]) path[fill] {
+  fill: currentColor;
+}
+.bd-button.bd-button-color-brand .bd-button-content svg[fill] {
+  fill: currentColor;
+}
+
+.bd-search-wrapper {
+  padding: 0 8px;
+  background-color: var(--input-color);
+  border-radius: 13px;
+}
+.bd-search-wrapper .bd-search {
+  padding: 0;
+  line-height: 26px;
+  color: var(--text-normal);
+}
+.bd-search-wrapper .bd-search::-webkit-input-placeholder {
+  font-family: var(--app-font);
+}
+
+.bd-label {
+  line-height: 26px;
+}
+
+.bd-select {
+  line-height: 26px;
+}
+.bd-select.bd-select-transparent {
+  gap: 4px;
+}
+.bd-select .bd-select-value {
+  padding-left: 0;
+}
+.bd-select .bd-select-arrow {
+  height: 26px !important;
+  margin-left: 0;
+}
+.bd-select .bd-select-options {
+  padding: 8px 0;
+  background-color: var(--popout-color);
+  border-radius: var(--popout-radius);
+  border: none;
+  box-shadow: var(--shadow-3dp);
+  animation: opacity 100ms ease, open-context-menu 300ms var(--default-animation);
+  transform-origin: top;
+}
+.bd-select .bd-select-option {
+  min-height: 32px;
+  padding: 9px 12px;
+  line-height: 18px;
+  font-weight: 500;
+  color: var(--menu-item-text-color);
+  box-sizing: border-box;
+  transition: var(--default-time) var(--default-animation) background-color;
+}
+.bd-select .bd-select-option:hover {
+  background-color: var(--menu-item-hover);
+}
+.bd-select .bd-select-option.selected {
+  background-color: var(--menu-item-select);
+}
+
+.bd-addon-views .bd-view-button {
+  background-color: transparent !important;
+}
+.bd-addon-views .bd-view-button:not(.selected) svg[fill] {
+  fill: var(--interactive-normal);
+}
+.bd-addon-views .bd-view-button.selected {
+  background-color: hsl(var(--accent-hsl--material-you)) !important;
+}
+.bd-addon-views .bd-view-button.selected svg {
+  fill: var(--accent-text-color--material-you);
+}
+
+.bd-addon-controls + .bd-addon-list {
+  margin-top: 16px;
+}
+
+#themes-tab .bd-addon-controls:after {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  content: "Theme Add-ons\a\aMaterial Discord has a few add-on themes to either enhance or revert\asome features that can be located at bit.ly/MaterialDiscordAddons.\a\a- Solid Icons\a- Old Message Bubbles\a- Material You";
+  width: 100%;
+  margin-top: 16px;
+  background-color: var(--card-color-filled);
+  border: none;
+  padding: 16px;
+  border-radius: var(--card-radius-big);
+  color: var(--text-normal);
+  box-sizing: border-box;
+  white-space: pre;
+  word-wrap: break-word;
+  line-height: 18px;
+}
+
+.bd-empty-image-container {
+  margin-top: 24px;
+  max-width: unset;
+}
+
+.bd-addon-list.bd-grid-view {
+  column-gap: 16px;
+  row-gap: 16px;
+}
+.bd-addon-list .bd-addon-card {
+  margin-bottom: 16px;
+}
+
+.bd-addon-card {
+  background-color: var(--card-color-filled) !important;
+  border: none !important;
+  padding: 0;
+  border-radius: var(--card-radius-big) !important;
+}
+.bd-addon-card .bd-addon-header {
+  margin-bottom: 0;
+  padding: 16px;
+  background-color: transparent;
+  font-size: 1.25em;
+  line-height: normal;
+  color: var(--card-header-text-color);
+  font-weight: 400;
+  opacity: 1;
+}
+.bd-addon-card .bd-addon-header .bd-link {
+  color: hsl(var(--accent-hsl));
+}
+.bd-addon-card .bd-addon-header .bd-meta {
+  display: block;
+  font-size: 12px;
+}
+.bd-addon-card .bd-description-wrap {
+  padding: 0 16px;
+}
+.bd-addon-card .bd-description {
+  padding: 0;
+}
+.bd-addon-card .bd-footer {
+  background-color: transparent;
+}
+.bd-addon-card .bd-controls {
+  background-color: transparent;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.bd-addon-card .bd-controls .bd-button {
+  padding: 3px 8px;
+  background-color: var(--card-button-color) !important;
+  color: var(--text-normal);
+}
+.bd-addon-card .bd-controls .bd-button:hover {
+  background-color: var(--card-button-color-hover) !important;
+}
+.bd-addon-card .bd-controls .bd-button svg {
+  fill: var(--text-normal);
+}
+
+.bd-description-wrap .banner {
+  margin-bottom: 16px;
+  padding: 8px;
+  border-radius: calc(var(--card-radius-big) / 1.5);
+  border: none;
+  color: var(--text-normal);
+}
+
+.banner.banner-danger {
+  background-color: hsl(var(--alert-hsl), 0.3);
+}
+.banner.banner-danger .bd-icon {
+  fill: hsl(var(--alert-hsl));
+}
+
+/* BETTERDISCORD ADDONS -> BD ADDON MODAL */
+.bd-addon-modal .bd-addon-modal-header h1 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.bd-addon-modal .bd-select {
+  height: var(--input-height);
+  max-height: var(--input-height);
+  padding: var(--input-padding);
+  background-color: var(--input-color);
+  border-radius: calc(var(--input-height) / 2);
+  border: none;
+  font-size: 1em;
 }
