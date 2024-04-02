@@ -10,7 +10,7 @@
 	--link-color: #5785ba;
 	--checkbox-cheked-color: #5785ba;
 	--message-background: linear-gradient(100deg, #2a3742 0%, #2a3742 15%, #1b222a 50%);
-	--border-radius: 19px;
+	--border-radius: 24px;
 }
 
 /* Скрытие кнопок */
@@ -87,12 +87,12 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 .originalLink__0d99e {
     border-radius: var(--border-radius);
 }
-.theme-dark .message_ccca67.selected_e3bc5d {
+.theme-dark .message_ccca67.selected_e3bc5d, .theme-dark.mouse-mode.full-motion .message_ccca67:hover {
     background: var(--message-background);
 }
 .attachment__06ca3.newMosaicStyle_b4aa24, .newMosaicStyle_ed53d8 .codeView_e4dd18, .newMosaicStyle_ed53d8 .footer__90194, .newMosaicStyle_ed53d8 .textContainer__65f57, .grid__35551 {
     background: linear-gradient(100deg, #1b222a 0%, #2a3742 15%, #2a3742 50%, #1b222a 100%);
-	border-radius: 19px 0 19px 0;
+	border-radius: 24px 0 24px 0;
 }
 .wrapper__4e6b6 {
     background: var(--hover-color);
@@ -130,40 +130,47 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     left: -65px;
 }
 
-/* Панель "Переподключиться" */
-.colorWarning__216d2 {
+/* Упоминание */
+.mentioned_fa6fd2 {
+    background: var(--hover-color);
+}
+
+/* Каналы в упоминании */
+.wrapper_f46140, .wrapper_f46140:hover {
     background: var(--link-color);
-    color: var(--main-color);
+	color: var(--main-color);
+	border-radius: var(--border-radius);
 }
 
-/* Панель "Вы просматриваете старые сообщения" */
-.barButtonBase__8fa46 {
-    background: var(--main-color);
-	color: var(--blue-color-text);
+/* Список каналов, диалогов */
+.sidebar_e031be {
+    width: 276px;
+}
+.channel__0aef5 {
+    max-width: 500px;
+	border-radius: var(--border-radius);
+}
+.link_ddbb36, .content__3b07e {
+    border-radius: var(--border-radius);
 }
 
-/* Панель "Новые сообщения" */
-.newMessagesBar__8b6d7 {
-    background: var(--main-color);
-	color: var(--blue-color-text);
-}
-
-/* Окно "Пригласить" */
-.tile_a411a4 {
-    background: var(--main-color);
-}
-
-/* Верхние иконки и их текст */
-.container__11d72 * {
+/* Иконки каналов */
+.icon__67ab4, .modeSelected__473f1 .icon__67ab4, .modeSelected__473f1:hover .icon__67ab4, .actionIcon_b149a2, .iconItem__56989:hover .actionIcon_b149a2, .actionIcon_b149a2:active, .icon__1e4c2 {
     color: var(--link-color);
 }
-
-/* Сервер */
-.modeUnreadImportant_efb53e .icon_eff5d4, .modeUnreadImportant_efb53e:hover .icon_eff5d4, .modeSelected__487d6 .icon_eff5d4, .modeSelected__487d6:hover .icon_eff5d4, .icon_eff5d4, .name_c08dbc, .colorDefault__0b482 .checkbox__45366, .colorDefault__0b482 .radioSelection__5ed39, .iconContainer__829e7, .button__07e07 path, .button__07e07.open_a0ea08 path {
-    color: var(--link-color);
+.users__65981 {
+    background-color: var(--hover-color);
 }
-.label__73cb9, .name__8d1ec {
-    color: var(--blue-color-text);
+
+/* Список участников */
+.members__573eb {
+    width: 276px;
+}
+.member_aa4760 {
+    max-width: 500px;
+}
+.memberInner__4dac6 {
+    border-radius: var(--border-radius);
 }
 
 /* Выбранный сервер */
@@ -171,21 +178,131 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     background-color: var(--link-color);
 }
 
-/* Подписка "Nitro" */
-.children__32014 > .akaBadge__7df41, .children__32014 > .nicknames__7447d, .children__32014 > .divider_c09b64, .scroller__3d071 > .listItem_fa7b36 > .listItemWrapper__1f93b, .controlButton_ab2899.fauxDisabled_e7913a.contextMenuContainer_fc4df6, .buttonContainer__66ac7, .channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/shop"], .channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/store"] {
-    display: none;
+/* Верхние иконки и их текст */
+.container__26baa *, .name_e8e549 {
+    color: var(--link-color);
 }
-.members__9f47b, .scroller__3d071, .theme-dark .panel_bd8c76, .chatContent__5dca8, .themed_b152d4, .children__32014:after, [data-list-id="chat-messages"], .form__13a2c:before, .form__13a2c, .scroller__4b984, .searchBar_e4ea2a, .searchBarComponent__22760, .searchBar_e0c60b, .container_ca50b9, .container_d667ff, .withFrame__485f4 {
-    background: var(--main-color) !important;
+
+/* Значок, показывающий нахождение в голосовом канале */
+.iconBadge__19638 {
+    background: var(--link-color) !important;
+	color: var(--main-color);
 }
-.root__3eef0 {
-    background: var(--voice-color);
+
+/* Значок демонстрации */
+.icon_c1b424 {
+    background-color: var(--hover-color) !important;
 }
-.placeholder_e68c63, .scrollableContainer__33e06 {
+
+/* Просмотр каналов. Участники. (Для Админов) */
+.content__23cab, .pageBody_c0e5dd, .content__1a4fe, .content__1a4fe, .thin__62e51 {
+    background: var(--main-color);
+}
+
+/* Панель "Профиль и голос" */
+.container_ca50b9, .container_d667ff, .panel_bd8c76 {
+    background-color: var(--main-color) !important;
+}
+.container_d667ff {
+    border-bottom: var(--hover-color);
+}
+
+/* Панель "Переподключиться" */
+.colorWarning__01125 {
+    background: var(--link-color);
+    color: var(--main-color);
+	border-radius: 0px;
+}
+
+/* Панель "Новые сообщения" */
+.newMessagesBar__8b272, .barButtonMain__984b4, .barButtonAlt_e800ef {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
+}
+
+/* Панель "Вы просматриваете старые сообщения" */
+.barButtonBase__5e4cf {
     background: var(--hover-color);
 }
-.gradientBackground-MytxDL {
-    display: none;
+.jumpToPresentBar__69174, .jumpToPresentBar__69174:active {
+    background: var(--main-color);
+	padding-bottom: 10px;
+}
+
+/* Раздел "Активные контакты" */
+.itemCard__1f162:first-of-type, .section_efc22d:hover, .accountProfileCard__22589 {
+    background: var(--main-color);
+}
+
+/* Поле ввода */
+.inner__999f6, .themedBackground__3a4c0 {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+
+/* Реакции */
+.reaction__4a43f {
+    background: var(--main-color);
+	border-radius: var(--border-radius);
+}
+.reaction__4a43f:hover {
+    background: var(--main-color);
+	border-color: var(--link-color);
+}
+.reaction__4a43f.reactionMe__0fffc {
+    background: var(--link-color);
+    color: var(--main-color);
+	border-radius: var(--border-radius);
+}
+.reaction__4a43f.reactionMe__0fffc .reactionCount__2c34d {
+	color: var(--main-color);
+}
+
+/* Панель "Эмодзи" */
+.stickerAsset_ab864f, .listItems__699d1, .categoryList_f8c48f, .inspector__993e1 {
+    background: var(--main-color);
+	border-radius: var(--border-radius);
+}
+.stickerAsset_ab864f:hover, .navButton__05cc7:hover, .navButtonActive__0c878, .navButtonActive__0c878:hover, .emojiItem_de65fd.emojiItemSelected__023be, .categoryItemDefaultCategorySelected__8245a, .categoryItemDefaultCategorySelected__8245a:hover, .categoryItemDefaultCategory__67fe7:hover {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
+}
+
+/* Голосовое сообщение */
+.theme-dark .container_ce813c:not(.playing__0754e) .playButtonContainer_bf2199, .theme-dark .container_ce813c:not(.playing__0754e) .playButtonContainer_bf2199:hover, .theme-dark .container_ce813c:not(.playing__0754e) .mediaBarProgress_a3b7f1:after, .playing__0754e .playButtonContainer_bf2199, .playing__0754e .playButtonContainer_bf2199:active, .playButtonContainer_bf2199:active {
+    background: var(--link-color);
+}
+.playButtonContainer_bf2199 .playIcon__25e6e {
+    color: var(--main-color);
+}
+.container_ce813c {
+    border-radius: var(--border-radius);
+    background-color: var(--main-color);
+    color: var(--hover-color);
+}
+.ripple__74f0d {
+  display: none;
+}
+
+/* Ползунок громкости */
+.barFill__1f56b {
+    background: var(--link-color);
+    height: 100%;
+}
+.theme-dark .bar_e58961, .theme-dark .markDash_dc3ae9 {
+    background: var(--hover-color);
+}
+.mediaBarInteractionVolume_cc44ff {
+    background-color: var(--main-color);
+    box-shadow: var(--elevation-high);
+}
+.mediaBarInteraction_e21234:hover .mediaBarGrabber__1d527 {
+    background-color: var(--blue-color-text);
+}
+.mediaBarGrabber__1d527, .mediaBarGrabber__1d527:before, .mediaBarGrabber__1d527:after, .mediaBarProgress_a3b7f1, .mediaBarProgress_a3b7f1:before, .mediaBarProgress_a3b7f1:after {
+    background-color: var(--link-color);
 }
 
 /* Скролл-бар */
@@ -206,89 +323,55 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     border: 4px;
 }
 
-/* Selected */
-.modeSelected__487d6 .wrapper__7bcde, .button_d553e5.selected__63428 {
-    background: var(--hover-color) !important;
+/* Контекстное меню */
+.scroller__8f066, .menu__088f7 {
+    background-color: var(--main-color);
+    border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
+}
+.colorDefault_e361cf:hover, .colorDefault_e361cf:active, .colorDefault_e361cf.focused_dcafb9 {
+    background-color: var(--hover-color);
+    border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
+}
+.button_bfb8e1:hover {
+    background-color: var(--hover-color);
 }
 
 /* Настройки */
-.accountProfileCard__22589, .sidebarRegionScroller__1fa7e, .contentRegionShownSidebar__610ed {
-    background: var(--main-color) !important;
-}
 .container__871ba.checked__6bdb0, .bd-switch input:checked + .bd-switch-body {
     background: var(--checkbox-cheked-color) !important;
 }
 .bd-switch-symbol, .slider__41d94 > svg {
     display: none;
 }
-.icon__8f621 {
-    color: var(--blue-color-text);
-}
-.connectionOptionsWrapper_abe849, .connectionHeader__3c82d, .theme-dark .progress__2cc1d, .bar_e58961, .iconContainer__82920, .circle__7dd22 {
+.connectContainer_e331e3, .cardPrimary__1ee6a.outline__16075, .card__4dc22:not(.outline__16075), .circle_cbbd13, .connectionHeader__2b82f  {
     background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
 }
-.top__592a7 .brand_ce3ecf.selected__5711d.item__48dda, .top__592a7 .brand_ce3ecf.item__48dda:hover, .top__592a7 .brand_ce3ecf.item__48dda:active {
+.top_fae1fa .brand_ce3ecf.item__48dda:hover, .top_fae1fa .brand_ce3ecf.selected_a523ff.item__48dda {
     border-bottom-color: var(--link-color);
 }
-.settingsTabBar__19aa3, .settingsTabBar__17e8a {
-    border-bottom-color: transparent;
-}
-.metadataContainer__7b316 {
-    background: transparent;
-}
-
-/* Раздел "Активные контакты" */
-.itemCard__1f162:first-of-type, .section_efc22d:hover, .accountProfileCard__22589 {
-    background: var(--main-color);
-}
-
-/* Значок, показывающий нахождение в голосовом канале */
-.iconBadge_fdf33a {
-    background: var(--link-color) !important;
-}
-
-/* Плеер */
-.theme-dark .container__79822:not(.playing_eb5c63) .playButtonContainer_d887d6, .theme-dark .container__79822:not(.playing_eb5c63) .playButtonContainer_d887d6:hover, .mediaBarPreview__2937c, .mediaBarProgress__29db2, .mediaBarProgress__29db2:before, .mediaBarProgress__29db2:after {
-    background: var(--link-color);
-}
-.mediaBarInteractionVolume_f4c833 {
-    background: var(--main-color);
-	box-shadow: var(--elevation-high);
-}
-.mediaBarWrapperVolume_e2bd94, .mediaBarWrapper_f312bd, .mediaBarwrapper_f312bd:before, .mediaBarWrapper_f312bd:after {
+.theme-dark .progress_bcbb99 {
     background: var(--hover-color);
 }
-.mediaBarInteraction__0633c:hover .mediaBarGrabber_c64ff9, .mediaBarlnteractionDragging__0а2ее .mediaBarGrabber_c64ff9 {
-    background: var(--blue-color-text);
+.item_b7fb7e[aria-checked=true], .item_b7fb7e:hover, .radioBar__70669.radioPositionLeft_c8ce26, .side_b4b3f6 .themed_b957e8.item__48dda, .side_b4b3f6 .themed_b957e8.selected_a523ff.item__48dda {
+    border-radius: var(--border-radius);
 }
 
-/* Ползунок громкости */
-.barFill__30e17 {
-    background: var(--link-color);
-    height: 100%;
-}
-.theme-dark .bar_e58961, .theme-dark .markDash_dc3ae9 {
-    background: var(--hover-color);
-}
-.mini_d6d84c .grabber_d2868c {
-    color: var(--blue-color-text);
+/* Цвет плагинов */
+.bd-addon-header {
+    background-color: var(--hover-color) !important;
 }
 
-/* Профиль и контекстное меню */
-.userProfileInnerThemedNonPremium__3d0a6 {
-    background: var(--additional-color);
-}
-.theme-dark .inviteRow_a25947:hover, .theme-dark .outer_a41cf3.interactive__01cfa:hover, .theme-dark .outer_a41cf3.active__76f42, .addFriendInputWrapper__4bf8e, .inner__999f6, .button__3ecb4:hover, .topPill__0cdf1 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .theme-dark .friendSelected_f0db37, .menu__5cf7f .menuItemFocused__1490f, .bar_e63719, .rolePill_ee1aa1, .listRow__60937:hover {
-    background: var(--hover-color);
-}
-.addFriendInputWrapper__4bf8e:focus-within, .theme-dark .checkbox_c7f690, .checkbox__47b1a, .addFriendInputWrapper__4bf8e {
-    border-color: var(--hover-color);
-}
-.themed__857a7 .barInner_d1abc6 {
-    background: var(--link-color);
-}
-.colorDanger_eec36d, .colorDanger_eec36d .checkbox__45366, .colorDanger_eec36d .radioSelection__5ed39 {
-    color: var(--blue-color-text);
+/* Авторство */
+.info__755e1:after {
+    content: "Theme by ProChopa";
+    position: relative;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--text-muted);
 }
 
 /* Разделители и рамки */
@@ -316,11 +399,6 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     box-shadow: var(--main-color);
 }
 
-/* Предупреждение */
-.card__4dc22:not(.outline_cb0aed), .card__3087a, .cardWarning_d49e9e, .card__4dc22 {
-    background: var(--hover-color);
-}
-
 /* Подсказки при наведении */
 .tooltipPrimary_e5c00d, .tooltipGrey_a35fcf {
     background: var(--button-color) !important;
@@ -330,17 +408,32 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     color: var(--main-color);
 }
 
-/* Упоминание */
-.mentioned_fa6fd2 {
+/* Выделение текста */
+::selection {
+    background: var(--link-color) !important;
+}
+
+/* Предупреждение */
+.card__4dc22:not(.outline_cb0aed), .card__3087a, .cardWarning_d49e9e, .card__4dc22 {
     background: var(--hover-color);
 }
 
-/* Каналы в упоминании */
-.wrapper_f46140, .wrapper_f46140:hover {
-    background: var(--link-color);
-	color: var(--main-color);
-	border-radius: var(--border-radius);
+/* Профиль */
+.userProfileInnerThemedNonPremium__3d0a6 {
+    background: var(--additional-color);
 }
+/*.theme-dark .inviteRow_a25947:hover, .theme-dark .outer_a41cf3.interactive__01cfa:hover, .theme-dark .outer_a41cf3.active__76f42, .addFriendInputWrapper__4bf8e, .inner__999f6, .button__3ecb4:hover, .topPill__0cdf1 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .theme-dark .friendSelected_f0db37, .menu__5cf7f .menuItemFocused__1490f, .bar_e63719, .rolePill_ee1aa1, .listRow__60937:hover {
+    background: var(--hover-color);
+}
+.addFriendInputWrapper__4bf8e:focus-within, .theme-dark .checkbox_c7f690, .checkbox__47b1a, .addFriendInputWrapper__4bf8e {
+    border-color: var(--hover-color);
+}
+.themed__857a7 .barInner_d1abc6 {
+    background: var(--link-color);
+}
+.colorDanger_eec36d, .colorDanger_eec36d .checkbox__45366, .colorDanger_eec36d .radioSelection__5ed39 {
+    color: var(--blue-color-text);
+}*/
 
 :root {
     /* Цвет загрузки демок и прочего */
@@ -363,36 +456,6 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     --red-530: var(--hover-color);
     /* Задний цвет сообщения в модальном окне удаления сообщений */
     --primary-600: var(--main-color);
-}
-
-/* Цвет контекстного меню выбора региона звонка при наведении */
-.theme-dark .quickSelectPopoutOption__39224:hover {
-    background: var(--hover-color);
-}
-.quickSelectPopoutOption__39224:focus {
-    background: transparent;
-}
-
-/* Панель "Профиль и голос" */
-.container_ca50b9, .container_d667ff, .panel_bd8c76 {
-    background-color: var(--main-color) !important;
-}
-.container_d667ff {
-    border-bottom: var(--hover-color);
-}
-/* Значок демонстрации */
-.icon_c1b424 {
-    background-color: var(--hover-color) !important;
-}
-
-/* Выделение текста */
-::selection {
-    background: var(--link-color) !important;
-}
-
-/* Цвет плагинов */
-.bd-addon-header {
-    background-color: var(--hover-color) !important;
 }
 
 /* Кнопка */
@@ -521,275 +584,19 @@ button[aria-label="Прекратить просмотр"], .colorable_c84c4c.re
     background: var(--main-color);
 }
 
-/* Панель "Эмодзи" */
-.stickerAsset_ab864f, .listItems__699d1, .categoryList_f8c48f, .inspector__993e1 {
-    background: var(--main-color);
+/* Подписка "Nitro" */
+.children__32014 > .akaBadge__7df41, .children__32014 > .nicknames__7447d, .children__32014 > .divider_c09b64, .scroller__3d071 > .listItem_fa7b36 > .listItemWrapper__1f93b, .controlButton_ab2899.fauxDisabled_e7913a.contextMenuContainer_fc4df6, .buttonContainer__66ac7, .channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/shop"], .channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/store"] {
+    display: none;
 }
-.stickerAsset_ab864f:hover, .navButton__05cc7:hover, .navButtonActive__0c878, .navButtonActive__0c878:hover, .emojiItem_de65fd.emojiItemSelected__023be, .categoryItemDefaultCategorySelected__8245a, .categoryItemDefaultCategorySelected__8245a:hover, .categoryItemDefaultCategory__67fe7:hover {
+.members__9f47b, .scroller__3d071, .theme-dark .panel_bd8c76, .chatContent__5dca8, .themed_b152d4, .children__32014:after, [data-list-id="chat-messages"], .form__13a2c:before, .form__13a2c, .scroller__4b984, .searchBar_e4ea2a, .searchBarComponent__22760, .searchBar_e0c60b, .container_ca50b9, .container_d667ff, .withFrame__485f4 {
+    background: var(--main-color) !important;
+}
+.root__3eef0 {
+    background: var(--voice-color);
+}
+.placeholder_e68c63, .scrollableContainer__33e06 {
     background: var(--hover-color);
-	color: var(--blue-color-text);
 }
-
-/* Реакции */
-.reaction__4a43f.reactionMe__0fffc {
-    background: var(--link-color);
-    border-color: var(--link-color);
-}
-.reaction__4a43f.reactionMe__0fffc .reactionCount__2c34d {
-    color: var(--main-color);
-}
-.reaction_fef95b:hover {
-    border: 0.0625rem solid transparent;
-}
-
-/* Просмотр каналов, Участники */
-.content__23cab, .pageBody_c0e5dd, .content__1a4fe, .content__1a4fe, .thin__62e51 {
-    background: var(--main-color);
-}
-
-/* Авторство */
-.info__755e1:after {
-    content: "Theme by ProChopa";
-    position: relative;
-    font-size: 12px;
-    line-height: 16px;
-    color: var(--text-muted);
-}
-
-/* Поле Ввода */
-.themedBackground__3a4c0 {
-    background: var(--hover-color);
-	border-radius: var(--border-radius);
-}
-
-/* Анимации при переключении табов разных */
-.messagesWrapper_add28b, .container__7e23c, .content__690c5, .peopleColumn__0c784 {
-    animation: show 0.3s ease;
-}
-
-/* Список Участников */
-.members__573eb {
-    width: 276px;
-}
-.member_aa4760 {
-    position: relative;
-    max-width: 500px;
-    margin-left: 8px;
-}
-
-/* Список Каналов */
-
-
-/* BETTERDISCORD ADDONS */
-.bd-settings-title {
-  color: var(--header-primary);
-}
-
-.bd-modal-root {
-  background-color: var(--popout-color);
-  border-radius: var(--popout-radius-big);
-  box-shadow: var(--shadow-3dp);
-}
-.bd-modal-root .bd-modal-footer {
-  background-color: transparent;
-  box-shadow: none;
-}
-
-.bd-button {
-  background-color: hsl(var(--accent-hsl--material-you)) !important;
-  border-radius: var(--button-radius);
-  color: var(--accent-text-color--material-you) !important;
-}
-.bd-button.bd-button-danger {
-  background-color: hsl(var(--alert-hsl)) !important;
-  color: var(--alert-text-color) !important;
-}
-.bd-button.bd-button-color-brand .bd-button-content svg:not([fill]) path[fill] {
-  fill: currentColor;
-}
-.bd-button.bd-button-color-brand .bd-button-content svg[fill] {
-  fill: currentColor;
-}
-
-.bd-search-wrapper {
-  padding: 0 8px;
-  background-color: var(--input-color);
-  border-radius: 13px;
-}
-.bd-search-wrapper .bd-search {
-  padding: 0;
-  line-height: 26px;
-  color: var(--text-normal);
-}
-.bd-search-wrapper .bd-search::-webkit-input-placeholder {
-  font-family: var(--app-font);
-}
-
-.bd-label {
-  line-height: 26px;
-}
-
-.bd-select {
-  line-height: 26px;
-}
-.bd-select.bd-select-transparent {
-  gap: 4px;
-}
-.bd-select .bd-select-value {
-  padding-left: 0;
-}
-.bd-select .bd-select-arrow {
-  height: 26px !important;
-  margin-left: 0;
-}
-.bd-select .bd-select-options {
-  padding: 8px 0;
-  background-color: var(--popout-color);
-  border-radius: var(--popout-radius);
-  border: none;
-  box-shadow: var(--shadow-3dp);
-  animation: opacity 100ms ease, open-context-menu 300ms var(--default-animation);
-  transform-origin: top;
-}
-.bd-select .bd-select-option {
-  min-height: 32px;
-  padding: 9px 12px;
-  line-height: 18px;
-  font-weight: 500;
-  color: var(--menu-item-text-color);
-  box-sizing: border-box;
-  transition: var(--default-time) var(--default-animation) background-color;
-}
-.bd-select .bd-select-option:hover {
-  background-color: var(--menu-item-hover);
-}
-.bd-select .bd-select-option.selected {
-  background-color: var(--menu-item-select);
-}
-
-.bd-addon-views .bd-view-button {
-  background-color: transparent !important;
-}
-.bd-addon-views .bd-view-button:not(.selected) svg[fill] {
-  fill: var(--interactive-normal);
-}
-.bd-addon-views .bd-view-button.selected {
-  background-color: hsl(var(--accent-hsl--material-you)) !important;
-}
-.bd-addon-views .bd-view-button.selected svg {
-  fill: var(--accent-text-color--material-you);
-}
-
-.bd-addon-controls + .bd-addon-list {
-  margin-top: 16px;
-}
-
-#themes-tab .bd-addon-controls:after {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  content: "Theme Add-ons\a\aMaterial Discord has a few add-on themes to either enhance or revert\asome features that can be located at bit.ly/MaterialDiscordAddons.\a\a- Solid Icons\a- Old Message Bubbles\a- Material You";
-  width: 100%;
-  margin-top: 16px;
-  background-color: var(--card-color-filled);
-  border: none;
-  padding: 16px;
-  border-radius: var(--card-radius-big);
-  color: var(--text-normal);
-  box-sizing: border-box;
-  white-space: pre;
-  word-wrap: break-word;
-  line-height: 18px;
-}
-
-.bd-empty-image-container {
-  margin-top: 24px;
-  max-width: unset;
-}
-
-.bd-addon-list.bd-grid-view {
-  column-gap: 16px;
-  row-gap: 16px;
-}
-.bd-addon-list .bd-addon-card {
-  margin-bottom: 16px;
-}
-
-.bd-addon-card {
-  background-color: var(--card-color-filled) !important;
-  border: none !important;
-  padding: 0;
-  border-radius: var(--card-radius-big) !important;
-}
-.bd-addon-card .bd-addon-header {
-  margin-bottom: 0;
-  padding: 16px;
-  background-color: transparent;
-  font-size: 1.25em;
-  line-height: normal;
-  color: var(--card-header-text-color);
-  font-weight: 400;
-  opacity: 1;
-}
-.bd-addon-card .bd-addon-header .bd-link {
-  color: hsl(var(--accent-hsl));
-}
-.bd-addon-card .bd-addon-header .bd-meta {
-  display: block;
-  font-size: 12px;
-}
-.bd-addon-card .bd-description-wrap {
-  padding: 0 16px;
-}
-.bd-addon-card .bd-description {
-  padding: 0;
-}
-.bd-addon-card .bd-footer {
-  background-color: transparent;
-}
-.bd-addon-card .bd-controls {
-  background-color: transparent;
-  border-radius: 14px;
-  overflow: hidden;
-}
-.bd-addon-card .bd-controls .bd-button {
-  padding: 3px 8px;
-  background-color: var(--card-button-color) !important;
-  color: var(--text-normal);
-}
-.bd-addon-card .bd-controls .bd-button:hover {
-  background-color: var(--card-button-color-hover) !important;
-}
-.bd-addon-card .bd-controls .bd-button svg {
-  fill: var(--text-normal);
-}
-
-.bd-description-wrap .banner {
-  margin-bottom: 16px;
-  padding: 8px;
-  border-radius: calc(var(--card-radius-big) / 1.5);
-  border: none;
-  color: var(--text-normal);
-}
-
-.banner.banner-danger {
-  background-color: hsl(var(--alert-hsl), 0.3);
-}
-.banner.banner-danger .bd-icon {
-  fill: hsl(var(--alert-hsl));
-}
-
-/* BETTERDISCORD ADDONS -> BD ADDON MODAL */
-.bd-addon-modal .bd-addon-modal-header h1 {
-  font-size: 22px;
-  font-weight: 400;
-}
-.bd-addon-modal .bd-select {
-  height: var(--input-height);
-  max-height: var(--input-height);
-  padding: var(--input-padding);
-  background-color: var(--input-color);
-  border-radius: calc(var(--input-height) / 2);
-  border: none;
-  font-size: 1em;
+.gradientBackground-MytxDL {
+    display: none;
 }
