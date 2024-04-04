@@ -134,9 +134,16 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 .mentioned_fa6fd2 {
     background: var(--hover-color);
 }
+.mentioned_fa6fd2 .messageContent_abea64 .wrapper__53064 {
+    background: var(--link-color);
+	color: var(--main-color);
+}
+.mentioned_fa6fd2:before, .cozy_f5c119 .repliedMessage__636d2:before {
+    display: none;
+}
 
 /* Каналы в упоминании */
-.wrapper_f46140, .wrapper_f46140:hover {
+.wrapper__53064, .wrapper__53064:hover {
     background: var(--link-color);
 	color: var(--main-color);
 	border-radius: var(--border-radius);
@@ -160,6 +167,14 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 .users__65981 {
     background-color: var(--hover-color);
+}
+
+/* Профиль в диалоге */
+.profilePanel_e2cafe {
+    width: 276px;
+}
+.listRow__50619 {
+    border-radius: var(--border-radius);
 }
 
 /* Список участников */
@@ -189,9 +204,16 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 	color: var(--main-color);
 }
 
+/* Значок "В ЭФИРЕ" */
+.liveShapeRound__75159 {
+    color: var(--main-color);
+	border-radius: var(--border-radius);
+}
+
 /* Значок демонстрации */
-.icon_c1b424 {
-    background-color: var(--hover-color) !important;
+.icon__493c1 {
+    background: var(--hover-color) !important;
+	border-radius: var(--border-radius);
 }
 
 /* Просмотр каналов. Участники. (Для Админов) */
@@ -200,12 +222,13 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 
 /* Панель "Профиль и голос" */
-.container_ca50b9, .container_d667ff, .panel_bd8c76 {
-    background-color: var(--main-color) !important;
+.popout_1055 {
+    background: var(--main-color);
+	border-radius: var(--border-radius);
 }
-.container_d667ff {
+/*.container_d667ff {
     border-bottom: var(--hover-color);
-}
+}*/
 
 /* Панель "Переподключиться" */
 .colorWarning__01125 {
@@ -419,9 +442,6 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 
 /* Профиль */
-.userProfileInnerThemedNonPremium__3d0a6 {
-    background: var(--additional-color);
-}
 /*.theme-dark .inviteRow_a25947:hover, .theme-dark .outer_a41cf3.interactive__01cfa:hover, .theme-dark .outer_a41cf3.active__76f42, .addFriendInputWrapper__4bf8e, .inner__999f6, .button__3ecb4:hover, .topPill__0cdf1 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .theme-dark .friendSelected_f0db37, .menu__5cf7f .menuItemFocused__1490f, .bar_e63719, .rolePill_ee1aa1, .listRow__60937:hover {
     background: var(--hover-color);
 }
