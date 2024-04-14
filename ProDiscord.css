@@ -73,6 +73,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 	--yellow-260: var(--link-color);
 	--yellow-300: var(--link-color);
 	--background-modifier-accent: var(--hover-color);
+	--status-danger: var(--blue-color-text);
 }
 
 /* Сообщения */
@@ -94,7 +95,8 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 .attachment__06ca3.newMosaicStyle_b4aa24, .newMosaicStyle_ed53d8 .codeView_e4dd18, .newMosaicStyle_ed53d8 .footer__90194, .newMosaicStyle_ed53d8 .textContainer__65f57, .grid__35551 {
     background: linear-gradient(100deg, #1b222a 0%, #2a3742 15%, #2a3742 50%, #1b222a 100%);
-	border-radius: 24px 0 24px 0;
+	/*border-radius: 24px 0 24px 0;*/
+	border-radius: var(--border-radius);
 }
 .wrapper__4e6b6 {
     background: var(--hover-color);
@@ -207,7 +209,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 
 /* Иконки каналов */
-.icon__67ab4, .modeSelected__473f1 .icon__67ab4, .modeSelected__473f1:hover .icon__67ab4, .actionIcon_b149a2, .iconItem__56989:hover .actionIcon_b149a2, .actionIcon_b149a2:active, .icon__1e4c2 {
+.modeUnreadImportant__35358 .icon__67ab4, .modeUnreadImportant__35358:hover .icon__67ab4, .modeSelected__473f1 .icon__67ab4, .modeSelected__473f1:hover .icon__67ab4, .icon__67ab4, .actionIcon_b149a2, .iconItem__56989:hover .actionIcon_b149a2, .actionIcon_b149a2:active, .icon__1e4c2 {
     color: var(--link-color);
 }
 .users__65981 {
@@ -267,7 +269,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 
 /* Профиль всплывающий */
-.userProfileOuter__4ac83, .popoutBanner__3fbe8 {
+.userPopoutOuter_d67f56, .userProfileOuter__4ac83, .popoutBanner__3fbe8 {
 	border-radius: var(--border-radius);
 }
 .userPopoutOverlayBackground_bf6444 {
@@ -275,11 +277,14 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 .overlayBackground__2666e * {
 	max-width: 1000px;
-	border: transparent;
+	border: none;
 }
 .rolePill_f50ff5 {
     background-color: var(--hover-color);
 	border-radius: var(--border-radius);
+}
+.messageInputContainer_a93946 {
+	border: none;
 }
 
 /* Профиль в диалоге */
@@ -331,21 +336,26 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 
 /* Раздел "Активные контакты" */
-.itemCard_b64118:first-of-type, .itemCard_b64118, .theme-dark .outer_a41cf3.active__76f42 {
+.itemCard_b64118:first-of-type, .itemCard_b64118, .wrapper__3c6d5 {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
-.theme-dark .outer_a41cf3.interactive__46c44:hover, .section__253ec:only-child {
+.theme-dark .outer_a41cf3.interactive__46c44:hover, .theme-dark .outer_a41cf3.active__76f42, .section__253ec, .section__253ec:first-child, .section__253ec:only-child, .section__253ec:last-child, .theme-dark .inset__61d5b {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
 
 /* Поле ввода */
-.inner__999f6, .themedBackground__3a4c0, .addFriendInputWrapper__2b30b, .addFriendInputWrapper__2b30b:focus-within {
+.inner__999f6, .addFriendInputWrapper__2b30b, .addFriendInputWrapper__2b30b:focus-within, .searchBox__56feb .searchBoxInput__56498, .theme-dark .searchBox__56feb {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 	border: transparent;
 	height: 44px;
+}
+.themedBackground__3a4c0 {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+	border: transparent;
 }
 .form_d8a4a1 {
 	margin: 0 0 -11px 0;
@@ -435,30 +445,37 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 .barFill__1f56b {
     background: var(--link-color);
     height: 100%;
+	border-radius: var(--border-radius);
 }
 .theme-dark .bar_e58961, .theme-dark .markDash_dc3ae9 {
     background: var(--hover-color);
+	border-radius: var(--border-radius);
 }
 .mediaBarInteractionVolume_cc44ff {
     background-color: var(--main-color);
     box-shadow: var(--elevation-high);
+	border-radius: var(--border-radius);
 }
 .mediaBarInteraction_e21234:hover .mediaBarGrabber__1d527 {
     background-color: var(--blue-color-text);
+	border-radius: var(--border-radius);
 }
 .mediaBarGrabber__1d527, .mediaBarGrabber__1d527:before, .mediaBarGrabber__1d527:after, .mediaBarProgress_a3b7f1, .mediaBarProgress_a3b7f1:before, .mediaBarProgress_a3b7f1:after {
     background-color: var(--link-color);
+	border-radius: var(--border-radius);
 }
 .item__183e8.colorDefault_e361cf.hideInteraction__0b569 {
     background: none;
 }
 
 /* Шкала музыки */
-.barInner__0f713 {
-    background: var(--link-color);
+.themed__857a7 .barInner__0f713 {
+    background-color: var(--link-color);
+	border-radius: var(--border-radius);
 }
 .bar_e63719 {
     background: var(--hover-color);
+	border-radius: var(--border-radius);
 }
 
 /* Скролл-бар */
@@ -500,7 +517,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 .bd-switch-symbol, .slider__41d94 > svg {
     display: none;
 }
-.connectContainer_e331e3, .cardPrimary__1ee6a.outline__16075, .card__4dc22:not(.outline__16075), .circle_cbbd13, .connectionHeader__2b82f  {
+.iconContainer_fe08af, .connectContainer_e331e3, .cardPrimary__1ee6a.outline__16075, .card__4dc22:not(.outline__16075), .circle_cbbd13, .connectionHeader__2b82f  {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -550,26 +567,8 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 /* Выделение текста */
 ::selection {
     background: var(--link-color) !important;
+	color: var(--main-color);
 }
-
-/* Предупреждение */
-.card__4dc22:not(.outline_cb0aed), .card__3087a, .cardWarning_d49e9e, .card__4dc22 {
-    background: var(--hover-color);
-}
-
-/* Профиль */
-/*.theme-dark .inviteRow_a25947:hover, .theme-dark .outer_a41cf3.interactive__01cfa:hover, .theme-dark .outer_a41cf3.active__76f42, .addFriendInputWrapper__4bf8e, .inner__999f6, .button__3ecb4:hover, .topPill__0cdf1 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__85bca), .theme-dark .friendSelected_f0db37, .menu__5cf7f .menuItemFocused__1490f, .bar_e63719, .rolePill_ee1aa1, .listRow__60937:hover {
-    background: var(--hover-color);
-}
-.addFriendInputWrapper__4bf8e:focus-within, .theme-dark .checkbox_c7f690, .checkbox__47b1a, .addFriendInputWrapper__4bf8e {
-    border-color: var(--hover-color);
-}
-.themed__857a7 .barInner_d1abc6 {
-    background: var(--link-color);
-}
-.colorDanger_eec36d, .colorDanger_eec36d .checkbox__45366, .colorDanger_eec36d .radioSelection__5ed39 {
-    color: var(--blue-color-text);
-}*/
 
 :root {
     /* Цвет загрузки демок и прочего */
@@ -586,12 +585,29 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     --brand-experiment: var(--hover-color);
      /* Цвет твоей панели активности */
     --background-secondary-alt: var(--additional-color);
-    /* Цвета кнопок удалить сообщения */
+    /* Цвета кнопок */
     --red-430: var(--hover-color);
     --red-500: var(--hover-color);
     --red-530: var(--hover-color);
+	--primary-500: var(--hover-color);
     /* Задний цвет сообщения в модальном окне удаления сообщений */
     --primary-600: var(--main-color);
+	 /* Надпись "Пригласить людей" */
+	--brand-360: var(--blue-color-text);
+}
+
+/* Кнопка "Загрузить"*/
+.hoverButton_be4802 {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+}
+.hoverButton_be4802:hover, .keyboard-mode .hoverButton_be4802:focus {
+    background: var(--link-color);
+	color: var(--main-color);
+}
+.hoverButton_be4802:active {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
 }
 
 /* Кнопка */
