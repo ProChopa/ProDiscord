@@ -73,7 +73,6 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 	--yellow-260: var(--link-color);
 	--yellow-300: var(--link-color);
 	--background-modifier-accent: var(--hover-color);
-	--status-danger: var(--blue-color-text);
 }
 
 /* Сообщения */
@@ -321,7 +320,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 .jumpToPresentBar__69174, .jumpToPresentBar__69174:active {
     background: var(--main-color);
-	padding-bottom: 10px;
+	padding-bottom: 2px;
 }
 
 /* Мероприятия */
@@ -589,29 +588,13 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     --red-430: var(--hover-color);
     --red-500: var(--hover-color);
     --red-530: var(--hover-color);
-	--primary-500: var(--hover-color);
     /* Задний цвет сообщения в модальном окне удаления сообщений */
     --primary-600: var(--main-color);
 	 /* Надпись "Пригласить людей" */
 	--brand-360: var(--blue-color-text);
 }
 
-/* Кнопка "Загрузить"*/
-.hoverButton_be4802 {
-    background: var(--hover-color);
-	color: var(--blue-color-text);
-}
-.hoverButton_be4802:hover, .keyboard-mode .hoverButton_be4802:focus {
-    background: var(--link-color);
-	color: var(--main-color);
-}
-.hoverButton_be4802:active {
-    background: var(--hover-color);
-	color: var(--blue-color-text);
-}
-
-/* Кнопка */
-.barButtonAlt__4b48f, .lookOutlined__46d54.colorPrimary__6ed40, .VoiceActivity-voiceprofilesection-button, .VoiceActivity-voiceprofilesection-button:disabled, .lookFilled__19298.colorBrandNew_fd170a, .button__13ec4, .lookFilled__19298.colorRed_d6b062, .theme-dark .lookLink__93965.colorPrimary__6ed40, .buttonColor__01bf8, .lookFilled__19298.colorGreen__5f181:disabled, .lookFilled__19298.colorGreen__5f181[aria-disabled=true], .lookFilled__19298.colorGreen__5f181, .actionColor__21cca, .button__13ec4, .buttonColor__6f6b0, .lookFilled__19298.colorBrand_b2253e, .lookFilled__19298.colorPrimary__6ed40, .lookInverted_ee4261.colorBrand_b2253e, .lookOutlined__46d54.colorBrand_b2253e, .lookOutlined__46d54.colorGreen__5f181, .lookFilled__19298.colorGreen__5f181, .lookOutlined__46d54.colorRed_d6b062 {
+/*.barButtonAlt__4b48f, .lookOutlined__46d54.colorPrimary__6ed40, .VoiceActivity-voiceprofilesection-button, .VoiceActivity-voiceprofilesection-button:disabled, .lookFilled__19298.colorBrandNew_fd170a, .button__13ec4, .lookFilled__19298.colorRed_d6b062, .theme-dark .lookLink__93965.colorPrimary__6ed40, .buttonColor__01bf8, .lookFilled__19298.colorGreen__5f181:disabled, .lookFilled__19298.colorGreen__5f181[aria-disabled=true], .lookFilled__19298.colorGreen__5f181, .actionColor__21cca, .button__13ec4, .buttonColor__6f6b0, .lookFilled__19298.colorBrand_b2253e, .lookFilled__19298.colorPrimary__6ed40, .lookInverted_ee4261.colorBrand_b2253e, .lookOutlined__46d54.colorBrand_b2253e, .lookOutlined__46d54.colorGreen__5f181, .lookFilled__19298.colorGreen__5f181, .lookOutlined__46d54.colorRed_d6b062 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-color: var(--hover-color);
@@ -629,8 +612,45 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 	color: var(--blue-color-text);
 	border-color: var(--hover-color);
 	border-radius: var(--border-radius);
+}*/
+
+/* Кнопки */
+.VoiceActivity-voiceprofilesection-button,
+.VoiceActivity-voiceprofilesection-button:disabled,
+.lookFilled__950dd.colorBrand__27d57,
+.lookFilled__950dd.colorPrimary_ebe632,
+.theme-dark .lookLink_a2da25.colorPrimary_ebe632,
+.lookFilled__950dd.colorRed__5a617,
+.lookOutlined__014b5.colorRed__5a617 {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
+	border-color: var(--hover-color);
 }
-.theme-dark .lookLink__93965.colorPrimary__6ed40:hover .contents_fb6220{
+.VoiceActivity-voiceprofilesection-button:hover,
+.lookFilled__950dd.colorBrand__27d57:hover,
+.lookFilled__950dd.colorPrimary_ebe632:hover,
+.theme-dark .lookLink_a2da25.colorPrimary_ebe632:hover,
+.lookFilled__950dd.colorRed__5a617:hover,
+.lookOutlined__014b5.colorRed__5a617:hover {
+	background: var(--link-color);
+	color: var(--main-color);
+	border-radius: var(--border-radius);
+	border-color: var(--link-color);
+	opacity: 1;
+}
+.VoiceActivity-voiceprofilesection-button:active,
+.lookFilled__950dd.colorBrand__27d57:active,
+.lookFilled__950dd.colorPrimary_ebe632:active,
+.theme-dark .lookLink_a2da25.colorPrimary_ebe632:active,
+.lookFilled__950dd.colorRed__5a617:active,
+.lookOutlined__014b5.colorRed__5a617:active {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
+	border-color: var(--hover-color);
+}
+.theme-dark .lookLink_a2da25.colorPrimary_ebe632:hover .contents__322f4 {
 	--button--underline-color: transparent;
 }
 
@@ -646,6 +666,20 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 .lookLink__93965.colorLink_b651e5:active {
 	background: none;
 	color: var(--link-color);
+}
+
+/* Кнопка "Загрузить"*/
+.hoverButton_be4802 {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+}
+.hoverButton_be4802:hover, .keyboard-mode .hoverButton_be4802:focus {
+    background: var(--link-color);
+	color: var(--main-color);
+}
+.hoverButton_be4802:active {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
 }
 
 /* Кнопка "Отправить сообщение"  */
