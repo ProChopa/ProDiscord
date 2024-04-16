@@ -792,7 +792,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .lookOutlined__014b5.colorGreen__75c93,
 .buttonSize__9da96,
 .lookOutlined__014b5.colorPrimary_ebe632,
-.voiceChannelsButton_fd0b98 {
+.voiceChannelsButton_fd0b98,
+.lookFilled__950dd.colorGreen__75c93:disabled,
+.lookFilled__950dd.colorGreen__75c93[aria-disabled=true] {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
