@@ -313,6 +313,10 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .top_fae1fa .themed_b957e8.item__48dda:hover {
     border-bottom-color: var(--link-color);
 }
+.redesignIconChildContainer__6b3e7 {
+    background: var(--link-color);
+	border-radius: var(--border-radius);
+}
 
 /* Профиль всплывающий */
 .userPopoutOuter_d67f56,
