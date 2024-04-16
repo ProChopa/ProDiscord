@@ -20,15 +20,11 @@ button[aria-label="Шумоподавление с помощью Krisp"],
 [role="button"][aria-label="Почта"],
 [role="button"][aria-label="Помощь"],
 [role="button"][aria-label="Параметры уведомлений"],
-/*div:has(> button[aria-label="Открыть звуковую панель"]),*/
-/*div:has(> span[class*="disabledButtonWrapper__69c70"]),*/
-/*[role="button"][aria-label="Начать видеозвонок"],*/
-button[aria-label="Розпочати дію"],
-button[aria-label="Поглинання шуму від Krisp"],
-[role="button"][aria-label="Вхідні"],
-[role="button"][aria-label="Довідка"],
-div:has(> button[aria-label="Відкрити звукову панель"]),
-[role="button"][aria-label="Розпочати відеовиклик"],
+div:has(> button[aria-label="Открыть звуковую панель"]),
+div:has(> span[class*="disabledButtonWrapper_b04230"]),
+button[aria-label="Отправить подарок"],
+div:has(> button[aria-label="Открыть меню GIF"]),
+div:has(> button[aria-label="Открыть меню выбора стикеров"]),
 .channel__0aef5 .linkButton__9da2c > .link__3a950[href="/shop"],
 .channel__0aef5 .linkButton__9da2c > .link__3a950[href="/store"] {
     display: none;
@@ -99,15 +95,24 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     background: linear-gradient(100deg, #1b222a 0%, #2a3742 15%, #2a3742 50%, #1b222a 100%);
 	border-radius: var(--border-radius);
 }
+.cozy_f5c119 .repliedMessage__636d2 {
+    background: linear-gradient(100deg, #1b222a 0%, #2a3742 20%, #1b222a 50%, #1b222a 100%);
+	border-radius: var(--border-radius);
+}
+.backgroundFlash__28f42 .groupStart__7b93c {
+	margin: -10px;
+}
 .imageZoom__9528e {
     border-radius: var(--border-radius);
 }
-.embedFull__14919 {
+.embedFull__14919,
+.wrapper__8a5dd {
     background: none;
 	border-radius: var(--border-radius);
 }
 .wrapper__4e6b6 {
     background: var(--hover-color);
+	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 	box-shadow: var(--elevation-high);
 }
@@ -170,7 +175,8 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
     background: var(--main-color) !important;
 }
 .container__26baa *,
-.name_e8e549 {
+.name_e8e549,
+.dropdownButton_a246fc {
     color: var(--link-color);
 }
 .akaBadge__27cd4 {
@@ -179,6 +185,16 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 .topPill__63ad4 .item__48dda {
 	border-radius: var(--border-radius);
+}
+.divider_bdb894 {
+	display: none;
+}
+.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2 {
+    background: transparent;
+}
+.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2:hover,
+.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2[aria-selected=true] {
+    background: var(--hover-color);
 }
 
 /* Список серверов */
@@ -258,8 +274,7 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 .content__23cab,
 .pageBody_c0e5dd,
 .content__1a4fe,
-.content__1a4fe,
-.thin__62e51 {
+.content__1a4fe {
     background: var(--main-color);
 }
 
@@ -302,7 +317,8 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 /* Профиль всплывающий */
 .userPopoutOuter_d67f56,
 .userProfileOuter__4ac83,
-.popoutBanner__3fbe8 {
+.popoutBanner__3fbe8,
+.popoutBannerPremium__84487 {
 	border-radius: var(--border-radius);
 }
 .userPopoutOverlayBackground_bf6444 {
@@ -413,6 +429,9 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 .form_d8a4a1 {
 	margin: 0 0 -11px 0;
+}
+.activityInviteEducationFadeIn__7ce24 {
+    bottom: 70px;
 }
 
 /* Панель "Профиль и голос" */
@@ -694,8 +713,12 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 
 /* Разделители и рамки */
 .divider__979dc,
+.divider__9daf4,
 .dotSpacer_f8ba0a {
     background: var(--link-color);
+}
+.statusOffline__65f09 {
+    background: var(--hover-color);
 }
 .separator__666aa:before {
     border-left: 1px solid var(--main-color);
@@ -762,7 +785,10 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 .pageIndicator__1821d,
 .lookFilled__950dd.colorBrandNew__8872c,
 .warning__4da7a,
-.lookOutlined__014b5.colorGreen__75c93 {
+.lookOutlined__014b5.colorGreen__75c93,
+.buttonSize__9da96,
+.lookOutlined__014b5.colorPrimary_ebe632,
+.voiceChannelsButton_fd0b98 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -781,13 +807,19 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 .pageButtonPrev__9c384:hover,
 .pageButtonNext__13132:hover,
 .lookFilled__950dd.colorBrandNew__8872c:hover,
-.lookOutlined__014b5.colorGreen__75c93:hover {
+.lookOutlined__014b5.colorGreen__75c93:hover,
+.buttonSize__9da96:hover,
+.lookOutlined__014b5.colorPrimary_ebe632:hover,
+.voiceChannelsButton_fd0b98:hover,
+.button_b82d53 .buttonColor__7bad9.buttonActive_ae686f,
+.button_b82d53.buttonColor__7bad9.buttonActive_ae686f {
 	background: var(--link-color);
 	color: var(--main-color);
 	border-radius: var(--border-radius);
 	border-color: var(--link-color);
 	opacity: 1;
 }
+
 .theme-dark .lookLink_a2da25.colorPrimary_ebe632:hover .contents__322f4 {
 	--button--underline-color: transparent;
 }
@@ -804,11 +836,53 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 .pageButtonPrev__9c384:active,
 .pageButtonNext__13132:active,
 .lookFilled__950dd.colorBrandNew__8872c:active,
-.lookOutlined__014b5.colorGreen__75c93:active {
+.lookOutlined__014b5.colorGreen__75c93:active,
+.buttonSize__9da96:active,
+.lookOutlined__014b5.colorPrimary_ebe632:active,
+.voiceChannelsButton_fd0b98:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 	border-color: var(--hover-color);
+}
+
+/* Кнопка "Личные сообщения" */
+.wrapper__8436d:hover .childWrapper_a6ce15,
+.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+.childWrapperNoHoverBg__7e8f1 {
+	border-radius: var(--border-radius);
+}
+
+/* Кнопка "Добавить сервер, Исследуйте" */
+.circleIconButton__05cf2 {
+    color: transparent;
+	border-radius: var(--border-radius);
+}
+.circleIconButton__05cf2.selected_aded59 {
+    color: var(--blue-color-text);
+	background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+
+/* Кнопка "Продемонстрируйте свой экран" */
+.actionButtons__85e3c > button[aria-label="Продемонстрируйте свой экран"] {
+	background: var(--main-color);
+}
+
+/* Кнопки внутри голосовго канала */
+.colorable__4f530.white_ce1c7b,
+.colorable__4f530.white_ce1c7b:hover,
+.colorable__4f530.white_ce1c7b.active_ff29dc {
+	background: var(--link-color);
+	color: var(--main-color);
+	border-color: var(--link-color);
+	opacity: 1;
+}
+.root__649bb {
+    display: none;
 }
 
 /* Кнопка "Загрузить"*/
@@ -827,84 +901,9 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 }
 
 /* Кнопка "Отправить сообщение"  */
-.button__8d734[disabled]>.innerButton_debeee>.buttonChild__7b90d,
-.buttonChild__7b90d {
+.activeButtonChild__58171,
+.theme-dark .button_dd99ad:hover .activeButtonChild__58171,
+.theme-dark .button_dd99ad:focus .activeButtonChild__58171,
+.theme-dark .button_dd99ad:focus-within .activeButtonChild__58171 {
     color: var(--link-color);
-}
-.theme-dark .button__8d734:hover .activeButtonChild__6e162,
-.theme-dark .button__8d734:focus .activeButtonChild__6e162,
-.theme-dark .button__8d734:focus-within .activeButtonChild__6e162 {
-    color: var(--link-color);
-}
-
-/* Кнопка "Показать участников" */
-.participantsButton__56586 {
-    background: var(--hover-color);
-}
-.participantsButton__56586:hover {
-	background: var(--link-color);
-}
-.participantsButton__56586:active {
-    background: var(--hover-color);
-}
-
-/* Кнопка "Голосовая связь подключена" */
-.rtcConnectionStatusConnected__1d5b0 {
-	background: transparent;
-	color: var(--link-color);
-	--button--underline-color: transparent;
-}
-.rtcConnectionStatusConnected__1d5b0:hover {
-	background: transparent;
-	color: var(--link-color);
-	--button--underline-color: transparent;
-}
-.rtcConnectionStatusConnected__1d5b0:active {
-	background: transparent;
-	color: var(--link-color);
-	--button--underline-color: transparent;
-}
-
-/* Кнопка "Личные сообщения" */
-.childWrapper__01b9c {
-    background: transparent
-}
-.theme-dark .container__590e2,
-.container_b2ce9c {
-    background: var(--additional-color);
-}
-
-/* Кнопка "Добавить сервер" */
-.circleIconButton__05cf2 {
-    color: transparent;
-}
-.circleIconButton__05cf2.selected_aded59 {
-    color: var(--blue-color-text);
-	background: var(--hover-color)
-}
-
-/* Кнопка "Добавить в друзья" */
-.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2 {
-    background: transparent;
-}
-.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2[aria-selected=true] {
-    background: var(--hover-color);
-}
-
-/* Кнопка "Продемонстрируйте свой экран" */
-.button_b82d53.buttonColor__7bad9 {
-    background: var(--hover-color);
-}
-.button_b82d53.buttonColor__7bad9:hover {
-    /*color: var(--main-color);*/
-	background: var(--link-color);
-}
-.button_b82d53.buttonColor__7bad9:active {
-    background: var(--hover-color);
-}
-
-/* Кнопка "Отключиться" */
-button[aria-label="Прекратить просмотр"],
-.colorable_c84c4c.red_a51ba8 {
-    background: var(--main-color);
 }
