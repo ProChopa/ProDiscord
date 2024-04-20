@@ -242,6 +242,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .content__3b07e {
     border-radius: var(--border-radius);
 }
+.thin__62e51 {
+	border-radius: var(--border-radius);
+}
 
 /* Иконки каналов */
 .modeUnreadImportant__35358 .icon__67ab4,
@@ -824,7 +827,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .lookOutlined__014b5.colorPrimary_ebe632:hover,
 .voiceChannelsButton_fd0b98:hover,
 .button_b82d53 .buttonColor__7bad9.buttonActive_ae686f,
-.button_b82d53.buttonColor__7bad9.buttonActive_ae686f {
+.button_b82d53.buttonColor__7bad9.buttonActive_ae686f,
+.button__76c4e:not([disabled]):hover {
 	background: var(--link-color);
 	color: var(--main-color);
 	border-radius: var(--border-radius);
