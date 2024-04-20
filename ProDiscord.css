@@ -437,8 +437,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .form_d8a4a1 {
 	margin: 0 0 -11px 0;
 }
-.activityInviteEducationFadeIn__7ce24 {
-    bottom: 70px;
+.activityInviteEducationFadeIn__7ce24,
+.base__06abc {
+    bottom: 72px;
 }
 
 /* Панель "Профиль и голос" */
@@ -852,7 +853,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .lookOutlined__014b5.colorGreen__75c93:active,
 .buttonSize__9da96:active,
 .lookOutlined__014b5.colorPrimary_ebe632:active,
-.voiceChannelsButton_fd0b98:active {
+.voiceChannelsButton_fd0b98:active,
+.button__76c4e:not([disabled]):active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
