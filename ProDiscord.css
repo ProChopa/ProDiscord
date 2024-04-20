@@ -2,13 +2,10 @@
 
 :root {
 	--main-color: #1b222a;
-	--additional-color: #1b222a;
-	--voice-color: #1b222a;
-	--button-color: linear-gradient(#2a3742, #2a3742);
-	--blue-color-text: #cdd6f4;
 	--hover-color: #2a3742;
 	--link-color: #5785ba;
-	--checkbox-cheked-color: #5785ba;
+	--blue-color-text: #cdd6f4;
+	--button-color: #2a3742;
 	--message-background: linear-gradient(100deg, #2a3742 0%, #2a3742 15%, #1b222a 50%);
 	--border-radius: 24px;
 }
@@ -57,7 +54,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	--background-modifier-hover: var(--hover-color);
 	--background-modifier-selected: var(--hover-color);
 	/* Контекстное меню */
-    --background-floating: var(--additional-color);
+    --background-floating: var(--main-color);
 	/* Цвет ссылок */
     --text-link: var(--link-color);
 	/* Закреплённые сообщения */
@@ -696,7 +693,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 .container__871ba.checked__6bdb0,
 .bd-switch input:checked + .bd-switch-body {
-    background: var(--checkbox-cheked-color) !important;
+    background: var(--link-color); !important;
 }
 .bd-switch-symbol,
 .slider__41d94 > svg {
@@ -760,14 +757,14 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     --brand-experiment-560: var(--hover-color);
 	--brand-experiment-600: var(--hover-color);
     /* Цвет контекстного меню выбора региона звонка */
-    --primary-630: var(--additional-color);
+    --primary-630: var(--main-color);
     --background-primary: var(--main-color);
     /* Кнопка В эфире */
     --red-400: var(--link-color);
     /* Выбранное разрешение и фпс демки */
     --brand-experiment: var(--hover-color);
      /* Цвет твоей панели активности */
-    --background-secondary-alt: var(--additional-color);
+    --background-secondary-alt: var(--main-color);
     /* Цвета кнопок */
     --red-430: var(--hover-color);
     --red-500: var(--hover-color);
