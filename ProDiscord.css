@@ -801,7 +801,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .lookOutlined__014b5.colorPrimary_ebe632,
 .voiceChannelsButton_fd0b98,
 .lookFilled__950dd.colorGreen__75c93:disabled,
-.lookFilled__950dd.colorGreen__75c93[aria-disabled=true] {
+.lookFilled__950dd.colorGreen__75c93[aria-disabled=true],
+.theme-dark .watchButton__5a93d {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -826,7 +827,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .voiceChannelsButton_fd0b98:hover,
 .button_b82d53 .buttonColor__7bad9.buttonActive_ae686f,
 .button_b82d53.buttonColor__7bad9.buttonActive_ae686f,
-.button__76c4e:not([disabled]):hover {
+.button__76c4e:not([disabled]):hover,
+.theme-dark .watchButton__5a93d:hover {
 	background: var(--link-color);
 	color: var(--main-color);
 	border-radius: var(--border-radius);
@@ -854,7 +856,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .buttonSize__9da96:active,
 .lookOutlined__014b5.colorPrimary_ebe632:active,
 .voiceChannelsButton_fd0b98:active,
-.button__76c4e:not([disabled]):active {
+.button__76c4e:not([disabled]):active,
+.theme-dark .watchButton__5a93d:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
