@@ -236,11 +236,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	border-radius: var(--border-radius);
 }
 .link_ddbb36,
-.content__3b07e {
-    border-radius: var(--border-radius);
-}
+.content__3b07e,
 .thin__62e51 {
-	border-radius: var(--border-radius);
+    border-radius: var(--border-radius);
 }
 
 /* Иконки каналов */
