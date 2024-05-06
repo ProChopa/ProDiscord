@@ -765,6 +765,14 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .flexCenter__6f8a2 {
     background: var(--main-color);
 }
+.tile_f5f57f.idle__90385, .tile_f5f57f.noInteraction__154a1 {
+    border-radius: var(--border-radius);
+}
+.overlayContainer__8885d,
+.content_d17ad6,
+.border_d9a17b, .border_d9a17b.speaking_c28527 {
+    border-radius: var(--border-radius);
+}
 
 :root {
     /* Цвет загрузки демок и прочего */
@@ -818,7 +826,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .lookFilled__950dd.colorGreen__75c93:disabled,
 .lookFilled__950dd.colorGreen__75c93[aria-disabled=true],
 .theme-dark .watchButton__5a93d,
-.button_c5d028 {
+.button_c5d028,
+.cta__69e2a{
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -845,7 +854,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .button_b82d53.buttonColor__7bad9.buttonActive_ae686f,
 .button__76c4e:not([disabled]):hover,
 .theme-dark .watchButton__5a93d:hover,
-.button_c5d028:hover {
+.button_c5d028:hover,
+.cta__69e2a:hover {
 	background: var(--link-color);
 	color: var(--main-color);
 	border-radius: var(--border-radius);
@@ -875,7 +885,950 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .voiceChannelsButton_fd0b98:active,
 .button__76c4e:not([disabled]):active,
 .theme-dark .watchButton__5a93d:active,
-.button_c5d028:active {
+.button_c5d028:active,
+.cta__69e2a:active {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
+	border-color: var(--hover-color);
+}
+
+/* Кнопка "Личные сообщения" */
+.wrapper__8436d:hover .childWrapper_a6ce15,
+.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+.childWrapperNoHoverBg__7e8f1 {
+	border-radius: var(--border-radius);
+}
+
+/* Кнопка "Добавить сервер, Исследуйте" */
+.circleIconButton__05cf2 {
+    color: transparent;
+	border-radius: var(--border-radius);
+}
+.circleIconButton__05cf2.selected_aded59 {
+    color: var(--blue-color-text);
+	background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+
+/* Кнопка "Продемонстрируйте свой экран" */
+.actionButtons__85e3c > button[aria-label="Продемонстрируйте свой экран"] {
+	background: var(--main-color);
+}
+
+/* Кнопка "Загрузить"*/
+.hoverButton_be4802 {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+}
+.hoverButton_be4802:hover,
+.keyboard-mode .hoverButton_be4802:focus {
+    background: var(--link-color);
+	color: var(--main-color);
+}
+.hoverButton_be4802:active {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+}
+
+/* Кнопка "Отправить сообщение"  */
+.activeButtonChild__58171,
+.theme-dark .button_dd99ad:hover .activeButtonChild__58171,
+.theme-dark .button_dd99ad:focus .activeButtonChild__58171,
+.theme-dark .button_dd99ad:focus-within .activeButtonChild__58171 {
+    color: var(--link-color);
+}@import url("https://discordstyles.github.io/SoftX/RadialGlow.css");
+
+:root {
+	--main-color: #1b222a;
+	--hover-color: #2a3742;
+	--link-color: #5785ba;
+	--blue-color-text: #cdd6f4;
+	--button-color: #2a3742;
+	--message-background: linear-gradient(100deg, #2a3742 0%, #2a3742 15%, #1b222a 50%);
+	--border-radius: 24px;
+}
+
+/* Скрытие кнопок */
+button[aria-label="Начать активность"],
+button[aria-label="Камера недоступна"],
+button[aria-label="Шумоподавление с помощью Krisp"],
+[role="button"][aria-label="Почта"],
+[role="button"][aria-label="Помощь"],
+[role="button"][aria-label="Параметры уведомлений"],
+div:has(> button[aria-label="Открыть звуковую панель"]),
+div:has(> span[class*="disabledButtonWrapper_b04230"]),
+button[aria-label="Отправить подарок"],
+div:has(> button[aria-label="Открыть меню GIF"]),
+div:has(> button[aria-label="Открыть меню выбора стикеров"]),
+.channel__0aef5 .linkButton__9da2c > .link__3a950[href="/shop"],
+.channel__0aef5 .linkButton__9da2c > .link__3a950[href="/store"] {
+    display: none;
+}
+
+.theme-dark {
+	/* Текст */
+	--brand-260: var(--blue-color-text);
+	--primary-130: var(--blue-color-text);
+	--primary-230: var(--blue-color-text);
+	--primary-330: var(--blue-color-text);
+	--primary-360: var(--blue-color-text);
+	--primary-430: var(--blue-color-text);
+	--primary-560: var(--blue-color-text);
+	--primary-660: var(--main-color);
+	--white-500: var(--blue-color-text);
+	--interactive-hover: var(--blue-color-text);
+    --interactive-muted: var(--blue-color-text);
+	--channel-text-area-placeholder: var(--blue-color-text);
+	--channeltextarea-background: var(--blue-color-text);
+	--deprecated-text-input-bg: var(--blue-color-text);
+    --deprecated-text-input-border: var(--blue-color-text);
+    --deprecated-text-input-border-disabled: var(--blue-color-text);
+    --deprecated-text-input-border-hover: var(--blue-color-text);
+    --deprecated-text-input-prefix: var(--blue-color-text);
+	--input-placeholder-text-dark: var(--blue-color-text);
+    --button-outline-danger-text-active: var(--blue-color-text);
+	/* Каналы на сервере */
+    --background-modifier-active: var(--hover-color);
+	--background-modifier-hover: var(--hover-color);
+	--background-modifier-selected: var(--hover-color);
+	/* Контекстное меню */
+    --background-floating: var(--main-color);
+	/* Цвет ссылок */
+    --text-link: var(--link-color);
+	/* Закреплённые сообщения */
+    --background-primary: var(--message-background);
+	/* Различные цвета */
+	--brand-500: var(--link-color);
+	--green-330: var(--link-color);
+	--green-360: var(--link-color);
+	--yellow-260: var(--link-color);
+	--yellow-300: var(--link-color);
+	--background-modifier-accent: var(--hover-color);
+}
+
+/* Сообщения */
+.cozy_f5c119.wrapper_a62503,
+.group-spacing-16 .groupStart__7b93c {
+    position: relative;
+    margin: 16px 5px 0 70px;
+    padding: 8px 10px;
+    padding-bottom: 3px;
+    background: var(--message-background);
+    border-bottom: none !important;
+    overflow: visible !important;
+    border-radius: var(--border-radius);
+}
+.theme-dark .message_ccca67.selected_e3bc5d,
+.theme-dark.mouse-mode.full-motion .message_ccca67:hover {
+    background: var(--message-background);
+}
+.attachment__06ca3.newMosaicStyle_b4aa24,
+.newMosaicStyle_ed53d8 .codeView_e4dd18,
+.newMosaicStyle_ed53d8 .footer__90194,
+.newMosaicStyle_ed53d8 .textContainer__65f57,
+.grid__35551 {
+    background: linear-gradient(100deg, #1b222a 0%, #2a3742 15%, #2a3742 50%, #1b222a 100%);
+	border-radius: var(--border-radius);
+}
+.cozy_f5c119 .repliedMessage__636d2 {
+    background: linear-gradient(100deg, #1b222a 0%, #2a3742 20%, #1b222a 50%, #1b222a 100%);
+	border-radius: var(--border-radius);
+}
+.backgroundFlash__28f42 .groupStart__7b93c {
+	margin: -10px;
+}
+.imageZoom__9528e {
+    border-radius: var(--border-radius);
+}
+.embedFull__14919,
+.wrapper__8a5dd {
+    background: none;
+	border-radius: var(--border-radius);
+}
+.wrapper__4e6b6 {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
+}
+.button_d4bf9b:hover,
+.button_d4bf9b.selected__74fee {
+    background: var(--link-color);
+	color: var(--main-color);
+}
+.avatar__08316 {
+    top: 0px;
+    left: -50px;
+}
+.wrapper_a62503.groupStart__7b93c .avatarDecoration__8a0c2 {
+  top: 0;
+  left: -54px;
+}
+.message_ccca67:not(.groupStart__7b93c) {
+    margin: 0 5px 0 70px;
+    background: var(--message-background);
+    overflow: visible;
+}
+.wrapper_a62503 .dot_e3691c {
+    margin: 0 4px;
+}
+.cozy_f5c119:not(.groupStart__7b93c) {
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    border-radius: var(--border-radius);
+    margin-top: 2px;
+}
+.cozy_f5c119 .timestamp_c79dd2.alt__6c563 {
+    left: -65px;
+}
+
+/* Упоминание */
+.mentioned_fa6fd2 {
+    background: var(--hover-color);
+}
+.mentioned_fa6fd2 .messageContent_abea64 .wrapper__53064 {
+    background: var(--link-color);
+	color: var(--main-color);
+}
+.mentioned_fa6fd2:before,
+.cozy_f5c119 .repliedMessage__636d2:before {
+    display: none;
+}
+
+/* Каналы в упоминании */
+.wrapper__53064,
+.wrapper__53064:hover {
+    background: var(--link-color);
+	color: var(--main-color);
+	border-radius: var(--border-radius);
+}
+
+/* Шапка */
+.themed_b152d4,
+.children__32014:after {
+    background: var(--main-color) !important;
+}
+.container__26baa *,
+.name_e8e549,
+.dropdownButton_a246fc {
+    color: var(--link-color);
+}
+.akaBadge__27cd4 {
+    background: var(--link-color);
+	color: var(--main-color);
+}
+.topPill__63ad4 .item__48dda {
+	border-radius: var(--border-radius);
+}
+.divider_bdb894 {
+	display: none;
+}
+.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2 {
+    background: transparent;
+}
+.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2:hover,
+.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2[aria-selected=true] {
+    background: var(--hover-color);
+}
+
+/* Список серверов */
+.guilds__2b93a {
+    width: 68px;
+}
+
+/* Выбранный сервер */
+.item_f9d377 {
+    background-color: var(--link-color);
+}
+
+/* Значки на серверах */
+.iconBadge__19638,
+.base__5ed84 {
+    background: var(--link-color) !important;
+	color: var(--main-color);
+}
+
+/* Создание сервера */
+.root_a28985,
+.footer_e0b400,
+.theme-dark .footerSeparator__2af8d,
+.container__9dd63 {
+	border-radius: var(--border-radius);
+	border: var(--main-color);
+	box-shadow: var(--elevation-high);
+}
+
+/* Путешествие */
+.categoryItem__0608f.selectedCategoryItem__3e361 .itemInner_eedb2b,
+.wrappedLayout__24524 {
+	border-radius: var(--border-radius);
+}
+
+/* Список каналов, диалогов */
+.sidebar_e031be {
+    width: 305px;
+}
+.channel__0aef5 {
+    max-width: 500px;
+	border-radius: var(--border-radius);
+}
+.link_ddbb36,
+.content__3b07e,
+.thin__62e51 {
+    border-radius: var(--border-radius);
+}
+
+/* Иконки каналов */
+.modeUnreadImportant__35358 .icon__67ab4,
+.modeUnreadImportant__35358:hover .icon__67ab4,
+.modeSelected__473f1 .icon__67ab4,
+.modeSelected__473f1:hover .icon__67ab4,
+.icon__67ab4, .actionIcon_b149a2,
+.iconItem__56989:hover .actionIcon_b149a2,
+.actionIcon_b149a2:active,
+.icon__1e4c2 {
+    color: var(--link-color);
+}
+.users__65981 {
+    background-color: var(--hover-color);
+}
+
+/* Значок "В ЭФИРЕ" */
+.liveShapeRound__75159 {
+    color: var(--main-color);
+	border-radius: var(--border-radius);
+}
+
+/* Значок демонстрации */
+.icon__493c1 {
+    background: var(--hover-color) !important;
+	border-radius: var(--border-radius);
+}
+
+/* Просмотр каналов. Участники. (Для Админов) */
+.content__23cab,
+.pageBody_c0e5dd,
+.content__1a4fe,
+.content__1a4fe {
+    background: var(--main-color);
+}
+
+/* Список участников */
+.members__573eb {
+    width: 305px;
+}
+.member_aa4760 {
+    max-width: 500px;
+}
+.memberInner__4dac6 {
+    border-radius: var(--border-radius);
+}
+
+/* Профиль */
+.profileBanner_f0f36c {
+	border-radius: var(--border-radius);
+}
+.body_bd4552 {
+	flex: 0;
+	margin: 0px;
+}
+.connectedAccountContainer__5972d {
+    background: var(--hover-color);
+    padding: 5px 5px;
+	margin: 2px;
+    border-radius: var(--border-radius);
+}
+.userInfoSection_e816c1+.userInfoSection_e816c1 {
+    border-top: transparent;
+}
+.tabBarContainer_b283be {
+    background: var(--main-color) !important;
+}
+.top_fae1fa .selected_a523ff.themed_b957e8.item__48dda,
+.top_fae1fa .themed_b957e8.item__48dda:hover {
+    border-bottom-color: var(--link-color);
+}
+.redesignIconChildContainer__6b3e7 {
+    background: var(--link-color);
+	border-radius: var(--border-radius);
+}
+
+/* Профиль всплывающий */
+.userPopoutOuter_d67f56,
+.userProfileOuter__4ac83,
+.popoutBanner__3fbe8,
+.popoutBannerPremium__84487 {
+	border-radius: var(--border-radius);
+}
+.userPopoutOverlayBackground_bf6444 {
+    margin: 28px 0px 0px 0px;
+}
+.overlayBackground__2666e * {
+	max-width: 1000px;
+	border: none;
+}
+.rolePill_f50ff5 {
+    background-color: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+.messageInputContainer_a93946 {
+	border: none;
+}
+.scroller_f9a667 {
+    padding-bottom: 15px;
+}
+
+/* Профиль в диалоге */
+.profilePanel_e2cafe {
+    width: 305px;
+}
+.listRow__50619 {
+    border-radius: var(--border-radius);
+}
+.userPanelOverlayBackground__41589 {
+    margin: 0px;
+}
+.panelBanner__7d7e2 {
+    border-radius: 0 24px;
+}
+
+/* Панель "Переподключиться" */
+.colorWarning__01125 {
+    background: var(--link-color);
+    color: var(--main-color);
+	border-radius: 0px;
+}
+
+/* Панель "Новые сообщения" */
+.newMessagesBar__8b272,
+.barButtonMain__984b4,
+.barButtonAlt_e800ef {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
+}
+
+/* Панель "Вы просматриваете старые сообщения" */
+.barButtonBase__5e4cf {
+    background: var(--hover-color);
+}
+.jumpToPresentBar__69174,
+.jumpToPresentBar__69174:active {
+    background: var(--main-color);
+	padding-bottom: 2px;
+}
+
+/* Приглашение друзей" */
+.theme-dark .inviteRow_d6ad74:hover {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+
+/* Мероприятия */
+.header__5e5a6,
+.theme-dark .separator_aab1f8,
+.content_ec8694 {
+    border-radius: var(--border-radius);
+	box-shadow: none;
+}
+
+/* Список друзей */
+.peopleListItem_dab480:hover,
+.peopleListItem_dab480.active__6b8ff {
+    border-radius: var(--border-radius);
+}
+
+/* Раздел "Активные контакты" */
+.itemCard_b64118:first-of-type,
+.itemCard_b64118,
+.wrapper__3c6d5 {
+    background: var(--main-color);
+	border-radius: var(--border-radius);
+}
+.theme-dark .outer_a41cf3.interactive__46c44:hover,
+.theme-dark .outer_a41cf3.active__76f42,
+.section__253ec, .section__253ec:first-child,
+.section__253ec:only-child,
+.section__253ec:last-child,
+.theme-dark .inset__61d5b {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+
+/* Поле ввода */
+.inner__999f6,
+.searchBox__56feb .searchBoxInput__56498,
+.theme-dark .searchBox__56feb,
+.addFriendInputWrapper__2b30b,
+.addFriendInputWrapper__2b30b:focus-within,
+.themedBackground__3a4c0,
+.searchBar__621ec .searchBarComponent__8f95f,
+.searchBar__5a20a,
+.input__745d4 {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+	border: transparent;
+}
+.form_d8a4a1 {
+	margin: 0 0 -11px 0;
+}
+.activityInviteEducationFadeIn__7ce24,
+.base__06abc {
+    bottom: 72px;
+}
+
+/* Панель "Профиль и голос" */
+.container_e1958d,
+.panel_bd8c76,
+.theme-dark .container_debb33,
+.theme-dark .panel_bd8c76,
+.container_debb33 .withTagless__058f8:hover {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+	margin-top: 2px;
+}
+.container_debb33 .withTagAsButton_e22174:hover {
+    background: none;
+}
+.panels__58331 {
+    margin: 0 0 13px 0;
+}
+.container_debb33 {
+	height: 43px;
+}
+.container_debb33 .withTagAsButton_e22174,
+.container_debb33 .withTagless__058f8 {
+    width: 500px;
+}
+
+/* Меню команд */
+.outerWrapper__99794 {
+	border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
+}
+.base__87e58 {
+	border-radius: var(--border-radius);
+}
+.selected__46356:hover {
+    background-color: var(--hover-color);
+}
+.theme-dark .option__2b069 {
+    background-color: var(--main-color);
+	border-radius: var(--border-radius);
+}
+
+/* Реакции */
+.reaction__4a43f {
+    background: var(--main-color);
+	border-radius: var(--border-radius);
+}
+.reaction__4a43f:hover {
+    background: var(--main-color);
+	border-color: var(--link-color);
+}
+.reaction__4a43f.reactionMe__0fffc {
+    background: var(--link-color);
+    color: var(--main-color);
+	border-radius: var(--border-radius);
+}
+.reaction__4a43f.reactionMe__0fffc .reactionCount__2c34d {
+	color: var(--main-color);
+}
+
+/* Панель "Эмодзи" */
+.stickerAsset_ab864f,
+.listItems__699d1,
+.categoryList_f8c48f,
+.inspector__993e1 {
+    background: var(--main-color);
+	border-radius: var(--border-radius);
+}
+.stickerAsset_ab864f:hover,
+.navButton__05cc7:hover,
+.navButtonActive__0c878,
+.navButtonActive__0c878:hover,
+.emojiItem_de65fd.emojiItemSelected__023be,
+.categoryItemDefaultCategorySelected__8245a,
+.categoryItemDefaultCategorySelected__8245a:hover,
+.categoryItemDefaultCategory__67fe7:hover {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
+}
+
+/* Голосовое сообщение */
+.theme-dark .container_ce813c:not(.playing__0754e) .playButtonContainer_bf2199,
+.theme-dark .container_ce813c:not(.playing__0754e) .playButtonContainer_bf2199:hover,
+.theme-dark .container_ce813c:not(.playing__0754e) .mediaBarProgress_a3b7f1:after,
+.playing__0754e .playButtonContainer_bf2199,
+.playing__0754e .playButtonContainer_bf2199:active,
+.playButtonContainer_bf2199:active {
+    background: var(--link-color);
+}
+.playButtonContainer_bf2199 .playIcon__25e6e {
+    color: var(--main-color);
+}
+.container_ce813c {
+    border-radius: var(--border-radius);
+    background-color: var(--main-color);
+    color: var(--hover-color);
+}
+.ripple__74f0d {
+  display: none;
+}
+
+/* Ползунок громкости */
+.barFill__1f56b {
+    background: var(--link-color);
+    height: 100%;
+	border-radius: var(--border-radius);
+}
+.theme-dark .bar_e58961,
+.theme-dark .markDash_dc3ae9 {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+.mediaBarInteractionVolume_cc44ff {
+    background-color: var(--main-color);
+    box-shadow: var(--elevation-high);
+	border-radius: var(--border-radius);
+}
+.mediaBarInteraction_e21234:hover .mediaBarGrabber__1d527,
+.grabber_e3daf3 {
+    background-color: var(--blue-color-text);
+	border-radius: var(--border-radius);
+}
+.mediaBarGrabber__1d527,
+.mediaBarGrabber__1d527:before,
+.mediaBarGrabber__1d527:after,
+.mediaBarProgress_a3b7f1,
+.mediaBarProgress_a3b7f1:before,
+.mediaBarProgress_a3b7f1:after {
+    background-color: var(--link-color);
+	border-radius: var(--border-radius);
+}
+.item__183e8.colorDefault_e361cf.hideInteraction__0b569 {
+    background: none;
+}
+
+/* Шкала музыки */
+.themed__857a7 .barInner__0f713 {
+    background-color: var(--link-color);
+	border-radius: var(--border-radius);
+}
+.bar_e63719 {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+
+/* Скролл-бар */
+::-webkit-scrollbar {
+    border: 0px !important;
+    width: 6px !important;
+}
+::-webkit-scrollbar-thumb {
+    background: #2a3742 !important;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #cdd6f4 !important;
+}
+.auto_a48086::-webkit-scrollbar-track {
+    background: var(--main-color);
+}
+.auto_a48086::-webkit-scrollbar-thumb,
+.auto_a48086::-webkit-scrollbar-track {
+    border: 4px;
+}
+
+/* Контекстное меню */
+.scroller__8f066,
+.menu__088f7 {
+    background-color: var(--main-color);
+    border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
+}
+.colorDefault_e361cf:hover,
+.colorDefault_e361cf:active,
+.colorDefault_e361cf.focused_dcafb9 {
+    background-color: var(--hover-color);
+    border-radius: var(--border-radius);
+}
+.button_bfb8e1:hover {
+    background-color: var(--hover-color);
+}
+
+/* Выпадающее меню */
+.popout_a6e77f {
+    background-color: var(--main-color);
+    border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
+}
+.option_eb83e4[aria-selected=true]:not(.option_eb83e4.multi__8d15f),
+.option_eb83e4:hover,
+.option_eb83e4.focused_d14fa7 {
+    background-color: var(--hover-color);
+    border-radius: var(--border-radius);
+}
+.option_eb83e4:focus {
+    background-color: var(--main-color);
+}
+
+/* Настройки */
+.iconContainer_fe08af,
+.connectContainer_e331e3,
+.cardPrimary__1ee6a.outline__16075,
+.card__4dc22:not(.outline__16075),
+.circle_cbbd13,
+.connectionHeader__2b82f,
+.lookFilled__9c1ef.select_fe2671,
+.option_eb83e4:active,
+.searchableSelect__3a835 .option_eb83e4:hover,
+.key__6a8d9 {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
+}
+.top_fae1fa .brand_ce3ecf.item__48dda:hover,
+.top_fae1fa .brand_ce3ecf.selected_a523ff.item__48dda {
+    border-bottom-color: var(--link-color);
+}
+.theme-dark .progress_bcbb99 {
+    background: var(--hover-color);
+}
+.item_b7fb7e[aria-checked=true],
+.item_b7fb7e:hover,
+.radioBar__70669.radioPositionLeft_c8ce26,
+.side_b4b3f6 .themed_b957e8.item__48dda,
+.side_b4b3f6 .themed_b957e8.selected_a523ff.item__48dda {
+    border-radius: var(--border-radius);
+}
+.theme-dark .container__8267c,
+.theme-dark .container__8267c:hover {
+    border-radius: var(--border-radius);
+	border-color: var(--hover-color);
+}
+.wrapper__4b6b3 {
+    background-color: var(--main-color);
+    border-radius: var(--border-radius);
+    border-color: var(--hover-color);
+}
+.disabled__586d3 {
+	color: var(--hover-color);
+	opacity: 1;
+}
+.option__1d8de {
+	background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+.option__1d8de:hover,
+.selected__4e154.option__1d8de {
+    background-color: var(--link-color);
+    border-radius: var(--border-radius);
+    box-shadow: none;
+	opacity: 1;
+}
+.container__871ba.checked__6bdb0,
+.bd-switch input:checked + .bd-switch-body {
+    background: var(--link-color); !important;
+}
+.bd-switch-symbol,
+.slider__41d94 > svg {
+    display: none;
+}
+.bd-filled-checkmark {
+    background: var(--link-color);
+    border-radius: var(--border-radius);
+}
+.bd-empty-updates svg {
+	fill: var(--link-color);
+}
+.bd-addon-header {
+    background-color: var(--hover-color) !important;
+	border-radius: var(--border-radius);
+}
+
+/* Авторство */
+.info__755e1:after {
+    content: "Theme by ProChopa";
+    color: var(--blue-color-text);
+	font-size: 12px;
+}
+
+/* Разделители и рамки */
+.divider__979dc,
+.divider__9daf4,
+.dotSpacer_f8ba0a {
+    background: var(--link-color);
+}
+.statusOffline__65f09 {
+    background: var(--hover-color);
+}
+.separator__666aa:before {
+    border-left: 1px solid var(--main-color);
+}
+.divider_f0c60d {
+    display: none;
+}
+
+/* Подсказки при наведении */
+.tooltipPrimary__51b23,
+.tooltipGrey__3108e {
+    background: var(--button-color) !important;
+    border-radius: var(--border-radius);
+}
+.lookFilled__19298.colorGreen__5f181 {
+    color: var(--main-color);
+}
+
+/* Выделение текста */
+::selection {
+    background: var(--link-color) !important;
+	color: var(--main-color);
+}
+
+/* Внутри голосовго канала */
+.colorable__4f530.white_ce1c7b,
+.colorable__4f530.white_ce1c7b:hover,
+.colorable__4f530.white_ce1c7b.active_ff29dc {
+	background: var(--link-color);
+	color: var(--main-color);
+	border-color: var(--link-color);
+	opacity: 1;
+}
+.root__649bb {
+    display: none;
+}
+.root__3eef0,
+.flexCenter__6f8a2 {
+    background: var(--main-color);
+}
+.tile_f5f57f.idle__90385, .tile_f5f57f.noInteraction__154a1 {
+    border-radius: var(--border-radius);
+}
+.overlayContainer__8885d,
+.content_d17ad6,
+.border_d9a17b, .border_d9a17b.speaking_c28527 {
+    border-radius: var(--border-radius);
+}
+
+:root {
+    /* Цвет загрузки демок и прочего */
+    --primary-700: var(--main-color);
+    /* Цвет в контекстном меню при наведении */
+    --brand-experiment-560: var(--hover-color);
+	--brand-experiment-600: var(--hover-color);
+    /* Цвет контекстного меню выбора региона звонка */
+    --primary-630: var(--main-color);
+    --background-primary: var(--main-color);
+    /* Кнопка В эфире */
+    --red-400: var(--link-color);
+    /* Выбранное разрешение и фпс демки */
+    --brand-experiment: var(--hover-color);
+     /* Цвет твоей панели активности */
+    --background-secondary-alt: var(--main-color);
+    /* Цвета кнопок */
+    --red-430: var(--hover-color);
+    --red-500: var(--hover-color);
+    --red-530: var(--hover-color);
+    /* Задний цвет сообщения в модальном окне удаления сообщений */
+    --primary-600: var(--main-color);
+	/* Цвет надписи "Пригласить людей" в меню сервера */
+	--brand-360: var(--blue-color-text);
+}
+
+/* Кнопки */
+.VoiceActivity-voiceprofilesection-button,
+.VoiceActivity-voiceprofilesection-button:disabled,
+.lookFilled__950dd.colorBrand__27d57,
+.lookFilled__950dd.colorPrimary_ebe632,
+.theme-dark .lookLink_a2da25.colorPrimary_ebe632,
+.lookFilled__950dd.colorRed__5a617,
+.lookOutlined__014b5.colorRed__5a617,
+.lookOutlined__014b5.colorBrand__27d57,
+.lookInverted_a299dc.colorBrand__27d57,
+.buttonColor__8c13f,
+.lookFilled__950dd.colorGreen__75c93,
+.statusTag_b7064d,
+.pageButtonPrev__9c384,
+.pageButtonNext__13132,
+.pageButtonPrev__9c384.disabled__82158,
+.pageButtonNext__13132.disabled__82158,
+.pageIndicator__1821d,
+.lookFilled__950dd.colorBrandNew__8872c,
+.warning__4da7a,
+.lookOutlined__014b5.colorGreen__75c93,
+.buttonSize__9da96,
+.lookOutlined__014b5.colorPrimary_ebe632,
+.voiceChannelsButton_fd0b98,
+.lookFilled__950dd.colorGreen__75c93:disabled,
+.lookFilled__950dd.colorGreen__75c93[aria-disabled=true],
+.theme-dark .watchButton__5a93d,
+.button_c5d028,
+.cta__69e2a{
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
+	border-color: var(--hover-color);
+}
+.VoiceActivity-voiceprofilesection-button:hover,
+.lookFilled__950dd.colorBrand__27d57:hover,
+.lookFilled__950dd.colorPrimary_ebe632:hover,
+.theme-dark .lookLink_a2da25.colorPrimary_ebe632:hover,
+.lookFilled__950dd.colorRed__5a617:hover,
+.lookOutlined__014b5.colorRed__5a617:hover,
+.lookOutlined__014b5.colorBrand__27d57:hover,
+.lookInverted_a299dc.colorBrand__27d57:hover,
+.buttonColor__8c13f:hover,
+.lookFilled__950dd.colorGreen__75c93:hover,
+.pageButtonPrev__9c384:hover,
+.pageButtonNext__13132:hover,
+.lookFilled__950dd.colorBrandNew__8872c:hover,
+.lookOutlined__014b5.colorGreen__75c93:hover,
+.buttonSize__9da96:hover,
+.lookOutlined__014b5.colorPrimary_ebe632:hover,
+.voiceChannelsButton_fd0b98:hover,
+.button_b82d53 .buttonColor__7bad9.buttonActive_ae686f,
+.button_b82d53.buttonColor__7bad9.buttonActive_ae686f,
+.button__76c4e:not([disabled]):hover,
+.theme-dark .watchButton__5a93d:hover,
+.button_c5d028:hover,
+.cta__69e2a:hover {
+	background: var(--link-color);
+	color: var(--main-color);
+	border-radius: var(--border-radius);
+	border-color: var(--link-color);
+	opacity: 1;
+}
+
+.theme-dark .lookLink_a2da25.colorPrimary_ebe632:hover .contents__322f4 {
+	--button--underline-color: transparent;
+}
+.VoiceActivity-voiceprofilesection-button:active,
+.lookFilled__950dd.colorBrand__27d57:active,
+.lookFilled__950dd.colorPrimary_ebe632:active,
+.theme-dark .lookLink_a2da25.colorPrimary_ebe632:active,
+.lookFilled__950dd.colorRed__5a617:active,
+.lookOutlined__014b5.colorRed__5a617:active,
+.lookOutlined__014b5.colorBrand__27d57:active,
+.lookInverted_a299dc.colorBrand__27d57:active,
+.buttonColor__8c13f:active,
+.lookFilled__950dd.colorGreen__75c93:active,
+.pageButtonPrev__9c384:active,
+.pageButtonNext__13132:active,
+.lookFilled__950dd.colorBrandNew__8872c:active,
+.lookOutlined__014b5.colorGreen__75c93:active,
+.buttonSize__9da96:active,
+.lookOutlined__014b5.colorPrimary_ebe632:active,
+.voiceChannelsButton_fd0b98:active,
+.button__76c4e:not([disabled]):active,
+.theme-dark .watchButton__5a93d:active,
+.button_c5d028:active,
+.cta__69e2a:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
