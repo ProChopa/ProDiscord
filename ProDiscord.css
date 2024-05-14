@@ -298,8 +298,11 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	border-radius: var(--border-radius);
 }
 .body_bd4552 {
-	flex: 0;
+	flex: 1;
 	margin: 0px;
+}
+.overlay__679e5 {
+    height: auto;
 }
 .connectedAccountContainer__5972d {
     background: var(--hover-color);
