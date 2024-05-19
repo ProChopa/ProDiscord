@@ -17,8 +17,8 @@ button[aria-label="Шумоподавление с помощью Krisp"],
 [role="button"][aria-label="Почта"],
 [role="button"][aria-label="Помощь"],
 [role="button"][aria-label="Параметры уведомлений"],
-/*div:has(> button[aria-label="Открыть звуковую панель"]),
-div:has(> span[class*="disabledButtonWrapper_b04230"]),*/
+div:has(> button[aria-label="Открыть звуковую панель"]),
+div:has(> span[class*="disabledButtonWrapper_b04230"]),
 button[aria-label="Отправить подарок"],
 div:has(> button[aria-label="Открыть меню GIF"]),
 div:has(> button[aria-label="Открыть меню выбора стикеров"]),
@@ -836,7 +836,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .lookFilled__950dd.colorGreen__75c93[aria-disabled=true],
 .theme-dark .watchButton__5a93d,
 .button_c5d028,
-.cta__69e2a{
+.cta__69e2a,
+.ctaButton__56c73 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -864,7 +865,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .button__76c4e:not([disabled]):hover,
 .theme-dark .watchButton__5a93d:hover,
 .button_c5d028:hover,
-.cta__69e2a:hover {
+.theme-dark .theme-dark .lookFilled__950dd.hoverPrimary_c2c623.hasHover_dfa15e:hover {
 	background: var(--link-color);
 	color: var(--main-color);
 	border-radius: var(--border-radius);
@@ -895,7 +896,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .button__76c4e:not([disabled]):active,
 .theme-dark .watchButton__5a93d:active,
 .button_c5d028:active,
-.cta__69e2a:active {
+.cta__69e2a:active  {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
