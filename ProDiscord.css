@@ -258,6 +258,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .icon__1e4c2 {
     color: var(--link-color);
 }
+.containerDefault_ae2ea4.selected__11b62 .iconNoChannelInfo__2e82b {
+	display: none;
+}
 .users__65981 {
     background-color: var(--hover-color);
 }
@@ -837,7 +840,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .theme-dark .watchButton__5a93d,
 .button_c5d028,
 .cta__69e2a,
-.ctaButton__56c73 {
+.ctaButton__56c73,
+.lookFilled__950dd.colorBrandInverted__52602 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -865,7 +869,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .button__76c4e:not([disabled]):hover,
 .theme-dark .watchButton__5a93d:hover,
 .button_c5d028:hover,
-.theme-dark .theme-dark .lookFilled__950dd.hoverPrimary_c2c623.hasHover_dfa15e:hover {
+.ctaButton__56c73:hover,
+.lookFilled__950dd.colorBrandInverted__52602:hover {
 	background: var(--link-color);
 	color: var(--main-color);
 	border-radius: var(--border-radius);
@@ -896,7 +901,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .button__76c4e:not([disabled]):active,
 .theme-dark .watchButton__5a93d:active,
 .button_c5d028:active,
-.cta__69e2a:active  {
+.cta__69e2a:active,
+.lookFilled__950dd.colorBrandInverted__52602:active  {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
