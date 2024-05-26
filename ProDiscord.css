@@ -1,3 +1,5 @@
+//META{"name":"ProDiscord - Test","author":"ProChopa","version":"1"}*//
+
 @import url("https://discordstyles.github.io/SoftX/RadialGlow.css");
 
 :root {
@@ -258,7 +260,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .icon__1e4c2 {
     color: var(--link-color);
 }
-.containerDefault_ae2ea4.selected__11b62 .iconNoChannelInfo__2e82b {
+.containerDefault_ae2ea4.selected__11b62 .iconNoChannelInfo__2e82b,
+.iconItem__56989.alwaysShown_c7a3fc {
 	display: none;
 }
 .users__65981 {
@@ -870,7 +873,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .theme-dark .watchButton__5a93d:hover,
 .button_c5d028:hover,
 .ctaButton__56c73:hover,
-.lookFilled__950dd.colorBrandInverted__52602:hover {
+.lookFilled__950dd.colorBrandInverted__52602:hover,
+.cta__69e2a:hover {
 	background: var(--link-color);
 	color: var(--main-color);
 	border-radius: var(--border-radius);
