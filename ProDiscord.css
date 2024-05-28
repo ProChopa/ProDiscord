@@ -12,13 +12,13 @@
 
 /* Скрытие кнопок */
 button[aria-label="Начать активность"],
-button[aria-label="Камера недоступна"],
+/*button[aria-label="Камера недоступна"],*/
 button[aria-label="Шумоподавление с помощью Krisp"],
 [role="button"][aria-label="Почта"],
 [role="button"][aria-label="Помощь"],
 [role="button"][aria-label="Параметры уведомлений"],
-/*div:has(> button[aria-label="Открыть звуковую панель"]),
-div:has(> span[class*="disabledButtonWrapper_b04230"]),*/
+div:has(> button[aria-label="Открыть звуковую панель"]),
+div:has(> span[class*="disabledButtonWrapper_b04230"]),
 button[aria-label="Отправить подарок"],
 div:has(> button[aria-label="Открыть меню GIF"]),
 div:has(> button[aria-label="Открыть меню выбора стикеров"]),
