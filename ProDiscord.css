@@ -842,7 +842,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .button_c5d028,
 .cta__69e2a,
 .ctaButton__56c73,
-.lookFilled__950dd.colorBrandInverted__52602 {
+.lookFilled__950dd.colorBrandInverted__52602,
+.theme-dark .lookFilled__950dd.colorTransparent__3e3c7 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -872,7 +873,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .button_c5d028:hover,
 .ctaButton__56c73:hover,
 .lookFilled__950dd.colorBrandInverted__52602:hover,
-.cta__69e2a:hover {
+.cta__69e2a:hover,
+.theme-dark .lookFilled__950dd.colorTransparent__3e3c7:hover {
 	background: var(--link-color);
 	color: var(--main-color);
 	border-radius: var(--border-radius);
@@ -904,7 +906,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .theme-dark .watchButton__5a93d:active,
 .button_c5d028:active,
 .cta__69e2a:active,
-.lookFilled__950dd.colorBrandInverted__52602:active  {
+.lookFilled__950dd.colorBrandInverted__52602:active,
+.theme-dark .lookFilled__950dd.colorTransparent__3e3c7:active  {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
