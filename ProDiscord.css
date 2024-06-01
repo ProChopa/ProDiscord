@@ -11,7 +11,7 @@
 }
 
 /* Скрытие кнопок */
-button[aria-label="Start An Activity"],
+button[aria-label="Начать активность"],
 /*button[aria-label="Камера недоступна"],*/
 button[aria-label="Шумоподавление с помощью Krisp"],
 [role="button"][aria-label="Почта"],
