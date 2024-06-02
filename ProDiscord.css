@@ -12,7 +12,6 @@
 
 /* Скрытие кнопок */
 button[aria-label="Начать активность"],
-/*button[aria-label="Камера недоступна"],*/
 button[aria-label="Шумоподавление с помощью Krisp"],
 [role="button"][aria-label="Почта"],
 [role="button"][aria-label="Помощь"],
@@ -625,6 +624,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 .colorDefault_e361cf:hover,
 .colorDefault_e361cf:active,
+.colorDefault_e361cf:active:not(.hideInteraction__0b569),
 .colorDefault_e361cf.focused_dcafb9 {
     background-color: var(--hover-color);
     border-radius: var(--border-radius);
