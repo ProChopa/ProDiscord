@@ -221,7 +221,10 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Путешествие */
-.categoryItem__0608f.selectedCategoryItem__3e361 .itemInner_eedb2b,
+.categoryItem__0608f.selectedCategoryItem__3e361 .itemInner_eedb2b {
+	background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
 .wrappedLayout__24524 {
 	border-radius: var(--border-radius);
 }
@@ -332,7 +335,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .userPopoutOuter_d67f56,
 .userProfileOuter__4ac83,
 .popoutBanner__3fbe8,
-.popoutBannerPremium__84487 {
+.popoutBannerPremium__84487,
+.userProfileInnerThemedNonPremium_b64fb4 {
 	border-radius: var(--border-radius);
 }
 .userPopoutOverlayBackground_bf6444 {
@@ -731,6 +735,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Разделители и рамки */
+.divider_ccf3aa,
 .divider__979dc,
 .divider__9daf4,
 .dotSpacer_f8ba0a {
@@ -816,6 +821,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .VoiceActivity-voiceprofilesection-button,
 .VoiceActivity-voiceprofilesection-button:disabled,
 .lookFilled__950dd.colorBrand__27d57,
+.lookFilled__950dd.colorBrand__27d57:disabled,
+.lookFilled__950dd.colorBrand__27d57[aria-disabled=true],
 .lookFilled__950dd.colorPrimary_ebe632,
 .theme-dark .lookLink_a2da25.colorPrimary_ebe632,
 .lookFilled__950dd.colorRed__5a617,
