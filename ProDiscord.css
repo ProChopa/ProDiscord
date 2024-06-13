@@ -418,6 +418,35 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	box-shadow: none;
 }
 
+/* Демонстрация экрана */
+.sourceThumbnail_f4fa1d {
+    border-radius: var(--border-radius);
+}
+.theme-dark .tabItemSelected_f4cf64 {
+    color: var(--blue-color-text);
+    border-bottom: 2px solid var(--link-color);
+}
+.theme-dark .tabContainer__15e2d {
+    color: var(--blue-color-text);
+}
+.qualitySettingsContainer__8f353 {
+    border: 1px solid var(--hover-color);
+    border-radius: var(--border-radius);
+}
+.theme-dark .item__63e10 {
+    border-color: var(--hover-color);
+}
+.item__63e10:first-child {
+    border-radius: 24px 0 0 24px;
+}
+.item__63e10:last-child {
+    border-radius: 0 24px 24px 0;
+}
+.selectorButton_ea0609:hover .selectorText__8286b,
+.selectorButton_ea0609.selectorButtonSelected__707fb .selectorText__8286b {
+    color: var(--main-color);
+}
+
 /* Список друзей */
 .peopleListItem_dab480:hover,
 .peopleListItem_dab480.active__6b8ff {
