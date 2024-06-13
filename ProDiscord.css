@@ -255,6 +255,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .modeSelected__473f1 .icon__67ab4,
 .modeSelected__473f1:hover .icon__67ab4,
 .icon__67ab4, .actionIcon_b149a2,
+.modeMuted_f0a72e .icon__67ab4,
 .iconItem__56989:hover .actionIcon_b149a2,
 .actionIcon_b149a2:active,
 .icon__1e4c2 {
@@ -397,10 +398,16 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	padding-bottom: 2px;
 }
 
-/* Приглашение друзей" */
+/* Приглашение друзей */
 .theme-dark .inviteRow_d6ad74:hover {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
+}
+
+/* Поиск серверов, каналов или ЛС */
+.quickswitcher_b5bb0a,
+.quickswitcher_b5bb0a * {
+    border-radius: var(--border-radius);
 }
 
 /* Мероприятия */
@@ -436,14 +443,16 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 
 /* Поле ввода */
 .inner__999f6,
-.searchBox__56feb .searchBoxInput__56498,
+.search_e47903 .searchBox__02d0b,
+.search_e47903 .searchBox__02d0b:focus,
+.search_e47903 .searchBox__02d0b:focus-within,
 .theme-dark .searchBox__56feb,
 .addFriendInputWrapper__2b30b,
 .addFriendInputWrapper__2b30b:focus-within,
 .themedBackground__3a4c0,
 .searchBar__621ec .searchBarComponent__8f95f,
 .searchBar__5a20a,
-.input__745d4 {
+.input_d90584 {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 	border: transparent;
@@ -922,12 +931,12 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Кнопка "Личные сообщения" */
-.wrapper__8436d:hover .childWrapper_a6ce15,
-.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
+.wrapper_a6f950:hover .childWrapper__760c6,
+.wrapper_a6f950.selected_b420e6 .childWrapper__760c6 {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
-.childWrapperNoHoverBg__7e8f1 {
+.childWrapperNoHoverBg_bc176a {
 	border-radius: var(--border-radius);
 }
 
