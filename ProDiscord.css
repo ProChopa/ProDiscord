@@ -67,6 +67,11 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	--background-modifier-accent: var(--hover-color);
 }
 
+/* Предпросмотр демонстрации экрана */
+.pictureInPicture__9579b {
+    display: none;
+}
+
 /* Сообщения */
 .cozy_f5c119.wrapper_a62503,
 .group-spacing-16 .groupStart__7b93c {
@@ -828,6 +833,13 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .content_d17ad6,
 .border_d9a17b, .border_d9a17b.speaking_c28527 {
     border-radius: var(--border-radius);
+}
+.baseShapeRoundLeft_b6b1cf {
+    background-color: transparent !important;
+}
+.eyebrow__74d9f {
+    color: var(--main-color);
+	border-radius: var(--border-radius);
 }
 
 :root {
