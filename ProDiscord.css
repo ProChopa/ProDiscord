@@ -13,7 +13,6 @@
 /* Скрытие кнопок */
 button[aria-label="Начать активность"],
 button[aria-label="Шумоподавление с помощью Krisp"],
-/*[role="button"][aria-label="Почта"],*/
 [role="button"][aria-label="Помощь"],
 [role="button"][aria-label="Параметры уведомлений"],
 div:has(> button[aria-label="Открыть звуковую панель"]),
@@ -99,7 +98,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .backgroundFlash__28f42 .groupStart__7b93c {
 	margin: -10px;
 }
-.imageZoom__98d0c {
+.imageZoom__98d0c,
+.container__62863>* {
     border-radius: var(--border-radius);
 }
 .embedFull__14919,
@@ -144,6 +144,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .cozy_f5c119 .timestamp_c79dd2.alt__6c563 {
     left: -65px;
 }
+.cozy_f5c119.hasThread__44ae4:after {
+    display: none;
+}
 
 /* Упоминание */
 .mentioned_fa6fd2 {
@@ -171,10 +174,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .children__32014:after {
     background: var(--main-color) !important;
 }
-.container__26baa *,
-.name_e8e549,
-.dropdownButton_a246fc {
-    color: var(--link-color);
+.container__26baa * {
+    color: var(--blue-color-text);
 }
 .akaBadge__27cd4 {
     background: var(--link-color);
@@ -279,15 +280,13 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .modeUnreadImportant__35358:hover .icon__67ab4,
 .modeSelected__473f1 .icon__67ab4,
 .modeSelected__473f1:hover .icon__67ab4,
-.icon__67ab4, .actionIcon_b149a2,
+.icon__67ab4,
 .modeMuted_f0a72e .icon__67ab4,
-.iconItem__56989:hover .actionIcon_b149a2,
-.actionIcon_b149a2:active,
 .icon__1e4c2 {
     color: var(--link-color);
 }
 .containerDefault_ae2ea4.selected__11b62 .iconNoChannelInfo__2e82b,
-.iconItem__56989.alwaysShown_c7a3fc {
+.iconItem__56989.alwaysShown_c7a3fc, .addButtonIcon_d9a52c {
 	display: none;
 }
 .users__65981 {
@@ -306,12 +305,24 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	border-radius: var(--border-radius);
 }
 
-/* Просмотр каналов. Участники. (Для Админов) */
-.content__23cab,
+/* Просмотр каналов. Участники (для админов) */
 .pageBody_c0e5dd,
-.content__1a4fe,
-.content__1a4fe {
-    background: var(--main-color);
+.page_e5cc79 {
+    background: var(--main-color) !important;
+}
+
+/* Форум */
+.content__690c5 {
+    background: var(--main-color) !important;
+}
+.header_b2c494,
+.container__7d004,
+.theme-dark .tagPill__0704e {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+.theme-dark .textContentFooter_e03480 {
+    background: none;
 }
 
 /* Список участников */
@@ -397,11 +408,40 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     border-radius: 0 24px;
 }
 
-/* Панель "Переподключиться" */
-.colorWarning__01125 {
+/* Правила сервера */
+.guildSidebar__74787,
+.modal_b38209 {
+    border-radius: var(--border-radius);
+}
+
+/* Чекбокс */
+.checkbox_fcf2ad, .box__66058 {
+	border-radius: var(--border-radius);
+}
+
+/* Панель над сервером */
+.colorWarning__01125,
+.notice_a687ab,
+.notice__0425f,
+.header__0cb5a {
     background: var(--link-color);
     color: var(--main-color);
 	border-radius: 0px;
+}
+.lookOutlined__014b5.colorWhite__0033e,
+.theme-dark .button_f39c29,
+.theme-dark .button_f39c29:hover,
+.colorWarning_b91552 .button_f39c29:hover,
+.button__6c73a:hover,
+.button_f8978a:hover {
+    background: var(--link-color) !important;
+	color: var(--main-color);
+	border-radius: var(--border-radius);
+	border-color: var(--main-color);
+}
+.container__3d776,
+.item__287de {
+    border-radius: var(--border-radius);
 }
 
 /* Панель "Новые сообщения" */
@@ -421,6 +461,11 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .jumpToPresentBar__69174:active {
     background: var(--main-color);
 	padding-bottom: 2px;
+}
+/* Панель "В вашем списке каналов нет этого канала" */
+.chatHeaderBar_b11c70 {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
 }
 
 /* Приглашение друзей */
@@ -930,6 +975,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     --primary-600: var(--main-color);
 	/* Цвет надписи "Пригласить людей" в меню сервера */
 	--brand-360: var(--blue-color-text);
+	/* Цвет рамки чекбокса */
+	--brand-400: var(--link-color);
 }
 
 /* Кнопки */
@@ -971,6 +1018,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	border-radius: var(--border-radius);
 	border-color: var(--hover-color);
 }
+
 .VoiceActivity-voiceprofilesection-button:hover,
 .lookFilled__950dd.colorBrand__27d57:hover,
 .lookFilled__950dd.colorPrimary_ebe632:hover,
@@ -1003,10 +1051,10 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	border-color: var(--link-color);
 	opacity: 1;
 }
-
 .theme-dark .lookLink_a2da25.colorPrimary_ebe632:hover .contents__322f4 {
 	--button--underline-color: transparent;
 }
+
 .VoiceActivity-voiceprofilesection-button:active,
 .lookFilled__950dd.colorBrand__27d57:active,
 .lookFilled__950dd.colorPrimary_ebe632:active,
