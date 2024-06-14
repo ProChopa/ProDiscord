@@ -448,6 +448,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .container_eb737e,
 .messagesPopoutWrap__10dd1 {
     border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
 }
 .row_e9c6f6:hover {
     background: var(--hover-color);
@@ -455,19 +456,30 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Результаты поиска */
-.container__84c26,
+.container__84c26 {
+	border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
+}
 .option__91497 {
 	border-radius: var(--border-radius);
 }
 
 /* Закреплённые сообщения */
+.messagesPopoutWrap__10dd1 {
+	border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
+}
 .messageGroupWrapper__1fce2 {
 	border-radius: var(--border-radius);
+}
+.header__21b33 {
+    box-shadow: none;
 }
 
 /* Ветки */
 .container_f93da8 {
 	border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
 }
 .container__9922f {
     background-color: var(--hover-color);
