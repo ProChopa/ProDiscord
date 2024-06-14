@@ -96,7 +96,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	margin: -10px;
 }
 .imageZoom__98d0c,
-.container__62863>* {
+.container__62863>*,
+.theme-dark .wrapperAudio__178e9 {
     border-radius: var(--border-radius);
 }
 .embedFull__14919,
@@ -724,7 +725,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 .mediaBarInteraction_e21234:hover .mediaBarGrabber__1d527,
 .grabber_e3daf3 {
-    background-color: var(--blue-color-text);
+    background: var(--blue-color-text);
 	border-radius: var(--border-radius);
 }
 .mediaBarGrabber__1d527,
@@ -733,12 +734,16 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .mediaBarProgress_a3b7f1,
 .mediaBarProgress_a3b7f1:before,
 .mediaBarProgress_a3b7f1:after {
-    background-color: var(--link-color);
+    background: var(--link-color);
 	border-radius: var(--border-radius);
 }
 .item__183e8.colorDefault_e361cf.hideInteraction__0b569 {
     background: none;
 }
+.mediaBarWrapper_e90a7a {
+    background: var(--main-color);
+	border-radius: var(--border-radius);
+} 
 
 /* Шкала музыки */
 .themed__857a7 .barInner__0f713 {
@@ -748,6 +753,10 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .bar_e63719 {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
+}
+.audioControls_da7066 {
+    background: var(--hover-color);
+    border-radius: var(--border-radius);
 }
 
 /* Скролл-бар */
@@ -1041,7 +1050,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .ctaButton__56c73:hover,
 .lookFilled__950dd.colorBrandInverted__52602:hover,
 .cta__69e2a:hover,
-.theme-dark .lookFilled__950dd.colorTransparent__3e3c7:hover {
+.theme-dark .lookFilled__950dd.colorTransparent__3e3c7:hover,
+.button_b82d53.buttonColor__7bad9.buttonActive_ae686f:hover {
 	background: var(--link-color);
 	color: var(--main-color);
 	border-radius: var(--border-radius);
@@ -1108,16 +1118,16 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Кнопка "Загрузить"*/
-.hoverButton_be4802 {
+.hoverButton__78b6a {
     background: var(--hover-color);
 	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
 }
-.hoverButton_be4802:hover,
-.keyboard-mode .hoverButton_be4802:focus {
+.hoverButton__78b6a:hover {
     background: var(--link-color);
 	color: var(--main-color);
 }
-.hoverButton_be4802:active {
+.hoverButton__78b6a:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 }
