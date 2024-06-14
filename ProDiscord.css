@@ -454,6 +454,26 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	border-radius: var(--border-radius);
 }
 
+/* Результаты поиска */
+.container__84c26,
+.option__91497 {
+	border-radius: var(--border-radius);
+}
+
+/* Закреплённые сообщения */
+.messageGroupWrapper__1fce2 {
+	border-radius: var(--border-radius);
+}
+
+/* Ветки */
+.container_f93da8 {
+	border-radius: var(--border-radius);
+}
+.container__9922f {
+    background-color: var(--hover-color);
+    border-radius: var(--border-radius);
+}
+
 /* Демонстрация экрана */
 .sourceThumbnail_f4fa1d {
     border-radius: var(--border-radius);
