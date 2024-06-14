@@ -13,7 +13,7 @@
 /* Скрытие кнопок */
 button[aria-label="Начать активность"],
 button[aria-label="Шумоподавление с помощью Krisp"],
-[role="button"][aria-label="Почта"],
+/*[role="button"][aria-label="Почта"],*/
 [role="button"][aria-label="Помощь"],
 [role="button"][aria-label="Параметры уведомлений"],
 div:has(> button[aria-label="Открыть звуковую панель"]),
@@ -34,6 +34,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	--primary-330: var(--blue-color-text);
 	--primary-360: var(--blue-color-text);
 	--primary-430: var(--blue-color-text);
+	--primary-530: var(--link-color);
 	--primary-560: var(--blue-color-text);
 	--primary-660: var(--main-color);
 	--white-500: var(--blue-color-text);
@@ -65,11 +66,6 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	--yellow-260: var(--link-color);
 	--yellow-300: var(--link-color);
 	--background-modifier-accent: var(--hover-color);
-}
-
-/* Предпросмотр демонстрации экрана */
-.pictureInPicture__9579b {
-    display: none;
 }
 
 /* Сообщения */
@@ -197,6 +193,30 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2[aria-selected=true] {
     background: var(--hover-color);
 }
+.iconContainer__9f124 {
+    width: 21px;
+    height: 21px;
+}
+.searchBar__5a20a {
+    width: 21px;
+    height: 24px;
+    transition: ease-in-out 0.3s !important;
+}
+.searchBar__5a20a:hover .iconContainer__9f124,
+.searchBar__5a20a:hover .icon__5c8c7,
+.focused__037a4 .icon__5c8c7,
+.focused__037a4 .iconContainer__9f124 {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.searchBar__5a20a:hover,
+.focused__037a4 .searchBar__5a20a,
+.open_d3ab4e .searchBar__5a20a {
+    width: 175px;
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
 
 /* Список серверов */
 .guilds__2b93a {
@@ -248,10 +268,10 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     border-radius: var(--border-radius);
 }
 .container_bc43c1 {
-  display: none;
+    display: none;
 }
 .containerDefault_e3b32b {
-  padding-top: 0;
+    padding-top: 0;
 }
 
 /* Иконки каналов */
@@ -423,6 +443,17 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	box-shadow: none;
 }
 
+/* Почта */
+.container_c96c91,
+.container_eb737e,
+.messagesPopoutWrap__10dd1 {
+    border-radius: var(--border-radius);
+}
+.row_e9c6f6:hover {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+
 /* Демонстрация экрана */
 .sourceThumbnail_f4fa1d {
     border-radius: var(--border-radius);
@@ -450,6 +481,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .selectorButton_ea0609:hover .selectorText__8286b,
 .selectorButton_ea0609.selectorButtonSelected__707fb .selectorText__8286b {
     color: var(--main-color);
+}
+.pictureInPicture__9579b {
+    display: none;
 }
 
 /* Список друзей */
@@ -485,7 +519,6 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .addFriendInputWrapper__2b30b:focus-within,
 .themedBackground__3a4c0,
 .searchBar__621ec .searchBarComponent__8f95f,
-.searchBar__5a20a,
 .input_d90584 {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
