@@ -149,6 +149,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .cozy_f5c119.hasThread__44ae4:after {
     display: none;
 }
+.emptyChannelIcon_d45c50 {
+    background: var(--hover-color);
+}
 
 /* Упоминание */
 .mentioned_fa6fd2 {
@@ -385,7 +388,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	max-width: 1000px;
 	border: none;
 }
-.rolePill_f50ff5 {
+.rolePill_f50ff5,
+.role__9690d {
     background-color: var(--hover-color);
 	border-radius: var(--border-radius);
 }
@@ -479,6 +483,11 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 /* Поиск серверов, каналов или ЛС */
 .quickswitcher_b5bb0a,
 .quickswitcher_b5bb0a * {
+    border-radius: var(--border-radius);
+}
+
+/* Добавить участников или роли */
+.addMemberRow_c41402 {
     border-radius: var(--border-radius);
 }
 
@@ -853,7 +862,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .lookFilled__9c1ef.select_fe2671,
 .option_eb83e4:active,
 .searchableSelect__3a835 .option_eb83e4:hover,
-.key__6a8d9 {
+.key__6a8d9,
+.bannerContainer_b80705 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -1051,7 +1061,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .cta__69e2a,
 .ctaButton__56c73,
 .lookFilled__950dd.colorBrandInverted__52602,
-.theme-dark .lookFilled__950dd.colorTransparent__3e3c7 {
+.theme-dark .lookFilled__950dd.colorTransparent__3e3c7,
+.sizeMin__508da,
+.theme-dark .lookLink_a2da25.colorTransparent__3e3c7 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -1084,14 +1096,17 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .lookFilled__950dd.colorBrandInverted__52602:hover,
 .cta__69e2a:hover,
 .theme-dark .lookFilled__950dd.colorTransparent__3e3c7:hover,
-.button_b82d53.buttonColor__7bad9.buttonActive_ae686f:hover {
+.button_b82d53.buttonColor__7bad9.buttonActive_ae686f:hover,
+.sizeMin__508da:hover,
+.theme-dark .lookLink_a2da25.colorTransparent__3e3c7:hover {
 	background: var(--link-color);
 	color: var(--main-color);
 	border-radius: var(--border-radius);
 	border-color: var(--link-color);
 	opacity: 1;
 }
-.theme-dark .lookLink_a2da25.colorPrimary_ebe632:hover .contents__322f4 {
+.theme-dark .lookLink_a2da25.colorPrimary_ebe632:hover .contents__322f4,
+.theme-dark .lookLink_a2da25.colorTransparent__3e3c7:hover .contents__322f4 {
 	--button--underline-color: transparent;
 }
 
@@ -1117,7 +1132,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .button_c5d028:active,
 .cta__69e2a:active,
 .lookFilled__950dd.colorBrandInverted__52602:active,
-.theme-dark .lookFilled__950dd.colorTransparent__3e3c7:active  {
+.theme-dark .lookFilled__950dd.colorTransparent__3e3c7:active,
+.sizeMin__508da:active,
+.theme-dark .lookLink_a2da25.colorTransparent__3e3c7:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -1146,16 +1163,16 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Кнопка "Продемонстрируйте свой экран" */
+.actionButtons__85e3c > button[aria-label="Продемонстрируйте свой экран"] {
+	background: linear-gradient(100deg, #1b222a 0%, #2a3742 50%, #1b222a 100%);
+}
 .actionButtons__85e3c {
     display: block;
 }
-.actionButtons__85e3c > button[aria-label="Продемонстрируйте свой экран"] {
-	/*background: var(--main-color);*/
-	background: linear-gradient(100deg, #1b222a 0%, #2a3742 50%, #1b222a 100%);
-}
 
 /* Кнопка "Загрузить"*/
-.hoverButton__78b6a {
+.hoverButton__78b6a,
+.hoverButtonGroup__745e4 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -1167,6 +1184,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .hoverButton__78b6a:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
+}
+.nonMediaMosaicItem__6d1a2 {
+    outline: none;
 }
 
 /* Кнопка "Отправить сообщение"  */
