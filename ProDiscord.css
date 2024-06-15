@@ -11,6 +11,10 @@
 }
 
 /* Скрытие кнопок */
+button[aria-label="Начать активность"],
+.disabledButtonWrapper_b04230,
+button[aria-label="Камера недоступна"],
+div:has(> button[aria-label="Открыть звуковую панель"]),
 button[aria-label="Шумоподавление с помощью Krisp"],
 [role="button"][aria-label="Помощь"],
 [role="button"][aria-label="Параметры уведомлений"],
@@ -666,6 +670,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Панель "Эмодзи" */
+.contentWrapper_e0bb2c,
 .stickerAsset_ab864f,
 .listItems__699d1,
 .categoryList_f8c48f,
@@ -673,8 +678,11 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
+.navButton_b588d0 {
+    border-radius: var(--border-radius);
+}
 .stickerAsset_ab864f:hover,
-.navButton__05cc7:hover,
+.navButton_b588d0:hover,
 .navButtonActive__0c878,
 .navButtonActive__0c878:hover,
 .emojiItem_de65fd.emojiItemSelected__023be,
@@ -683,6 +691,12 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .categoryItemDefaultCategory__67fe7:hover {
     background: var(--hover-color);
 	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
+}
+.theme-dark .categoryFade_ed9ec1,
+.result_e1fc74:after,
+.gif__2aa16 {
+	background: none;
 	border-radius: var(--border-radius);
 }
 
@@ -707,7 +721,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
   display: none;
 }
 
-/* Ползунок громкости */
+/* Плеер */
 .barFill__1f56b {
     background: var(--link-color);
     height: 100%;
@@ -723,6 +737,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     box-shadow: var(--elevation-high);
 	border-radius: var(--border-radius);
 }
+.mediaBarInteractionDragging__55800 .mediaBarGrabber__1d527,
 .mediaBarInteraction_e21234:hover .mediaBarGrabber__1d527,
 .grabber_e3daf3 {
     background: var(--blue-color-text);
@@ -740,14 +755,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .item__183e8.colorDefault_e361cf.hideInteraction__0b569 {
     background: none;
 }
-.mediaBarWrapper_e90a7a {
-    background: var(--main-color);
-	border-radius: var(--border-radius);
-} 
-
-/* Шкала музыки */
 .themed__857a7 .barInner__0f713 {
-    background-color: var(--link-color);
+    background: var(--link-color);
 	border-radius: var(--border-radius);
 }
 .bar_e63719 {
@@ -757,6 +766,28 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .audioControls_da7066 {
     background: var(--hover-color);
     border-radius: var(--border-radius);
+}
+.controlIcon_d1bbd7 {
+    color: var(--link-color);
+}
+.buffer_e14781,
+.buffer_e14781:before,
+.buffer_e14781:after,
+.mediaBarWrapper_e90a7a,
+.mediaBarWrapper_e90a7a:before,
+.mediaBarWrapper_e90a7a:after {
+    background: var(--main-color);
+	border-radius: var(--border-radius);
+}
+.mediaBarPreview__39d32 {
+    background: var(--main-color);
+	border-radius: var(--border-radius);
+}
+.fakeEdges_bbed67:before,
+.fakeEdges_bbed67:after {
+    left: 1px;
+	right: 0px;
+    border-radius: 0 24px 24px 0;
 }
 
 /* Скролл-бар */
@@ -947,7 +978,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 .overlayContainer__8885d,
 .content_d17ad6,
-.border_d9a17b, .border_d9a17b.speaking_c28527 {
+.border_d9a17b, .border_d9a17b.speaking_c28527,
+.picker__6dca7,
+.container_ad6d5c {
     border-radius: var(--border-radius);
 }
 .baseShapeRoundLeft_b6b1cf {
@@ -1113,8 +1146,12 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Кнопка "Продемонстрируйте свой экран" */
+.actionButtons__85e3c {
+    display: block;
+}
 .actionButtons__85e3c > button[aria-label="Продемонстрируйте свой экран"] {
-	background: var(--main-color);
+	/*background: var(--main-color);*/
+	background: linear-gradient(100deg, #1b222a 0%, #2a3742 50%, #1b222a 100%);
 }
 
 /* Кнопка "Загрузить"*/
