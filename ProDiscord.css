@@ -943,8 +943,15 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	fill: var(--link-color);
 }
 .bd-addon-header {
-    background-color: var(--hover-color) !important;
+    background: var(--hover-color) !important;
 	border-radius: var(--border-radius);
+}
+.vc-settings-theme-links,
+.input_f8bc55:hover,
+.textarea_dde0a8:focus {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+	border: none;
 }
 
 /* Авторство */
