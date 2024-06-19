@@ -12,7 +12,7 @@
 
 /* Скрытие кнопок */
 button[aria-label="Начать активность"],
-.disabledButtonWrapper_b04230,
+.disabledButtonWrapper_dd4f85,
 button[aria-label="Камера недоступна"],
 div:has(> button[aria-label="Открыть звуковую панель"]),
 button[aria-label="Шумоподавление с помощью Krisp"],
@@ -21,8 +21,8 @@ button[aria-label="Шумоподавление с помощью Krisp"],
 button[aria-label="Отправить подарок"],
 div:has(> button[aria-label="Открыть меню GIF"]),
 div:has(> button[aria-label="Открыть меню выбора стикеров"]),
-.channel__0aef5 .linkButton__9da2c > .link__3a950[href="/shop"],
-.channel__0aef5 .linkButton__9da2c > .link__3a950[href="/store"] {
+.channel_c91bad .linkButton_c91bad > .link_c91bad[href="/shop"],
+.channel_c91bad .linkButton_c91bad > .link_c91bad[href="/store"] {
     display: none;
 }
 
@@ -69,8 +69,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Сообщения */
-.cozy_f5c119.wrapper_a62503,
-.group-spacing-16 .groupStart__7b93c {
+.cozy_ec86aa.wrapper_ec86aa,
+.group-spacing-16 .groupStart_d5deea {
     position: relative;
     margin: 16px 5px 0 70px;
     padding: 8px 10px;
@@ -80,264 +80,264 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     overflow: visible !important;
     border-radius: var(--border-radius);
 }
-.theme-dark .message_ccca67.selected_e3bc5d,
-.theme-dark.mouse-mode.full-motion .message_ccca67:hover {
+.theme-dark .message_d5deea.selected_d5deea,
+.theme-dark.mouse-mode.full-motion .message_d5deea:hover {
     background: var(--message-background);
 }
-.attachment__06ca3.newMosaicStyle_b4aa24,
-.newMosaicStyle_ed53d8 .codeView_e4dd18,
-.newMosaicStyle_ed53d8 .footer__90194,
-.newMosaicStyle_ed53d8 .textContainer__65f57,
-.grid__35551 {
+.attachment_a4623d.newMosaicStyle_a4623d,
+.newMosaicStyle_ad9cbd .codeView_ad9cbd,
+.newMosaicStyle_ad9cbd .footer_ad9cbd,
+.newMosaicStyle_ad9cbd .textContainer_ad9cbd,
+.grid_ad0b71 {
     background: linear-gradient(100deg, #1b222a 0%, #2a3742 15%, #2a3742 50%, #1b222a 100%);
 	border-radius: var(--border-radius);
 }
-.cozy_f5c119 .repliedMessage__636d2 {
+.cozy_ec86aa .repliedMessage_ec86aa {
     background: linear-gradient(100deg, #1b222a 0%, #2a3742 20%, #1b222a 50%, #1b222a 100%);
 	border-radius: var(--border-radius);
 }
-.backgroundFlash__28f42 .groupStart__7b93c {
+.backgroundFlash_d5deea .groupStart_d5deea {
 	margin: -10px;
 }
-.imageZoom__98d0c,
-.container__62863>*,
-.theme-dark .wrapperAudio__178e9 {
+.imageZoom_d4597d,
+.container_b558d0>*,
+.theme-dark .wrapperAudio_f316dd {
     border-radius: var(--border-radius);
 }
-.embedFull__14919,
-.wrapper__8a5dd {
+.embedFull_ad0b71,
+.wrapper_b9fe76 {
     background: none;
 	border-radius: var(--border-radius);
 }
-.wrapper__4e6b6 {
+.wrapper_ef319f {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 	box-shadow: var(--elevation-high);
 }
-.button_d4bf9b:hover,
-.button_d4bf9b.selected__74fee {
+.button_ef319f:hover,
+.button_ef319f.selected_ef319f {
     background: var(--link-color);
 	color: var(--main-color);
 }
-.avatar__08316 {
+.avatar_ec86aa {
     top: 0px;
     left: -50px;
 }
-.wrapper_a62503.groupStart__7b93c .avatarDecoration__8a0c2 {
+.wrapper_ec86aa.groupStart_d5deea .avatarDecoration_ec86aa {
   top: 0;
   left: -54px;
 }
-.message_ccca67:not(.groupStart__7b93c) {
+.message_d5deea:not(.groupStart_d5deea) {
     margin: 0 5px 0 70px;
     background: var(--message-background);
     overflow: visible;
 }
-.wrapper_a62503 .dot_e3691c {
+.wrapper_ec86aa .dot_bf4197 {
     margin: 0 4px;
 }
-.cozy_f5c119:not(.groupStart__7b93c) {
+.cozy_ec86aa:not(.groupStart_d5deea) {
     padding-left: 10px;
     padding-top: 1px;
     padding-bottom: 3px;
     border-radius: var(--border-radius);
     margin-top: 2px;
 }
-.cozy_f5c119 .timestamp_c79dd2.alt__6c563 {
+.cozy_ec86aa .timestamp_ec86aa.alt_ec86aa {
     left: -65px;
 }
-.cozy_f5c119.hasThread__44ae4:after {
+.cozy_ec86aa.hasThread_ec86aa:after {
     display: none;
 }
-.emptyChannelIcon_d45c50 {
+.emptyChannelIcon_c2668b {
     background: var(--hover-color);
 }
 
 /* Упоминание */
-.mentioned_fa6fd2 {
+.mentioned_d5deea {
     background: var(--hover-color);
 }
-.mentioned_fa6fd2 .messageContent_abea64 .wrapper__53064 {
+.mentioned_d5deea .messageContent_ec86aa .wrapper_a7c28c {
     background: var(--link-color);
 	color: var(--main-color);
 }
-.mentioned_fa6fd2:before,
-.cozy_f5c119 .repliedMessage__636d2:before {
+.mentioned_d5deea:before,
+.cozy_ec86aa .repliedMessage_ec86aa:before {
     display: none;
 }
 
 /* Каналы в упоминании */
-.wrapper__53064,
-.wrapper__53064:hover {
+.wrapper_a7c28c,
+.wrapper_a7c28c:hover {
     background: var(--link-color);
 	color: var(--main-color);
 	border-radius: var(--border-radius);
 }
 
 /* Шапка */
-.themed_b152d4,
-.children__32014:after {
+.themed_e44302,
+.children_e44302:after {
     background: var(--main-color) !important;
 }
-.container__26baa * {
+.container_e44302 * {
     color: var(--blue-color-text);
 }
 .akaBadge__27cd4 {
     background: var(--link-color);
 	color: var(--main-color);
 }
-.topPill__63ad4 .item__48dda {
+.topPill_a0 .item_a0 {
 	border-radius: var(--border-radius);
 }
-.divider_bdb894 {
+.divider_e44302 {
 	display: none;
 }
-.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2 {
+.tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c {
     background: transparent;
 }
-.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2:hover,
-.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2[aria-selected=true] {
+.tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c:hover,
+.tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c[aria-selected=true] {
     background: var(--hover-color);
 }
-.iconContainer__9f124 {
+.iconContainer_effbe2 {
     width: 21px;
     height: 21px;
 }
-.searchBar__5a20a {
+.searchBar_a46bef {
     width: 21px;
     height: 24px;
     transition: ease-in-out 0.3s !important;
 }
-.searchBar__5a20a:hover .iconContainer__9f124,
-.searchBar__5a20a:hover .icon__5c8c7,
-.focused__037a4 .icon__5c8c7,
-.focused__037a4 .iconContainer__9f124 {
+.searchBar_a46bef:hover .iconContainer_effbe2,
+.searchBar_a46bef:hover .icon_effbe2,
+.focused_a46bef .icon_effbe2,
+.focused_a46bef .iconContainer_effbe2 {
     opacity: 0;
     width: 0;
     height: 0;
 }
-.searchBar__5a20a:hover,
-.focused__037a4 .searchBar__5a20a,
-.open_d3ab4e .searchBar__5a20a {
+.searchBar_a46bef:hover,
+.focused_a46bef .searchBar_a46bef,
+.open_a46bef .searchBar_a46bef {
     width: 175px;
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
 
 /* Список серверов */
-.guilds__2b93a {
+.guilds_a4d4d9 {
     width: 68px;
 }
 
 /* Выбранный сервер */
-.item_f9d377 {
+.item_fd07a3 {
     background-color: var(--link-color);
 }
 
 /* Значки на серверах */
-.iconBadge__19638,
+.iconBadge_c96c45,
 .base__5ed84 {
     background: var(--link-color) !important;
 	color: var(--main-color);
 }
 
 /* Создание сервера */
-.root_a28985,
-.footer_e0b400,
-.theme-dark .footerSeparator__2af8d,
-.container__9dd63 {
+.root_f9a4c9,
+.footer_f9a4c9,
+.theme-dark .footerSeparator_f9a4c9,
+.container_a47d49 {
 	border-radius: var(--border-radius);
 	border: var(--main-color);
 	box-shadow: var(--elevation-high);
 }
 
 /* Путешествие */
-.categoryItem__0608f.selectedCategoryItem__3e361 .itemInner_eedb2b {
+.categoryItem_c72b37.selectedCategoryItem_c72b37 .itemInner_c72b37 {
 	background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
-.wrappedLayout__24524 {
+.wrappedLayout_e9f61e {
 	border-radius: var(--border-radius);
 }
 
 /* Список каналов, диалогов */
-.sidebar_e031be {
+.sidebar_a4d4d9 {
     width: 305px;
 }
-.channel__0aef5 {
+.channel_c91bad {
     max-width: 500px;
 	border-radius: var(--border-radius);
 }
-.link_ddbb36,
-.content__3b07e,
-.thin__62e51 {
+.link_d8bfb3,
+.content_cdc675,
+.thin_c49869 {
     border-radius: var(--border-radius);
 }
-.container_bc43c1 {
+.container_c75f85 {
     display: none;
 }
-.containerDefault_e3b32b {
+.containerDefault_a08117 {
     padding-top: 0;
 }
 
 /* Иконки каналов */
-.modeUnreadImportant__35358 .icon__67ab4,
-.modeUnreadImportant__35358:hover .icon__67ab4,
-.modeSelected__473f1 .icon__67ab4,
-.modeSelected__473f1:hover .icon__67ab4,
-.icon__67ab4,
-.modeMuted_f0a72e .icon__67ab4,
-.icon__1e4c2 {
+.modeUnreadImportant_d8bfb3 .icon_d8bfb3,
+.modeUnreadImportant_d8bfb3:hover .icon_d8bfb3,
+.modeSelected_d8bfb3 .icon_d8bfb3,
+.modeSelected_d8bfb3:hover .icon_d8bfb3,
+.icon_d8bfb3,
+.modeMuted_d8bfb3 .icon_d8bfb3,
+.icon_cdc675 {
     color: var(--link-color);
 }
-.containerDefault_ae2ea4.selected__11b62 .iconNoChannelInfo__2e82b,
-.iconItem__56989.alwaysShown_c7a3fc, .addButtonIcon_d9a52c {
+.containerDefault_f6f816.selected_f6f816 .iconNoChannelInfo_f6f816,
+.iconItem_f6f816.alwaysShown_f6f816, .addButtonIcon_a08117 {
 	display: none;
 }
-.users__65981 {
+.users_a5bc92 {
     background-color: var(--hover-color);
 }
 
 /* Значок "В ЭФИРЕ" */
-.liveShapeRound__75159 {
+.liveShapeRound_e17fae {
     color: var(--main-color);
 	border-radius: var(--border-radius);
 }
 
 /* Значок демонстрации */
-.icon__493c1 {
+.icon_c07d45 {
     background: var(--hover-color) !important;
 	border-radius: var(--border-radius);
 }
 
 /* Просмотр каналов. Участники (для админов) */
-.pageBody_c0e5dd,
-.page_e5cc79 {
+.pageBody_c2efea,
+.page_d20375 {
     background: var(--main-color) !important;
 }
 
 /* Форум */
-.content__690c5 {
+.content_eed6a8 {
     background: var(--main-color) !important;
 }
-.header_b2c494,
-.container__7d004,
-.theme-dark .tagPill__0704e {
+.header_a6d69a,
+.container_a57509,
+.theme-dark .tagPill_a57509 {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
-.theme-dark .textContentFooter_e03480 {
+.theme-dark .textContentFooter_a57509 {
     background: none;
 }
 
 /* Список участников */
-.members__573eb {
+.members_cbd271 {
     width: 305px;
 }
-.member_aa4760 {
+.member_a31c43 {
     max-width: 500px;
 }
-.memberInner__4dac6 {
+.memberInner_a31c43 {
     border-radius: var(--border-radius);
 }
 
@@ -345,455 +345,455 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .profileBanner_f0f36c {
 	border-radius: var(--border-radius);
 }
-.body_bd4552 {
+.body_b9fccc {
 	flex: 1;
 	margin: 0px;
 }
-.overlay__679e5 {
+.overlay_b9fccc {
     height: auto;
 }
-.connectedAccountContainer__5972d {
+.connectedAccountContainer_f3eb60 {
     background: var(--hover-color);
     padding: 5px 5px;
 	margin: 2px;
     border-radius: var(--border-radius);
 }
-.userInfoSection_e816c1+.userInfoSection_e816c1 {
+.userInfoSection_a24910+.userInfoSection_a24910 {
     border-top: transparent;
 }
-.tabBarContainer_b283be {
+.tabBarContainer_b9fccc {
     background: var(--main-color) !important;
 }
-.top_fae1fa .selected_a523ff.themed_b957e8.item__48dda,
-.top_fae1fa .themed_b957e8.item__48dda:hover {
+.top_a0 .selected_a0.themed_a0.item_a0,
+.top_a0 .themed_a0.item_a0:hover {
     border-bottom-color: var(--link-color);
 }
-.redesignIconChildContainer__6b3e7 {
+.redesignIconChildContainer_ff7d90 {
     background: var(--link-color);
 	border-radius: var(--border-radius);
 }
 
 /* Профиль всплывающий */
-.userPopoutOuter_d67f56,
-.userProfileOuter__4ac83,
-.popoutBanner__3fbe8,
-.popoutBannerPremium__84487,
-.userProfileInnerThemedNonPremium_b64fb4 {
+.userPopoutOuter_c69a7b,
+.userProfileOuter_c69a7b,
+.popoutBanner_c3e427,
+.popoutBannerPremium_c3e427,
+.userProfileInnerThemedNonPremium_c69a7b {
 	border-radius: var(--border-radius);
 }
-.userPopoutOverlayBackground_bf6444 {
+.userPopoutOverlayBackground_c69a7b {
     margin: 28px 0px 0px 0px;
 }
-.overlayBackground__2666e * {
+.overlayBackground_c69a7b * {
 	max-width: 1000px;
 	border: none;
 }
-.rolePill_f50ff5,
-.role__9690d {
+.rolePill_fa2f72,
+.role_deddac {
     background-color: var(--hover-color);
 	border-radius: var(--border-radius);
 }
-.messageInputContainer_a93946 {
+.messageInputContainer_f2c0a8 {
 	border: none;
 }
-.scroller_f9a667 {
+.scroller_d2b491 {
     padding-bottom: 15px;
 }
 
 /* Профиль в диалоге */
-.profilePanel_e2cafe {
+.profilePanel_b433b4 {
     width: 305px;
 }
-.listRow__50619 {
+.listRow_e4be58 {
     border-radius: var(--border-radius);
 }
-.userPanelOverlayBackground__41589 {
+.userPanelOverlayBackground_a2b6ae {
     margin: 0px;
 }
-.panelBanner__7d7e2 {
+.panelBanner_c3e427 {
     border-radius: 0 24px;
 }
 
 /* Правила сервера */
-.guildSidebar__74787,
-.modal_b38209 {
+.guildSidebar_a74b6f,
+.modal_a74b6f {
     border-radius: var(--border-radius);
 }
 
 /* Чекбокс */
-.checkbox_fcf2ad, .box__66058 {
+.checkbox_f6cde8, .box_f6cde8 {
 	border-radius: var(--border-radius);
 }
 
 /* Панель над сервером */
 .colorWarning__01125,
-.notice_a687ab,
-.notice__0425f,
-.header__0cb5a {
+.notice_a50047,
+.notice_e2ecbf,
+.header_a50047 {
     background: var(--link-color);
     color: var(--main-color);
 	border-radius: 0px;
 }
-.lookOutlined__014b5.colorWhite__0033e,
-.theme-dark .button_f39c29,
-.theme-dark .button_f39c29:hover,
-.colorWarning_b91552 .button_f39c29:hover,
-.button__6c73a:hover,
-.button_f8978a:hover {
+.lookOutlined_dd4f85.colorWhite_dd4f85,
+.theme-dark .button_be03aa,
+.theme-dark .button_be03aa:hover,
+.colorWarning_be03aa .button_be03aa:hover,
+.button_a50047:hover,
+.button_e2ecbf:hover {
     background: var(--link-color) !important;
 	color: var(--main-color);
 	border-radius: var(--border-radius);
 	border-color: var(--main-color);
 }
-.container__3d776,
-.item__287de {
+.container_cbadbc,
+.item_eef3ef {
     border-radius: var(--border-radius);
 }
 
 /* Панель "Новые сообщения" */
-.newMessagesBar__8b272,
-.barButtonMain__984b4,
-.barButtonAlt_e800ef {
+.newMessagesBar_cf58b5,
+.barButtonMain_cf58b5,
+.barButtonAlt_cf58b5 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 }
 
 /* Панель "Вы просматриваете старые сообщения" */
-.barButtonBase__5e4cf {
+.barButtonBase_cf58b5 {
     background: var(--hover-color);
 }
-.jumpToPresentBar__69174,
-.jumpToPresentBar__69174:active {
+.jumpToPresentBar_cf58b5,
+.jumpToPresentBar_cf58b5:active {
     background: var(--main-color);
 	padding-bottom: 2px;
 }
 /* Панель "В вашем списке каналов нет этого канала" */
-.chatHeaderBar_b11c70 {
+.chatHeaderBar_efb691 {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
 
 /* Приглашение друзей */
-.theme-dark .inviteRow_d6ad74:hover {
+.theme-dark .inviteRow_cedfaf:hover {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
 
 /* Поиск серверов, каналов или ЛС */
-.quickswitcher_b5bb0a,
-.quickswitcher_b5bb0a * {
+.quickswitcher_f4e139,
+.quickswitcher_f4e139 * {
     border-radius: var(--border-radius);
 }
 
 /* Добавить участников или роли */
-.addMemberRow_c41402 {
+.addMemberRow_a0cc0d {
     border-radius: var(--border-radius);
 }
 
 /* Мероприятия */
-.header__5e5a6,
-.theme-dark .separator_aab1f8,
-.content_ec8694 {
+.header_f9a4c9,
+.theme-dark .separator_f9a4c9,
+.content_fa4e6d {
     border-radius: var(--border-radius);
 	box-shadow: none;
 }
 
 /* Почта */
-.container_c96c91,
-.container_eb737e,
-.messagesPopoutWrap__10dd1 {
+.container_f8a938,
+.container_f1c3d9,
+.messagesPopoutWrap_ac90a2 {
     border-radius: var(--border-radius);
 	box-shadow: var(--elevation-high);
 }
-.row_e9c6f6:hover {
+.row_fd8ff1:hover {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
 
 /* Результаты поиска */
-.container__84c26 {
+.container_eedf95 {
 	border-radius: var(--border-radius);
 	box-shadow: var(--elevation-high);
 }
-.option__91497 {
+.option_b0286e {
 	border-radius: var(--border-radius);
 }
 
 /* Закреплённые сообщения */
-.messagesPopoutWrap__10dd1 {
+.messagesPopoutWrap_ac90a2 {
 	border-radius: var(--border-radius);
 	box-shadow: var(--elevation-high);
 }
-.messageGroupWrapper__1fce2 {
+.messageGroupWrapper_ac90a2 {
 	border-radius: var(--border-radius);
 }
-.header__21b33 {
+.header_ac90a2 {
     box-shadow: none;
 }
 
 /* Ветки */
-.container_f93da8 {
+.container_e664f3 {
 	border-radius: var(--border-radius);
 	box-shadow: var(--elevation-high);
 }
-.container__9922f {
+.container_acb8b3 {
     background-color: var(--hover-color);
     border-radius: var(--border-radius);
 }
 
 /* Демонстрация экрана */
-.sourceThumbnail_f4fa1d {
+.sourceThumbnail_d7ec26 {
     border-radius: var(--border-radius);
 }
-.theme-dark .tabItemSelected_f4cf64 {
+.theme-dark .tabItemSelected_a18ec1 {
     color: var(--blue-color-text);
     border-bottom: 2px solid var(--link-color);
 }
-.theme-dark .tabContainer__15e2d {
+.theme-dark .tabContainer_a18ec1 {
     color: var(--blue-color-text);
 }
-.qualitySettingsContainer__8f353 {
+.qualitySettingsContainer_a78967 {
     border: 1px solid var(--hover-color);
     border-radius: var(--border-radius);
 }
-.theme-dark .item__63e10 {
+.theme-dark .item_aa2afb {
     border-color: var(--hover-color);
 }
-.item__63e10:first-child {
+.item_aa2afb:first-child {
     border-radius: 24px 0 0 24px;
 }
-.item__63e10:last-child {
+.item_aa2afb:last-child {
     border-radius: 0 24px 24px 0;
 }
-.selectorButton_ea0609:hover .selectorText__8286b,
-.selectorButton_ea0609.selectorButtonSelected__707fb .selectorText__8286b {
+.selectorButton_a78967:hover .selectorText_a78967,
+.selectorButton_a78967.selectorButtonSelected_a78967 .selectorText_a78967 {
     color: var(--main-color);
 }
-.pictureInPicture__9579b {
+.pictureInPicture_d0596b {
     display: none;
 }
 
 /* Список друзей */
-.peopleListItem_dab480:hover,
-.peopleListItem_dab480.active__6b8ff {
+.peopleListItem_d51464:hover,
+.peopleListItem_d51464.active_d51464 {
     border-radius: var(--border-radius);
 }
 
 /* Раздел "Активные контакты" */
-.itemCard_b64118:first-of-type,
-.itemCard_b64118,
-.wrapper__3c6d5 {
+.itemCard_f02fcf:first-of-type,
+.itemCard_f02fcf,
+.wrapper_cd82a7 {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
-.theme-dark .outer_a41cf3.interactive__46c44:hover,
-.theme-dark .outer_a41cf3.active__76f42,
-.section__253ec, .section__253ec:first-child,
-.section__253ec:only-child,
-.section__253ec:last-child,
-.theme-dark .inset__61d5b {
+.theme-dark .outer_c0f6a6.interactive_c0f6a6:hover,
+.theme-dark .outer_c0f6a6.active_c0f6a6,
+.section_cd82a7, .section_cd82a7:first-child,
+.section_cd82a7:only-child,
+.section_cd82a7:last-child,
+.theme-dark .inset_c0f6a6 {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
 
 /* Поле ввода */
 .inner__999f6,
-.search_e47903 .searchBox__02d0b,
-.search_e47903 .searchBox__02d0b:focus,
-.search_e47903 .searchBox__02d0b:focus-within,
+.search_f69601 .searchBox_f69601,
+.search_f69601 .searchBox_f69601:focus,
+.search_f69601 .searchBox_f69601:focus-within,
 .theme-dark .searchBox__56feb,
-.addFriendInputWrapper__2b30b,
-.addFriendInputWrapper__2b30b:focus-within,
-.themedBackground__3a4c0,
-.searchBar__621ec .searchBarComponent__8f95f,
-.input_d90584 {
+.addFriendInputWrapper_de812f,
+.addFriendInputWrapper_de812f:focus-within,
+.themedBackground_d0696b,
+.searchBar_f0963d .searchBarComponent_f0963d,
+.input_c18ec9 {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 	border: transparent;
 }
-.form_d8a4a1 {
+.form_a7d72e {
 	margin: 0 0 -11px 0;
 }
-.activityInviteEducationFadeIn__7ce24,
-.base__06abc {
+.activityInviteEducationFadeIn_d7ebeb,
+.base_d7ebeb {
     bottom: 72px;
 }
 
 /* Панель "Профиль и голос" */
-.container_e1958d,
-.panel_bd8c76,
-.theme-dark .container_debb33,
-.theme-dark .panel_bd8c76,
-.container_debb33 .withTagless__058f8:hover {
+.container_adcaac,
+.panel_bf1a22,
+.theme-dark .container_b2ca13,
+.theme-dark .panel_bf1a22,
+.container_b2ca13 .withTagless_b2ca13:hover {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 	margin-top: 2px;
 }
-.container_debb33 .withTagAsButton_e22174:hover {
+.container_b2ca13 .withTagAsButton_b2ca13:hover {
     background: none;
 }
-.panels__58331 {
+.panels_a4d4d9 {
     margin: 0 0 13px 0;
 }
-.container_debb33 {
+.container_b2ca13 {
 	height: 43px;
 }
-.container_debb33 .withTagAsButton_e22174,
-.container_debb33 .withTagless__058f8 {
+.container_b2ca13 .withTagAsButton_b2ca13,
+.container_b2ca13 .withTagless_b2ca13 {
     width: 500px;
 }
 
 /* Меню команд */
-.outerWrapper__99794 {
+.outerWrapper_fe2299 {
 	border-radius: var(--border-radius);
 	box-shadow: var(--elevation-high);
 }
-.base__87e58 {
+.base_f23da8 {
 	border-radius: var(--border-radius);
 }
-.selected__46356:hover {
+.selected_c9d951:hover {
     background-color: var(--hover-color);
 }
-.theme-dark .option__2b069 {
+.theme-dark .option_bea3ee {
     background-color: var(--main-color);
 	border-radius: var(--border-radius);
 }
 
 /* Реакции */
-.reaction__4a43f {
+.reaction_ec6b19 {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
-.reaction__4a43f:hover {
+.reaction_ec6b19:hover {
     background: var(--main-color);
 	border-color: var(--link-color);
 }
-.reaction__4a43f.reactionMe__0fffc {
+.reaction_ec6b19.reactionMe_ec6b19 {
     background: var(--link-color);
     color: var(--main-color);
 	border-radius: var(--border-radius);
 }
-.reaction__4a43f.reactionMe__0fffc .reactionCount__2c34d {
+.reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19 {
 	color: var(--main-color);
 }
 
 /* Панель "Эмодзи" */
-.contentWrapper_e0bb2c,
-.stickerAsset_ab864f,
-.listItems__699d1,
-.categoryList_f8c48f,
-.inspector__993e1 {
+.contentWrapper_af5dbb,
+.stickerAsset_cb3343,
+.listItems_dcade6,
+.categoryList_c6ee36,
+.inspector_c3120f {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
-.navButton_b588d0 {
+.navButton_af5dbb {
     border-radius: var(--border-radius);
 }
-.stickerAsset_ab864f:hover,
-.navButton_b588d0:hover,
-.navButtonActive__0c878,
-.navButtonActive__0c878:hover,
-.emojiItem_de65fd.emojiItemSelected__023be,
-.categoryItemDefaultCategorySelected__8245a,
-.categoryItemDefaultCategorySelected__8245a:hover,
-.categoryItemDefaultCategory__67fe7:hover {
+.stickerAsset_cb3343:hover,
+.navButton_af5dbb:hover,
+.navButtonActive_af5dbb,
+.navButtonActive_af5dbb:hover,
+.emojiItem_fbfedd.emojiItemSelected_fbfedd,
+.categoryItemDefaultCategorySelected_dfa278,
+.categoryItemDefaultCategorySelected_dfa278:hover,
+.categoryItemDefaultCategory_dfa278:hover {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 }
-.theme-dark .categoryFade_ed9ec1,
-.result_e1fc74:after,
-.gif__2aa16 {
+.theme-dark .categoryFade_af1167,
+.result_bad108:after,
+.gif_bad108 {
 	background: none;
 	border-radius: var(--border-radius);
 }
 
 /* Голосовое сообщение */
-.theme-dark .container_ce813c:not(.playing__0754e) .playButtonContainer_bf2199,
-.theme-dark .container_ce813c:not(.playing__0754e) .playButtonContainer_bf2199:hover,
-.theme-dark .container_ce813c:not(.playing__0754e) .mediaBarProgress_a3b7f1:after,
-.playing__0754e .playButtonContainer_bf2199,
-.playing__0754e .playButtonContainer_bf2199:active,
-.playButtonContainer_bf2199:active {
+.theme-dark .container_d6cb89:not(.playing_d6cb89) .playButtonContainer_d6cb89,
+.theme-dark .container_d6cb89:not(.playing_d6cb89) .playButtonContainer_d6cb89:hover,
+.theme-dark .container_d6cb89:not(.playing_d6cb89) .mediaBarProgress_f7877e:after,
+.playing_d6cb89 .playButtonContainer_d6cb89,
+.playing_d6cb89 .playButtonContainer_d6cb89:active,
+.playButtonContainer_d6cb89:active {
     background: var(--link-color);
 }
-.playButtonContainer_bf2199 .playIcon__25e6e {
+.playButtonContainer_d6cb89 .playIcon_d6cb89 {
     color: var(--main-color);
 }
-.container_ce813c {
+.container_d6cb89 {
     border-radius: var(--border-radius);
     background-color: var(--main-color);
     color: var(--hover-color);
 }
-.ripple__74f0d {
+.ripple_d6cb89 {
   display: none;
 }
 
 /* Плеер */
-.barFill__1f56b {
+.barFill_c7a159 {
     background: var(--link-color);
     height: 100%;
 	border-radius: var(--border-radius);
 }
-.theme-dark .bar_e58961,
-.theme-dark .markDash_dc3ae9 {
+.theme-dark .bar_c7a159,
+.theme-dark .markDash_c7a159 {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
-.mediaBarInteractionVolume_cc44ff {
+.mediaBarInteractionVolume_f7877e {
     background-color: var(--main-color);
     box-shadow: var(--elevation-high);
 	border-radius: var(--border-radius);
 }
-.mediaBarInteractionDragging__55800 .mediaBarGrabber__1d527,
-.mediaBarInteraction_e21234:hover .mediaBarGrabber__1d527,
-.grabber_e3daf3 {
+.mediaBarInteractionDragging_f7877e .mediaBarGrabber_f7877e,
+.mediaBarInteraction_f7877e:hover .mediaBarGrabber_f7877e,
+.grabber_c7a159 {
     background: var(--blue-color-text);
 	border-radius: var(--border-radius);
 }
-.mediaBarGrabber__1d527,
-.mediaBarGrabber__1d527:before,
-.mediaBarGrabber__1d527:after,
-.mediaBarProgress_a3b7f1,
-.mediaBarProgress_a3b7f1:before,
-.mediaBarProgress_a3b7f1:after {
+.mediaBarGrabber_f7877e,
+.mediaBarGrabber_f7877e:before,
+.mediaBarGrabber_f7877e:after,
+.mediaBarProgress_f7877e,
+.mediaBarProgress_f7877e:before,
+.mediaBarProgress_f7877e:after {
     background: var(--link-color);
 	border-radius: var(--border-radius);
 }
-.item__183e8.colorDefault_e361cf.hideInteraction__0b569 {
+.item_d90b3d.colorDefault_d90b3d.hideInteraction_d90b3d {
     background: none;
 }
-.themed__857a7 .barInner__0f713 {
+.themed_aa267a .barInner_aa267a {
     background: var(--link-color);
 	border-radius: var(--border-radius);
 }
-.bar_e63719 {
+.bar_aa267a {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
-.audioControls_da7066 {
+.audioControls_f316dd {
     background: var(--hover-color);
     border-radius: var(--border-radius);
 }
-.controlIcon_d1bbd7 {
+.controlIcon_f316dd {
     color: var(--link-color);
 }
-.buffer_e14781,
-.buffer_e14781:before,
-.buffer_e14781:after,
-.mediaBarWrapper_e90a7a,
-.mediaBarWrapper_e90a7a:before,
-.mediaBarWrapper_e90a7a:after {
+.buffer_f7877e,
+.buffer_f7877e:before,
+.buffer_f7877e:after,
+.mediaBarWrapper_f7877e,
+.mediaBarWrapper_f7877e:before,
+.mediaBarWrapper_f7877e:after {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
-.mediaBarPreview__39d32 {
+.mediaBarPreview_f7877e {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
-.fakeEdges_bbed67:before,
-.fakeEdges_bbed67:after {
+.fakeEdges_f7877e:before,
+.fakeEdges_f7877e:after {
     left: 1px;
 	right: 0px;
     border-radius: 0 24px 24px 0;
@@ -810,109 +810,109 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 ::-webkit-scrollbar-thumb:hover {
     background: #cdd6f4 !important;
 }
-.auto_a48086::-webkit-scrollbar-track {
+.auto_eed6a8::-webkit-scrollbar-track {
     background: var(--main-color);
 }
-.auto_a48086::-webkit-scrollbar-thumb,
-.auto_a48086::-webkit-scrollbar-track {
+.auto_eed6a8::-webkit-scrollbar-thumb,
+.auto_eed6a8::-webkit-scrollbar-track {
     border: 4px;
 }
 
 /* Контекстное меню */
-.scroller__8f066,
-.menu__088f7 {
+.scroller_d90b3d,
+.menu_d90b3d {
     background-color: var(--main-color);
     border-radius: var(--border-radius);
 	box-shadow: var(--elevation-high);
 }
-.colorDefault_e361cf:hover,
-.colorDefault_e361cf:active,
-.colorDefault_e361cf:active:not(.hideInteraction__0b569),
-.colorDefault_e361cf.focused_dcafb9 {
+.colorDefault_d90b3d:hover,
+.colorDefault_d90b3d:active,
+.colorDefault_d90b3d:active:not(.hideInteraction_d90b3d),
+.colorDefault_d90b3d.focused_d90b3d {
     background-color: var(--hover-color);
     border-radius: var(--border-radius);
 }
-.button_bfb8e1:hover {
+.button_a24e84:hover {
     background-color: var(--hover-color);
 }
 
 /* Выпадающее меню */
-.popout_a6e77f {
+.popout_f6639d {
     background-color: var(--main-color);
     border-radius: var(--border-radius);
 	box-shadow: var(--elevation-high);
 }
-.option_eb83e4[aria-selected=true]:not(.option_eb83e4.multi__8d15f),
-.option_eb83e4:hover,
-.option_eb83e4.focused_d14fa7 {
+.option_f6639d[aria-selected=true]:not(.option_f6639d.multi_f6639d),
+.option_f6639d:hover,
+.option_f6639d.focused_f6639d {
     background-color: var(--hover-color);
     border-radius: var(--border-radius);
 }
-.option_eb83e4:focus {
+.option_f6639d:focus {
     background-color: var(--main-color);
 }
 
 /* Настройки */
-.iconContainer_fe08af,
-.connectContainer_e331e3,
-.cardPrimary__1ee6a.outline__16075,
-.card__4dc22:not(.outline__16075),
-.circle_cbbd13,
-.connectionHeader__2b82f,
-.lookFilled__9c1ef.select_fe2671,
-.option_eb83e4:active,
-.searchableSelect__3a835 .option_eb83e4:hover,
-.key__6a8d9,
-.bannerContainer_b80705 {
+.iconContainer_e677b7,
+.connectContainer_e2a436,
+.cardPrimary_a298b8.outline_a298b8,
+.card_a298b8:not(.outline_a298b8),
+.circle_d7c696,
+.connectionHeader_e2a436,
+.lookFilled_f6639d.select_f6639d,
+.option_f6639d:active,
+.searchableSelect_f6639d .option_f6639d:hover,
+.key_c90023,
+.bannerContainer_cc2901 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 }
-.top_fae1fa .brand_ce3ecf.item__48dda:hover,
-.top_fae1fa .brand_ce3ecf.selected_a523ff.item__48dda {
+.top_a0 .brand_a0.item_a0:hover,
+.top_a0 .brand_a0.selected_a0.item_a0 {
     border-bottom-color: var(--link-color);
 }
-.theme-dark .progress_bcbb99 {
+.theme-dark .progress_e5cdf3 {
     background: var(--hover-color);
 }
-.item_b7fb7e[aria-checked=true],
-.item_b7fb7e:hover,
-.radioBar__70669.radioPositionLeft_c8ce26,
-.side_b4b3f6 .themed_b957e8.item__48dda,
-.side_b4b3f6 .themed_b957e8.selected_a523ff.item__48dda {
+.item_eb92a8[aria-checked=true],
+.item_eb92a8:hover,
+.radioBar_eb92a8.radioPositionLeft_eb92a8,
+.side_a0 .themed_a0.item_a0,
+.side_a0 .themed_a0.selected_a0.item_a0 {
     border-radius: var(--border-radius);
 }
-.theme-dark .container__8267c,
-.theme-dark .container__8267c:hover {
+.theme-dark .container_c67e31,
+.theme-dark .container_c67e31:hover {
     border-radius: var(--border-radius);
 	border-color: var(--hover-color);
 }
-.wrapper__4b6b3 {
+.wrapper_d2da9c {
     background-color: var(--main-color);
     border-radius: var(--border-radius);
     border-color: var(--hover-color);
 }
-.disabled__586d3 {
+.disabled_d2da9c {
 	color: var(--hover-color);
 	opacity: 1;
 }
-.option__1d8de {
+.option_d2da9c {
 	background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
-.option__1d8de:hover,
-.selected__4e154.option__1d8de {
+.option_d2da9c:hover,
+.selected_d2da9c.option_d2da9c {
     background-color: var(--link-color);
     border-radius: var(--border-radius);
     box-shadow: none;
 	opacity: 1;
 }
-.container__871ba.checked__6bdb0,
+.container_cebd1c.checked_cebd1c,
 .bd-switch input:checked + .bd-switch-body {
     background: var(--link-color); !important;
 }
 .bd-switch-symbol,
-.slider__41d94 > svg {
+.slider_cebd1c > svg {
     display: none;
 }
 .bd-filled-checkmark {
@@ -928,36 +928,36 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Авторство */
-.info__755e1:after {
+.info_c5a741:after {
     content: "Theme by ProChopa";
     color: var(--blue-color-text);
 	font-size: 12px;
 }
 
 /* Разделители и рамки */
-.divider_ccf3aa,
+.divider_b06bc5,
 .divider__979dc,
-.divider__9daf4,
-.dotSpacer_f8ba0a {
+.divider_dc0b54,
+.dotSpacer_f005b2 {
     background: var(--link-color);
 }
-.statusOffline__65f09 {
+.statusOffline_b9fe76 {
     background: var(--hover-color);
 }
-.separator__666aa:before {
+.separator_a06035:before {
     border-left: 1px solid var(--main-color);
 }
-.divider_f0c60d {
+.divider_ad5fac {
     display: none;
 }
 
 /* Подсказки при наведении */
-.tooltipPrimary__51b23,
-.tooltipGrey__3108e {
+.tooltipPrimary_b6c360,
+.tooltipGrey_b6c360 {
     background: var(--button-color) !important;
     border-radius: var(--border-radius);
 }
-.lookFilled__19298.colorGreen__5f181 {
+.lookFilled_dd4f85.colorGreen_dd4f85 {
     color: var(--main-color);
 }
 
@@ -968,35 +968,35 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Внутри голосовго канала */
-.colorable__4f530.white_ce1c7b,
-.colorable__4f530.white_ce1c7b:hover,
-.colorable__4f530.white_ce1c7b.active_ff29dc {
+.colorable_ef18ee.white_ef18ee,
+.colorable_ef18ee.white_ef18ee:hover,
+.colorable_ef18ee.white_ef18ee.active_ef18ee {
 	background: var(--link-color);
 	color: var(--main-color);
 	border-color: var(--link-color);
 	opacity: 1;
 }
-.root__649bb {
+.root_a5ea57 {
     display: none;
 }
-.root__3eef0,
-.flexCenter__6f8a2 {
+.root_dd069c,
+.flexCenter_bae578 {
     background: var(--main-color);
 }
-.tile_f5f57f.idle__90385, .tile_f5f57f.noInteraction__154a1 {
+.tile_ba4b17.idle_ba4b17, .tile_ba4b17.noInteraction_ba4b17 {
     border-radius: var(--border-radius);
 }
-.overlayContainer__8885d,
-.content_d17ad6,
-.border_d9a17b, .border_d9a17b.speaking_c28527,
-.picker__6dca7,
-.container_ad6d5c {
+.overlayContainer_ba4b17,
+.content_ba4b17,
+.border_ba4b17, .border_ba4b17.speaking_ba4b17,
+.picker_cd703d,
+.container_bdea70 {
     border-radius: var(--border-radius);
 }
-.baseShapeRoundLeft_b6b1cf {
+.baseShapeRoundLeft_df8943 {
     background-color: transparent !important;
 }
-.eyebrow__74d9f {
+.eyebrow_df8943 {
     color: var(--main-color);
 	border-radius: var(--border-radius);
 }
@@ -1031,39 +1031,39 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 /* Кнопки */
 .VoiceActivity-voiceprofilesection-button,
 .VoiceActivity-voiceprofilesection-button:disabled,
-.lookFilled__950dd.colorBrand__27d57,
-.lookFilled__950dd.colorBrand__27d57:disabled,
-.lookFilled__950dd.colorBrand__27d57[aria-disabled=true],
-.lookFilled__950dd.colorPrimary_ebe632,
-.theme-dark .lookLink_a2da25.colorPrimary_ebe632,
-.lookFilled__950dd.colorRed__5a617,
-.lookOutlined__014b5.colorRed__5a617,
-.lookOutlined__014b5.colorBrand__27d57,
-.lookInverted_a299dc.colorBrand__27d57,
-.buttonColor__8c13f,
-.lookFilled__950dd.colorGreen__75c93,
-.statusTag_b7064d,
-.pageButtonPrev__9c384,
-.pageButtonNext__13132,
-.pageButtonPrev__9c384.disabled__82158,
-.pageButtonNext__13132.disabled__82158,
-.pageIndicator__1821d,
-.lookFilled__950dd.colorBrandNew__8872c,
-.warning__4da7a,
-.lookOutlined__014b5.colorGreen__75c93,
-.buttonSize__9da96,
-.lookOutlined__014b5.colorPrimary_ebe632,
-.voiceChannelsButton_fd0b98,
-.lookFilled__950dd.colorGreen__75c93:disabled,
-.lookFilled__950dd.colorGreen__75c93[aria-disabled=true],
-.theme-dark .watchButton__5a93d,
-.button_c5d028,
-.cta__69e2a,
-.ctaButton__56c73,
-.lookFilled__950dd.colorBrandInverted__52602,
-.theme-dark .lookFilled__950dd.colorTransparent__3e3c7,
-.sizeMin__508da,
-.theme-dark .lookLink_a2da25.colorTransparent__3e3c7 {
+.lookFilled_dd4f85.colorBrand_dd4f85,
+.lookFilled_dd4f85.colorBrand_dd4f85:disabled,
+.lookFilled_dd4f85.colorBrand_dd4f85[aria-disabled=true],
+.lookFilled_dd4f85.colorPrimary_dd4f85,
+.theme-dark .lookLink_dd4f85.colorPrimary_dd4f85,
+.lookFilled_dd4f85.colorRed_dd4f85,
+.lookOutlined_dd4f85.colorRed_dd4f85,
+.lookOutlined_dd4f85.colorBrand_dd4f85,
+.lookInverted_a299dc.colorBrand_dd4f85,
+.buttonColor_dfbe6b,
+.lookFilled_dd4f85.colorGreen_dd4f85,
+.statusTag_a28a08,
+.pageButtonPrev_cb56ee,
+.pageButtonNext_cb56ee,
+.pageButtonPrev_cb56ee.disabled_cb56ee,
+.pageButtonNext_cb56ee.disabled_cb56ee,
+.pageIndicator_cb56ee,
+.lookFilled_dd4f85.colorBrandNew__8872c,
+.warning_f20685,
+.lookOutlined_dd4f85.colorGreen_dd4f85,
+.buttonSize_c6eb7b,
+.lookOutlined_dd4f85.colorPrimary_dd4f85,
+.voiceChannelsButton_a08117,
+.lookFilled_dd4f85.colorGreen_dd4f85:disabled,
+.lookFilled_dd4f85.colorGreen_dd4f85[aria-disabled=true],
+.theme-dark .watchButton_adbea6,
+.button_e5cc00,
+.cta_cdef0d,
+.ctaButton_ac01d6,
+.lookFilled_dd4f85.colorBrandInverted_dd4f85,
+.theme-dark .lookFilled_dd4f85.colorTransparent_dd4f85,
+.sizeMin_dd4f85,
+.theme-dark .lookLink_dd4f85.colorTransparent_dd4f85 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -1071,70 +1071,70 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 .VoiceActivity-voiceprofilesection-button:hover,
-.lookFilled__950dd.colorBrand__27d57:hover,
-.lookFilled__950dd.colorPrimary_ebe632:hover,
-.theme-dark .lookLink_a2da25.colorPrimary_ebe632:hover,
-.lookFilled__950dd.colorRed__5a617:hover,
-.lookOutlined__014b5.colorRed__5a617:hover,
-.lookOutlined__014b5.colorBrand__27d57:hover,
-.lookInverted_a299dc.colorBrand__27d57:hover,
-.buttonColor__8c13f:hover,
-.lookFilled__950dd.colorGreen__75c93:hover,
-.pageButtonPrev__9c384:hover,
-.pageButtonNext__13132:hover,
-.lookFilled__950dd.colorBrandNew__8872c:hover,
-.lookOutlined__014b5.colorGreen__75c93:hover,
-.buttonSize__9da96:hover,
-.lookOutlined__014b5.colorPrimary_ebe632:hover,
-.voiceChannelsButton_fd0b98:hover,
-.button_b82d53 .buttonColor__7bad9.buttonActive_ae686f,
-.button_b82d53.buttonColor__7bad9.buttonActive_ae686f,
-.button__76c4e:not([disabled]):hover,
-.theme-dark .watchButton__5a93d:hover,
-.button_c5d028:hover,
-.ctaButton__56c73:hover,
-.lookFilled__950dd.colorBrandInverted__52602:hover,
-.cta__69e2a:hover,
-.theme-dark .lookFilled__950dd.colorTransparent__3e3c7:hover,
-.button_b82d53.buttonColor__7bad9.buttonActive_ae686f:hover,
-.sizeMin__508da:hover,
-.theme-dark .lookLink_a2da25.colorTransparent__3e3c7:hover {
+.lookFilled_dd4f85.colorBrand_dd4f85:hover,
+.lookFilled_dd4f85.colorPrimary_dd4f85:hover,
+.theme-dark .lookLink_dd4f85.colorPrimary_dd4f85:hover,
+.lookFilled_dd4f85.colorRed_dd4f85:hover,
+.lookOutlined_dd4f85.colorRed_dd4f85:hover,
+.lookOutlined_dd4f85.colorBrand_dd4f85:hover,
+.lookInverted_a299dc.colorBrand_dd4f85:hover,
+.buttonColor_dfbe6b:hover,
+.lookFilled_dd4f85.colorGreen_dd4f85:hover,
+.pageButtonPrev_cb56ee:hover,
+.pageButtonNext_cb56ee:hover,
+.lookFilled_dd4f85.colorBrandNew__8872c:hover,
+.lookOutlined_dd4f85.colorGreen_dd4f85:hover,
+.buttonSize_c6eb7b:hover,
+.lookOutlined_dd4f85.colorPrimary_dd4f85:hover,
+.voiceChannelsButton_a08117:hover,
+.button_adcaac .buttonColor_adcaac.buttonActive_adcaac,
+.button_adcaac.buttonColor_adcaac.buttonActive_adcaac,
+.button_d5aa01:not([disabled]):hover,
+.theme-dark .watchButton_adbea6:hover,
+.button_e5cc00:hover,
+.ctaButton_ac01d6:hover,
+.lookFilled_dd4f85.colorBrandInverted_dd4f85:hover,
+.cta_cdef0d:hover,
+.theme-dark .lookFilled_dd4f85.colorTransparent_dd4f85:hover,
+.button_adcaac.buttonColor_adcaac.buttonActive_adcaac:hover,
+.sizeMin_dd4f85:hover,
+.theme-dark .lookLink_dd4f85.colorTransparent_dd4f85:hover {
 	background: var(--link-color);
 	color: var(--main-color);
 	border-radius: var(--border-radius);
 	border-color: var(--link-color);
 	opacity: 1;
 }
-.theme-dark .lookLink_a2da25.colorPrimary_ebe632:hover .contents__322f4,
-.theme-dark .lookLink_a2da25.colorTransparent__3e3c7:hover .contents__322f4 {
+.theme-dark .lookLink_dd4f85.colorPrimary_dd4f85:hover .contents_dd4f85,
+.theme-dark .lookLink_dd4f85.colorTransparent_dd4f85:hover .contents_dd4f85 {
 	--button--underline-color: transparent;
 }
 
 .VoiceActivity-voiceprofilesection-button:active,
-.lookFilled__950dd.colorBrand__27d57:active,
-.lookFilled__950dd.colorPrimary_ebe632:active,
-.theme-dark .lookLink_a2da25.colorPrimary_ebe632:active,
-.lookFilled__950dd.colorRed__5a617:active,
-.lookOutlined__014b5.colorRed__5a617:active,
-.lookOutlined__014b5.colorBrand__27d57:active,
-.lookInverted_a299dc.colorBrand__27d57:active,
-.buttonColor__8c13f:active,
-.lookFilled__950dd.colorGreen__75c93:active,
-.pageButtonPrev__9c384:active,
-.pageButtonNext__13132:active,
-.lookFilled__950dd.colorBrandNew__8872c:active,
-.lookOutlined__014b5.colorGreen__75c93:active,
-.buttonSize__9da96:active,
-.lookOutlined__014b5.colorPrimary_ebe632:active,
-.voiceChannelsButton_fd0b98:active,
-.button__76c4e:not([disabled]):active,
-.theme-dark .watchButton__5a93d:active,
-.button_c5d028:active,
-.cta__69e2a:active,
-.lookFilled__950dd.colorBrandInverted__52602:active,
-.theme-dark .lookFilled__950dd.colorTransparent__3e3c7:active,
-.sizeMin__508da:active,
-.theme-dark .lookLink_a2da25.colorTransparent__3e3c7:active {
+.lookFilled_dd4f85.colorBrand_dd4f85:active,
+.lookFilled_dd4f85.colorPrimary_dd4f85:active,
+.theme-dark .lookLink_dd4f85.colorPrimary_dd4f85:active,
+.lookFilled_dd4f85.colorRed_dd4f85:active,
+.lookOutlined_dd4f85.colorRed_dd4f85:active,
+.lookOutlined_dd4f85.colorBrand_dd4f85:active,
+.lookInverted_a299dc.colorBrand_dd4f85:active,
+.buttonColor_dfbe6b:active,
+.lookFilled_dd4f85.colorGreen_dd4f85:active,
+.pageButtonPrev_cb56ee:active,
+.pageButtonNext_cb56ee:active,
+.lookFilled_dd4f85.colorBrandNew__8872c:active,
+.lookOutlined_dd4f85.colorGreen_dd4f85:active,
+.buttonSize_c6eb7b:active,
+.lookOutlined_dd4f85.colorPrimary_dd4f85:active,
+.voiceChannelsButton_a08117:active,
+.button_d5aa01:not([disabled]):active,
+.theme-dark .watchButton_adbea6:active,
+.button_e5cc00:active,
+.cta_cdef0d:active,
+.lookFilled_dd4f85.colorBrandInverted_dd4f85:active,
+.theme-dark .lookFilled_dd4f85.colorTransparent_dd4f85:active,
+.sizeMin_dd4f85:active,
+.theme-dark .lookLink_dd4f85.colorTransparent_dd4f85:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -1142,57 +1142,57 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Кнопка "Личные сообщения" */
-.wrapper_a6f950:hover .childWrapper__760c6,
-.wrapper_a6f950.selected_b420e6 .childWrapper__760c6 {
+.wrapper_f90abb:hover .childWrapper_f90abb,
+.wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
-.childWrapperNoHoverBg_bc176a {
+.childWrapperNoHoverBg_f90abb {
 	border-radius: var(--border-radius);
 }
 
 /* Кнопка "Добавить сервер, Исследуйте" */
-.circleIconButton__05cf2 {
+.circleIconButton_db6521 {
     color: transparent;
 	border-radius: var(--border-radius);
 }
-.circleIconButton__05cf2.selected_aded59 {
+.circleIconButton_db6521.selected_db6521 {
     color: var(--blue-color-text);
 	background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
 
 /* Кнопка "Продемонстрируйте свой экран" */
-.actionButtons__85e3c > button[aria-label="Продемонстрируйте свой экран"] {
+.actionButtons_adcaac > button[aria-label="Продемонстрируйте свой экран"] {
 	background: linear-gradient(100deg, #1b222a 0%, #2a3742 50%, #1b222a 100%);
 }
-.actionButtons__85e3c {
+.actionButtons_adcaac {
     display: block;
 }
 
 /* Кнопка "Загрузить"*/
-.hoverButton__78b6a,
-.hoverButtonGroup__745e4 {
+.hoverButton_ab8b23,
+.hoverButtonGroup_ab8b23 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 }
-.hoverButton__78b6a:hover {
+.hoverButton_ab8b23:hover {
     background: var(--link-color);
 	color: var(--main-color);
 }
-.hoverButton__78b6a:active {
+.hoverButton_ab8b23:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 }
-.nonMediaMosaicItem__6d1a2 {
+.nonMediaMosaicItem_ab8b23 {
     outline: none;
 }
 
 /* Кнопка "Отправить сообщение"  */
-.activeButtonChild__58171,
-.theme-dark .button_dd99ad:hover .activeButtonChild__58171,
-.theme-dark .button_dd99ad:focus .activeButtonChild__58171,
-.theme-dark .button_dd99ad:focus-within .activeButtonChild__58171 {
+.activeButtonChild_a06035,
+.theme-dark .button_a06035:hover .activeButtonChild_a06035,
+.theme-dark .button_a06035:focus .activeButtonChild_a06035,
+.theme-dark .button_a06035:focus-within .activeButtonChild_a06035 {
     color: var(--link-color);
 }
