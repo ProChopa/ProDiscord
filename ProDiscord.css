@@ -231,7 +231,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 
 /* Выбранный сервер */
 .item_fd07a3 {
-    background-color: var(--link-color);
+    background: var(--link-color);
 }
 
 /* Значки на серверах */
@@ -263,6 +263,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 /* Список каналов, диалогов */
 .sidebar_a4d4d9 {
     width: 305px;
+}
+.animatedContainer_fd6364 {
+	background: none;
 }
 .channel_c91bad {
     max-width: 500px;
@@ -310,10 +313,23 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	border-radius: var(--border-radius);
 }
 
-/* Просмотр каналов. Участники (для админов) */
+/* Просмотр каналов. Каналы и роли. Участники (для админов) */
 .pageBody_c2efea,
-.page_d20375 {
+.page_d20375,
+.chat_a7d72e,
+.theme-dark .container_f1fd9c {
     background: var(--main-color) !important;
+}
+.optionButtonWrapper_bd5e1f:hover,
+.optionButtonWrapper_bd5e1f.selected_bd5e1f {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+    border-color: var(--hover-color);
+}
+.optionButtonWrapper_bd5e1f {
+    background: var(--main-color);
+	border-radius: var(--border-radius);
+    border-color: var(--hover-color);
 }
 
 /* Форум */
@@ -339,6 +355,13 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 .memberInner_a31c43 {
     border-radius: var(--border-radius);
+}
+
+/* Значок "БОТ" */
+.px_a02df3.botTag_a02df3,
+.botTagRegular_a02df3 {
+    color: var(--main-color);
+	border-radius: var(--border-radius);
 }
 
 /* Профиль */
@@ -380,9 +403,6 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .popoutBannerPremium_c3e427,
 .userProfileInnerThemedNonPremium_c69a7b {
 	border-radius: var(--border-radius);
-}
-.userPopoutOverlayBackground_c69a7b {
-    margin: 28px 0px 0px 0px;
 }
 .overlayBackground_c69a7b * {
 	max-width: 1000px;
