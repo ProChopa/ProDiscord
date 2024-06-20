@@ -101,7 +101,11 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 .imageZoom_d4597d,
 .container_b558d0>*,
-.theme-dark .wrapperAudio_f316dd {
+.theme-dark .wrapperAudio_f316dd,
+.markup_d6076c code,
+.markup_d6076c code.inline,
+.theme-dark .hljs-addition,
+.theme-dark .hljs-deletion {
     border-radius: var(--border-radius);
 }
 .embedFull_ad0b71,
@@ -346,6 +350,32 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     background: none;
 }
 
+/* Больше активных веток */
+.popout_c5b389 {
+	border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
+}
+.row_c5b389 {
+	background: var(--hover-color);
+	border-radius: var(--border-radius);
+	margin-top: 2px;
+}
+.row_c5b389:hover {
+	background: var(--link-color);
+	color: var(--main-color);
+	border-radius: var(--border-radius);
+	margin-top: 2px;
+}
+.row_c5b389:active {
+	background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
+	margin-top: 2px;
+}
+.row_c5b389:hover .timestamp_c5b389 {
+	color: var(--main-color);
+}
+
 /* Список участников */
 .members_cbd271 {
     width: 305px;
@@ -359,8 +389,17 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 
 /* Значок "БОТ" */
 .px_a02df3.botTag_a02df3,
-.botTagRegular_a02df3 {
-    color: var(--main-color);
+.botTagRegular_a02df3,
+.rem_a02df3.botTag_a02df3,
+.chipletContainerInner_d5cb59.noTooltip_d5cb59:hover,
+.chipletContainerInner_d5cb59,
+.chipletContainerInner_d5cb59:hover,
+.text-xs\/semibold_dc00ef,
+.text-xs\/semibold_dc00ef:hover,
+.unselectable_d5cb59,
+.unselectable_d5cb59:hover {
+    background: var(--link-color);
+	color: var(--main-color);
 	border-radius: var(--border-radius);
 }
 
@@ -681,21 +720,23 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Реакции */
-.reaction_ec6b19 {
+.reaction_ec6b19,
+.reaction_f61c73 {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
-.reaction_ec6b19:hover {
+.reaction_ec6b19:hover,
+.reaction_f61c73:hover {
     background: var(--main-color);
 	border-color: var(--link-color);
 }
-.reaction_ec6b19.reactionMe_ec6b19 {
+.reaction_ec6b19.reactionMe_ec6b19,
+.reaction_f61c73.reactionMe_f61c73,
+.reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19,
+.reaction_f61c73.reactionMe_f61c73 .reactionCount_f61c73 {
     background: var(--link-color);
     color: var(--main-color);
 	border-radius: var(--border-radius);
-}
-.reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19 {
-	color: var(--main-color);
 }
 
 /* Панель "Эмодзи" */
@@ -1090,7 +1131,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .lookFilled_dd4f85.colorBrandInverted_dd4f85,
 .theme-dark .lookFilled_dd4f85.colorTransparent_dd4f85,
 .sizeMin_dd4f85,
-.theme-dark .lookLink_dd4f85.colorTransparent_dd4f85 {
+.theme-dark .lookLink_dd4f85.colorTransparent_dd4f85,
+.lookLink_dd4f85.colorLink_dd4f85 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -1166,6 +1208,12 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 	border-color: var(--hover-color);
+}
+.tagsButton_a6d69a .tagsButtonInner_a6d69a:hover,
+.sortDropdownText_a6d69a:hover,
+.sortDropdownInner_a6d69a:hover,
+.defaultColor_a595eb:hover {
+	color: var(--main-color);
 }
 
 /* Кнопка "Личные сообщения" */
