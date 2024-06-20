@@ -756,9 +756,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .navButtonActive_af5dbb,
 .navButtonActive_af5dbb:hover,
 .emojiItem_fbfedd.emojiItemSelected_fbfedd,
-.categoryItemDefaultCategorySelected_dfa278,
-.categoryItemDefaultCategorySelected_dfa278:hover,
-.categoryItemDefaultCategory_dfa278:hover {
+.categoryItemCategorySelected_dfa278,
+.categoryItemCategorySelected_dfa278:hover,
+.categoryItemCategory_dfa278:hover {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
@@ -1211,8 +1211,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 .tagsButton_a6d69a .tagsButtonInner_a6d69a:hover,
 .sortDropdownText_a6d69a:hover,
-.sortDropdownInner_a6d69a:hover,
-.defaultColor_a595eb:hover {
+.sortDropdownInner_a6d69a:hover {
 	color: var(--main-color);
 }
 
