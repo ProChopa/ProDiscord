@@ -69,7 +69,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Сообщения */
-.cozy_ec86aa.wrapper_ec86aa,
+/*.cozy_f9f2ca.wrapper_f9f2ca,
 .group-spacing-16 .groupStart_d5deea {
     position: relative;
     margin: 16px 5px 0 70px;
@@ -92,7 +92,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     background: linear-gradient(100deg, #1b222a 0%, #2a3742 15%, #2a3742 50%, #1b222a 100%);
 	border-radius: var(--border-radius);
 }
-.cozy_ec86aa .repliedMessage_ec86aa {
+.cozy_f9f2ca .repliedMessage_f9f2ca {
     background: linear-gradient(100deg, #1b222a 0%, #2a3742 20%, #1b222a 50%, #1b222a 100%);
 	border-radius: var(--border-radius);
 }
@@ -124,11 +124,11 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     background: var(--link-color);
 	color: var(--main-color);
 }
-.avatar_ec86aa {
+.avatar_f9f2ca {
     top: 0px;
     left: -50px;
 }
-.wrapper_ec86aa.groupStart_d5deea .avatarDecoration_ec86aa {
+.wrapper_f9f2ca.groupStart_d5deea .avatarDecoration_f9f2ca {
   top: 0;
   left: -54px;
 }
@@ -137,25 +137,83 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     background: var(--message-background);
     overflow: visible;
 }
-.wrapper_ec86aa .dot_bf4197 {
+.wrapper_f9f2ca .dot_bf4197 {
     margin: 0 4px;
 }
-.cozy_ec86aa:not(.groupStart_d5deea) {
+.cozy_f9f2ca:not(.groupStart_d5deea) {
     padding-left: 10px;
     padding-top: 1px;
     padding-bottom: 3px;
     border-radius: var(--border-radius);
     margin-top: 2px;
 }
-.cozy_ec86aa .timestamp_ec86aa.alt_ec86aa {
+.cozy_f9f2ca .timestamp_f9f2ca.alt_ec86aa {
     left: -65px;
 }
-.cozy_ec86aa.hasThread_ec86aa:after {
+.cozy_f9f2ca.hasThread_ec86aa:after {
     display: none;
 }
 .emptyChannelIcon_c2668b {
     background: var(--hover-color);
 }
+
+/* Сообщения */
+.cozy_f9f2ca.wrapper_f9f2ca {
+    margin: 5px 10px 0 16px;
+    padding-bottom: 3px;
+    border-bottom: none !important;
+    overflow: visible !important;
+    border-radius: var(--border-radius);
+	background: var(--second-color);
+}
+.cozy_f9f2ca:not(.groupStart_d5deea) {
+    margin-top: 2px;
+	background: var(--second-color);
+}
+.theme-dark .message_d5deea.selected_d5deea,
+.theme-dark.mouse-mode.full-motion .message_d5deea:hover {
+    background: var(--main-color);
+}
+.cozy_f9f2ca .repliedMessage_f9f2ca {
+    background: var(--main-color);
+	border-radius: var(--border-radius);
+}
+.attachment_a4623d.newMosaicStyle_a4623d,
+.newMosaicStyle_ad9cbd .codeView_ad9cbd,
+.newMosaicStyle_ad9cbd .footer_ad9cbd,
+.newMosaicStyle_ad9cbd .textContainer_ad9cbd,
+.grid_ad0b71 {
+    background: var(--main-color);
+	border-radius: var(--border-radius);
+}
+.imageZoom_d4597d,
+.container_b558d0>*,
+.theme-dark .wrapperAudio_f316dd,
+.markup_f8f345 code,
+.markup_f8f345 code.inline,
+.theme-dark .hljs-addition,
+.theme-dark .hljs-deletion {
+    border-radius: var(--border-radius);
+}
+.wrapper_ef319f {
+    background: var(--hover-color);
+	color: var(--blue-color-text);
+	border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
+}
+.button_ef319f:hover,
+.button_ef319f.selected_ef319f {
+    background: var(--link-color);
+	color: var(--main-color);
+}
+/*.avatar_f9f2ca {
+    top: 0px;
+    left: -50px;
+}
+.wrapper_f9f2ca.groupStart_d5deea .avatarDecoration_f9f2ca {
+  top: 0;
+  left: -54px;
+}*/
 
 /* Упоминание */
 .mentioned_d5deea {
