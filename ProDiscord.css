@@ -66,6 +66,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 	--yellow-260: var(--link-color);
 	--yellow-300: var(--link-color);
 	--background-modifier-accent: var(--hover-color);
+    --bg-overlay-chat: var(--main-color);
 }
 
 /* Сообщения */
@@ -395,12 +396,11 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* Форум */
-.content_eed6a8 {
-    background: var(--main-color) !important;
-}
 .header_a6d69a,
 .container_a57509,
-.theme-dark .tagPill_a57509 {
+.theme-dark .tagPill_a57509,
+.mainCard_a6d69a,
+.matchingPostsRow_a6d69a {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
