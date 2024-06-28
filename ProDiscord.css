@@ -374,7 +374,8 @@ button.button_f67531 {
 .newMosaicStyle_ad9cbd .codeView_ad9cbd,
 .newMosaicStyle_ad9cbd .footer_ad9cbd,
 .newMosaicStyle_ad9cbd .textContainer_ad9cbd,
-.grid_ad0b71 {
+.grid_ad0b71,
+.spoilerContainer_a3d0f7 {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
