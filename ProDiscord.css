@@ -912,6 +912,9 @@ button.button_f67531 {
 	box-shadow: none;
 	border: none;
 }
+.rootContainer_b3552d {
+    background: none;
+}
 .row_fd8ff1:hover,
 .categoryItem_c72b37.selectedCategoryItem_c72b37 .itemInner_c72b37 {
     background: var(--hover-color);
@@ -921,7 +924,8 @@ button.button_f67531 {
 .option_b0286e,
 .jumpButton_ac90a2,
 .wrappedLayout_e9f61e,
-.optionContainer_e3f8c2:hover {
+.optionContainer_e3f8c2:hover,
+.headerBackground_b3552d {
 	border-radius: var(--border-radius);
 	border: none;
 }
