@@ -1,8 +1,10 @@
 @import url("https://discordstyles.github.io/SoftX/RadialGlow.css");
 
 :root {
-	--main-color: #1b222a;
-	--second-color: #222c37;
+	/*--main-color: #1b222a;
+	--second-color: #222c37;*/
+	--main-color: #222c37;
+	--second-color: #1b222a;
 	--hover-color: #2a3742;
 	--link-color: #5785ba;
 	--blue-color-text: #cdd6f4;
@@ -439,8 +441,11 @@ button.button_f67531 {
 .wrapper_bf1b19,
 .executedCommand_ec86aa .appLauncherOnboardingCommandName_ec86aa {
     background: var(--link-color) !important;
-	color: var(--main-color) !important;
+	color: var(--second-color) !important;
 	border-radius: var(--border-radius) !important;
+}
+.icon_bf515c {
+    margin-right: 0px;
 }
 .chat_a7d72e,
 .upload_df1eaf,
@@ -600,15 +605,21 @@ button.button_f67531 {
 	margin-bottom: 34px;
 	height: 12px;
 }
+.channelRow_f04d06,
 .channelRow_f04d06:not(.disabled_f04d06),
 .channelRow_f04d06:hover:not(.disabled_f04d06) {
-    background: var(--second-color);
+    background: var(--main-color);
 	border-radius: var(--border-radius);
 }
-.content_fc5f50,
+.content_fc5f50 {
+    background: var(--hover-color);
+    border-radius: var(--border-radius);
+}
 .container_b385c8 {
     background: var(--hover-color);
     border-radius: var(--border-radius);
+	top: 7px;
+	height: 28px;
 }
 .emptyChannelIcon_c2668b,
 .circle_c1cfd2,
@@ -870,7 +881,7 @@ button.button_f67531 {
     background: var(--link-color) !important;
 }
 .theme-dark .checkbox_f6cde8 {
-    background: var(--main-color);
+    background: var(--second-color);
 	border-radius: var(--border-radius);
 	border: none;
 }
@@ -910,11 +921,16 @@ button.button_f67531 {
 .theme-dark .separator_f9a4c9,
 .content_fa4e6d,
 .root_f9a4c9,
-.container_acb8b3,
 .container_c18ec9,
 .addFriendInputWrapper_de812f,
 .addFriendInputWrapper_de812f:focus-within {
     background: var(--second-color);
+	border-radius: var(--border-radius);
+	box-shadow: none;
+	border: none;
+}
+.container_acb8b3 {
+    background: var(--main-color);
 	border-radius: var(--border-radius);
 	box-shadow: none;
 	border: none;
@@ -1284,7 +1300,8 @@ button.button_f67531 {
 .top_a0 .brand_a0.selected_a0.item_a0 {
     border-bottom-color: var(--link-color);
 }
-.theme-dark .progress_e5cdf3 {
+.theme-dark .progress_e5cdf3,
+.selectedBackground_ae3c77{
     background: var(--hover-color);
 }
 .game_fd966d {
@@ -1292,7 +1309,7 @@ button.button_f67531 {
 }
 .theme-dark .container_c67e31,
 .theme-dark .container_c67e31:hover {
-    background: var(--second-color);
+    background: var(--main-color);
 	border-radius: var(--border-radius);
 	border-color: var(--second-color);
 	height: 34px;
