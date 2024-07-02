@@ -1,8 +1,6 @@
 @import url("https://discordstyles.github.io/SoftX/RadialGlow.css");
 
 :root {
-	/*--main-color: #1b222a;
-	--second-color: #222c37;*/
 	--main-color: #222c37;
 	--second-color: #1b222a;
 	--hover-color: #2a3742;
@@ -174,7 +172,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .base__5ed84,
 .newChannel_ecb303 {
     background: var(--link-color) !important;
-	color: var(--main-color);
+	color: var(--second-color);
 }
 .closedFolderIconWrapper_bc7085,
 .folder_bc7085,
@@ -853,6 +851,11 @@ button.button_f67531 {
 .overlayBackground_c69a7b,
 .profileEffects_f867f9.hovered_f867f9 {
     border-radius: var(--border-radius);
+}
+.screenshareIcon_d5089b,
+.assetsLargeImageSpotify_d5089b,
+.assetsLargeImage_d5089b {
+    border-radius: 50%;
 }
 .panelBanner_c3e427 {
     border-radius: var(--border-radius);
