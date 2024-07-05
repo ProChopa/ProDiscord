@@ -22,6 +22,7 @@
 	--primary-560: var(--blue-color-text);
 	--primary-660: var(--main-color);
 	--white-500: var(--blue-color-text);
+	--interactive-active: var(--blue-color-text);
 	--interactive-hover: var(--blue-color-text);
     --interactive-muted: var(--blue-color-text);
 	--channel-text-area-placeholder: var(--blue-color-text);
@@ -336,11 +337,14 @@ button.button_f67531 {
 }
 
 /* CHAT BAR */
-.content_c49869,
 .scroller_e2e187 {
     background: var(--second-color);
 	border-radius: var(--border-radius);
 	margin: var(--spacing);
+}
+.content_c49869 {
+    background: var(--second-color);
+	border-radius: var(--border-radius);
 }
 .cozy_f9f2ca.wrapper_f9f2ca,
 .cozy_ec86aa.wrapper_ec86aa,
@@ -445,7 +449,6 @@ button.button_f67531 {
 .icon_bf515c {
     margin-right: 0px;
 }
-.chat_a7d72e,
 .upload_df1eaf,
 .row_b53f4f,
 .tab_ff1414,
@@ -459,6 +462,21 @@ button.button_f67531 {
 	background: var(--second-color);
 	border-radius: var(--border-radius);
 	margin-right: var(--spacing);
+}
+.flexCenter_bae578 {
+    background: var(--second-color);
+	border-radius: var(--border-radius);
+}
+.root_dd069c {
+    background: var(--second-color);
+	border-radius: var(--border-radius);
+	margin-top: 5px;
+	margin-bottom: var(--spacing);
+	margin-left: var(--spacing);
+}
+.chat_a7d72e {
+	background: var(--main-color);
+	border-radius: var(--border-radius);
 }
 .theme-dark .container_f1fd9c {
     background: var(--second-color) !important;
@@ -562,9 +580,12 @@ button.button_f67531 {
 	border-radius: var(--border-radius);
 }
 .theme-dark .textContentFooter_a57509,
-.floating_d1c246,
-.chatContent_a7d72e,
 .roleMessagePreview_ecba8f {
+    background: none;
+	border: none;
+}
+.floating_d1c246,
+.chatContent_a7d72e {
     background: none;
 	border: none;
 }
@@ -630,23 +651,26 @@ button.button_f67531 {
 }
 
 /* WRITE BAR */
-.themedBackground_d0696b,
-.channelTextAreaDisabled_d0696b .scrollableContainer_d0696b {
+.themedBackground_d0696b {
     background: var(--second-color);
 	border-radius: var(--border-radius);
-	margin-bottom: var(--spacing);
+	margin-bottom: -24px;
+}
+.channelTextAreaDisabled_d0696b .scrollableContainer_d0696b,
+.media_f847a3 {
+    background: var(--second-color);
+	border-radius: var(--border-radius);
 	opacity: 1;
 }
 .form_a7d72e {
-	margin-bottom: -34px;
 	padding-left: var(--spacing);
     padding-right: var(--spacing);
     margin-top: 0px;
 }
-.activityInviteEducationFadeIn_d7ebeb,
+/*.activityInviteEducationFadeIn_d7ebeb,
 .base_d7ebeb {
     bottom: 72px;
-}
+}*/
 
 /* MEMBERS BAR */
 .members_cbd271 {
@@ -705,6 +729,9 @@ button.button_f67531 {
     background: var(--second-color);
 	border-radius: var(--border-radius);
 }
+.header_c96274 {
+	border: none;
+}
 
 /* ACTIVITY BAR */
 .nowPlayingColumn_c2739c {
@@ -735,7 +762,9 @@ button.button_f67531 {
 .section_cd82a7, .section_cd82a7:first-child,
 .section_cd82a7:only-child,
 .section_cd82a7:last-child,
-.theme-dark .inset_c0f6a6 {
+.theme-dark .inset_c0f6a6,
+.activitySectionAssets_cd82a7 .largeImage_cd82a7,
+.headerIcon_cd82a7 {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
@@ -854,7 +883,8 @@ button.button_f67531 {
 }
 .screenshareIcon_d5089b,
 .assetsLargeImageSpotify_d5089b,
-.assetsLargeImage_d5089b {
+.assetsLargeImage_d5089b,
+.assetsLargeImage_f866f2 {
     border-radius: 50%;
 }
 .panelBanner_c3e427 {
@@ -863,7 +893,8 @@ button.button_f67531 {
 }
 .footer_be6801,
 .statusBubbleOuter_d0a252:before,
-.theme-dark .statusBubbleOuter_d0a252:after {
+.theme-dark .statusBubbleOuter_d0a252:after,
+.footer_b07019 {
     display: none;
 }
 
@@ -938,7 +969,8 @@ button.button_f67531 {
 	box-shadow: none;
 	border: none;
 }
-.rootContainer_b3552d {
+.rootContainer_b3552d,
+.carouselModal_d2b9a1 {
     background: none;
 }
 .row_fd8ff1:hover,
@@ -1339,7 +1371,7 @@ button.button_f67531 {
 }
 .textBadge_df8943 {
     background: var(--link-color);
-	color: var(--main-color);
+	color: var(--second-color);
     border-radius: var(--border-radius);
 }
 .theme-dark .toggleIconOn_fd966d .fill_fd966d {
@@ -1451,18 +1483,24 @@ button.button_f67531 {
 .root_a5ea57 {
     display: none;
 }
-.root_dd069c,
-.flexCenter_bae578 {
+.tile_ba4b17.idle_ba4b17,
+.tile_ba4b17.noInteraction_ba4b17,
+.tile_dc5fc4 {
     background: var(--second-color);
 	border-radius: var(--border-radius);
-	margin: var(--spacing);
 }
-.tile_ba4b17.idle_ba4b17, .tile_ba4b17.noInteraction_ba4b17 {
-    border-radius: var(--border-radius);
+.background_f3801e {
+    background: var(--second-color);
+	border-radius: var(--border-radius);
+}
+.gradientContainer_dd069c {
+    background: transparent;
+	border-radius: var(--border-radius);
 }
 .overlayContainer_ba4b17,
 .content_ba4b17,
-.border_ba4b17, .border_ba4b17.speaking_ba4b17,
+.border_ba4b17,
+.border_ba4b17.speaking_ba4b17,
 .picker_cd703d,
 .container_bdea70 {
     border-radius: var(--border-radius);
@@ -1503,6 +1541,7 @@ button.button_f67531 {
     --radius-lg: var(--border-radius);
     --radius-xl: var(--border-radius);
     --radius-xxl: var(--border-radius);
+	--white: var(--blue-color-text);
 }
 
 /* Кнопки */
@@ -1598,10 +1637,15 @@ button.button_f67531 {
 .colorWarning_be03aa .button_be03aa:hover,
 .lookOutlined_dd4f85.colorWhite_dd4f85:hover {
 	background: var(--link-color);
-	color: var(--main-color);
+	color: var(--second-color);
 	border-radius: var(--border-radius);
 	border: none;
 	opacity: 1;
+}
+.tagsButton_a6d69a .tagsButtonInner_a6d69a:hover,
+.sortDropdownText_a6d69a:hover,
+.sortDropdownInner_a6d69a:hover {
+	color: var(--second-color);
 }
 .theme-dark .lookLink_dd4f85.colorPrimary_dd4f85:hover .contents_dd4f85,
 .theme-dark .lookLink_dd4f85.colorTransparent_dd4f85:hover .contents_dd4f85,
@@ -1645,11 +1689,6 @@ button.button_f67531 {
 	border-radius: var(--border-radius);
 	border: none;
 }
-.tagsButton_a6d69a .tagsButtonInner_a6d69a:hover,
-.sortDropdownText_a6d69a:hover,
-.sortDropdownInner_a6d69a:hover {
-	color: var(--main-color);
-}
 
 /* Кнопка "Личные сообщения" */
 .childWrapperNoHoverBg_f90abb {
@@ -1671,8 +1710,8 @@ button.button_f67531 {
 	border-radius: var(--border-radius);
 }
 .circleIconButton_db6521.selected_db6521 {
-    color: var(--blue-color-text);
 	background: var(--hover-color);
+	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 }
 
@@ -1685,7 +1724,7 @@ button.button_f67531 {
 }
 .hoverButton_ab8b23:hover {
     background: var(--link-color);
-	color: var(--main-color);
+	color: var(--second-color);
 }
 .hoverButton_ab8b23:active {
     background: var(--hover-color);
