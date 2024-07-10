@@ -1431,6 +1431,12 @@ button.button_f67531 {
 .theme-dark .notches_e5cdf3.gray_e5cdf3 {
     color: var(--second-color);
 }
+.vc-notification-root,
+.toast_f42767 {
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
+}
 
 /* Авторство */
 .info_c5a741:after {
