@@ -420,9 +420,6 @@ button.button_f67531 {
 	border-radius: var(--border-radius);
 	box-shadow: var(--elevation-high);
 }
-.backgroundFlash_d5deea .groupStart_d5deea {
-    background: var(--hover-color);
-}
 .button_ef319f:hover,
 .button_ef319f.selected_ef319f {
     background: var(--link-color);
