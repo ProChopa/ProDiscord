@@ -342,7 +342,8 @@ button.button_f67531 {
 	border-radius: var(--border-radius);
 	margin: var(--spacing);
 }
-.content_c49869 {
+.content_c49869,
+.messageContainer_ddb5b4 {
     background: var(--second-color);
 	border-radius: var(--border-radius);
 }
@@ -364,6 +365,9 @@ button.button_f67531 {
     background: var(--second-color);
 	border-radius: var(--border-radius);
 }
+.scrollerSpacer_e2e187 {
+    height: 6px;
+}
 .thin_c49869 {
     background: var(--second-color);
 	border-radius: var(--border-radius);
@@ -383,7 +387,8 @@ button.button_f67531 {
 .inviteSplashImage_b9fe76,
 .inviteSplash_b9fe76,
 .theme-dark .opaqueBackground_eb6c38,
-.container_f11cbf {
+.container_f11cbf,
+.channelHeader_f3978e {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
@@ -414,6 +419,9 @@ button.button_f67531 {
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 	box-shadow: var(--elevation-high);
+}
+.backgroundFlash_d5deea .groupStart_d5deea {
+    background: var(--hover-color);
 }
 .button_ef319f:hover,
 .button_ef319f.selected_ef319f {
@@ -600,7 +608,7 @@ button.button_f67531 {
 	margin-top: 17px;
     transition: opacity0s;
     opacity: 1;
-	height: 30px;
+	height: 26px;
 }
 .jumpToPresentBar_cf58b5,
 .jumpToPresentBar_cf58b5:active {
@@ -608,7 +616,7 @@ button.button_f67531 {
 	border-radius: var(--border-radius);
 	padding-bottom: 2px;
 	margin-bottom: 17px;
-	height: 30px;
+	height: 22px;
 }
 .chatHeaderBar_efb691 {
     background: var(--second-color);
@@ -616,7 +624,7 @@ button.button_f67531 {
 	margin-top: var(--spacing);
 	margin-left: var(--spacing);
 	margin-right: var(--spacing);
-	height: 28px;
+	height: 18px;
 }
 .wrapper_faf5ab {
     background: var(--second-color);
@@ -637,6 +645,7 @@ button.button_f67531 {
 .container_b385c8 {
     background: var(--hover-color);
     border-radius: var(--border-radius);
+	margin-left: 6px;
 	top: 7px;
 	height: 28px;
 }
@@ -667,10 +676,13 @@ button.button_f67531 {
     padding-right: var(--spacing);
     margin-top: 0px;
 }
-/*.activityInviteEducationFadeIn_d7ebeb,
+.activityInviteEducationFadeIn_d7ebeb,
 .base_d7ebeb {
-    bottom: 72px;
-}*/
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
+	bottom: 61px;
+	height: 24px;
+}
 
 /* MEMBERS BAR */
 .members_cbd271 {
@@ -1593,11 +1605,13 @@ button.button_f67531 {
 .category_d169f5,
 .lookFilled_dd4f85.colorWhite_dd4f85,
 .lookOutlined_dd4f85.colorWhite_dd4f85,
-.theme-dark .button_be03aa {
+.theme-dark .button_be03aa,
+.jumpMessageButton_ddb5b4 {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 	border: none;
+	opacity: 1;
 }
 .vc-plugins-restart-card button {
     background: var(--hover-color) !important;
