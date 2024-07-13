@@ -95,18 +95,18 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* HEADER MAIN BAR */
-.content_a4d4d9 > .container_c2739c:not(:has(.addFriendInput_de812f)) .container_e44302,
-.theme-dark .themed_e44302,
-.theme-dark .children_e44302:after {
+.content_a4d4d9 > .container_c2739c:not(:has(.addFriendInput_de812f)) .container_fc4f04,
+.theme-dark .themed_fc4f04,
+.theme-dark .children_fc4f04:after {
     background: var(--second-color) !important;
     border-radius: var(--border-radius);
 	margin-left: var(--spacing);
 }
-.container_e44302 {
+.container_fc4f04 {
 	margin-right: var(--spacing);
 	width: auto;
 }
-.container_e44302 * {
+.container_fc4f04 * {
     color: var(--blue-color-text);
 }
 .akaBadge__27cd4 {
@@ -116,7 +116,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .topPill_a0 .item_a0 {
 	border-radius: var(--border-radius);
 }
-.divider_e44302 {
+.divider_fc4f04 {
 	display: none;
 }
 .tabBar_c2739c .addFriend_c2739c.addFriend_c2739c.addFriend_c2739c {
@@ -166,7 +166,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .base_a4d4d9 {
 	margin-left: var(--spacing);
 }
-.item_fd07a3 {
+.item_c4cd66 {
     background: var(--link-color);
 }
 .iconBadge_c96c45,
@@ -348,7 +348,7 @@ button.button_f67531 {
 	border-radius: var(--border-radius);
 }
 .cozy_f9f2ca.wrapper_f9f2ca,
-.cozy_ec86aa.wrapper_ec86aa,
+.cozy_f9f2ca.wrapper_f9f2ca,
 .message_ddcc45 {
 	background: var(--second-color);
 	border-radius: var(--border-radius);
@@ -395,8 +395,8 @@ button.button_f67531 {
 .imageZoom_d4597d,
 .container_b558d0>*,
 .theme-dark .wrapperAudio_f316dd,
-.markup_d6076c code,
-.markup_d6076c code.inline,
+.markup_f8f345 code,
+.markup_f8f345 code.inline,
 .theme-dark .hljs-addition,
 .theme-dark .hljs-deletion,
 .action_e3f878,
@@ -437,16 +437,16 @@ button.button_f67531 {
     background: var(--main-color);
 	border-radius: 0 0 24px 24px;
 }
-.mentioned_d5deea .messageContent_ec86aa .wrapper_bf1b19 {
+.mentioned_d5deea .messageContent_f9f2ca .wrapper_bf1b19 {
     background: var(--link-color);
 	color: var(--main-color);
 }
 .mentioned_d5deea:before,
-.cozy_ec86aa .repliedMessage_ec86aa:before {
+.cozy_f9f2ca .repliedMessage_f9f2ca:before {
     display: none;
 }
 .wrapper_bf1b19,
-.executedCommand_ec86aa .appLauncherOnboardingCommandName_ec86aa {
+.executedCommand_f9f2ca .appLauncherOnboardingCommandName_f9f2ca {
     background: var(--link-color) !important;
 	color: var(--second-color) !important;
 	border-radius: var(--border-radius) !important;
@@ -635,7 +635,7 @@ button.button_f67531 {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
-.content_fc5f50 {
+.content_c2654d {
     background: var(--hover-color);
     border-radius: var(--border-radius);
 }
@@ -890,9 +890,9 @@ button.button_f67531 {
 .profileEffects_f867f9.hovered_f867f9 {
     border-radius: var(--border-radius);
 }
-.screenshareIcon_d5089b,
-.assetsLargeImageSpotify_d5089b,
-.assetsLargeImage_d5089b,
+.screenshareIcon_c1d9fd,
+.assetsLargeImageSpotify_c1d9fd,
+.assetsLargeImage_c1d9fd,
 .assetsLargeImage_f866f2 {
     border-radius: 50%;
 }
@@ -1195,11 +1195,11 @@ button.button_f67531 {
 .item_d90b3d.colorDefault_d90b3d.hideInteraction_d90b3d {
     background: none;
 }
-.themed_aa267a .barInner_aa267a {
+.themed_ec2fa7 .barInner_ec2fa7 {
     background: var(--link-color);
 	border-radius: var(--border-radius);
 }
-.bar_aa267a {
+.bar_ec2fa7 {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
@@ -1733,21 +1733,21 @@ button.button_f67531 {
 }
 
 /* Кнопка "Загрузить"*/
-.hoverButton_ab8b23,
-.hoverButtonGroup_ab8b23 {
+.hoverButton_e5c1dc,
+.hoverButtonGroup_e5c1dc {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 }
-.hoverButton_ab8b23:hover {
+.hoverButton_e5c1dc:hover {
     background: var(--link-color);
 	color: var(--second-color);
 }
-.hoverButton_ab8b23:active {
+.hoverButton_e5c1dc:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 }
-.nonMediaMosaicItem_ab8b23 {
+.nonMediaMosaicItem_e5c1dc {
     outline: none;
 }
 
