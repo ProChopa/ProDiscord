@@ -377,15 +377,15 @@ button.button_f67531 {
 .theme-dark.mouse-mode.full-motion .message_d5deea:hover {
     background: var(--second-color);
 }
-.attachment_a4623d.newMosaicStyle_a4623d,
-.newMosaicStyle_ad9cbd .codeView_ad9cbd,
-.newMosaicStyle_ad9cbd .footer_ad9cbd,
-.newMosaicStyle_ad9cbd .textContainer_ad9cbd,
-.grid_ad0b71,
+.attachment_b52bef.newMosaicStyle_b52bef,
+.newMosaicStyle_d8e2d0 .codeView_d8e2d0,
+.newMosaicStyle_d8e2d0 .footer_d8e2d0,
+.newMosaicStyle_d8e2d0 .textContainer_d8e2d0,
+.grid_b0068a,
 .spoilerContainer_a3d0f7,
 .cozy_f9f2ca .repliedMessage_f9f2ca,
-.inviteSplashImage_b9fe76,
-.inviteSplash_b9fe76,
+.inviteSplashImage_a71a1c,
+.inviteSplash_a71a1c,
 .theme-dark .opaqueBackground_eb6c38,
 .container_f11cbf,
 .channelHeader_f3978e {
@@ -458,7 +458,7 @@ button.button_f67531 {
 .row_b53f4f,
 .tab_ff1414,
 .container_e1e1a4,
-.theme-dark .card_eb1ca6 {
+.theme-dark .card_e90879 {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
@@ -709,9 +709,9 @@ button.button_f67531 {
 .memberInner_a31c43 {
     border-radius: var(--border-radius);
 }
-.px_a02df3.botTag_a02df3,
-.botTagRegular_a02df3,
-.rem_a02df3.botTag_a02df3,
+.px_a9e77f.botTag_a9e77f,
+.botTagRegular_a9e77f,
+.rem_a9e77f.botTag_a9e77f,
 .chipletContainerInner_d5cb59.noTooltip_d5cb59:hover,
 .chipletContainerInner_d5cb59,
 .chipletContainerInner_d5cb59:hover,
@@ -1031,7 +1031,7 @@ button.button_f67531 {
 .selectorButton_a78967.selectorButtonSelected_a78967 .selectorText_a78967 {
     color: var(--main-color);
 }
-.pictureInPicture_d0596b {
+.pictureInPicture_e0c856 {
     display: none;
 }
 
@@ -1041,11 +1041,11 @@ button.button_f67531 {
 	border-radius: var(--border-radius);
 	box-shadow: var(--elevation-high);
 }
-.base_f23da8,
+.base_bcc24e,
 .categorySection_fe2299,
 .categoryHeader_fe2299,
 .wrapper_efd8e6,
-.autocompleteInner_f23da8 {
+.autocompleteInner_bcc24e {
 	background: var(--second-color);
 	border-radius: var(--border-radius);
 }
@@ -1460,7 +1460,7 @@ button.button_f67531 {
 .dotSpacer_f005b2 {
     background: var(--link-color);
 }
-.statusOffline_b9fe76 {
+.statusOffline_a71a1c {
     background: var(--hover-color);
 }
 .separator_a06035:before {
@@ -1574,13 +1574,13 @@ button.button_f67531 {
 .buttonColor_dfbe6b,
 .lookFilled_dd4f85.colorGreen_dd4f85,
 .statusTag_a28a08,
-.pageButtonPrev_cb56ee,
-.pageButtonNext_cb56ee,
-.pageButtonPrev_cb56ee.disabled_cb56ee,
-.pageButtonNext_cb56ee.disabled_cb56ee,
-.pageIndicator_cb56ee,
+.pageButtonPrev_d6a4eb,
+.pageButtonNext_d6a4eb,
+.pageButtonPrev_d6a4eb.disabled_d6a4eb,
+.pageButtonNext_d6a4eb.disabled_d6a4eb,
+.pageIndicator_d6a4eb,
 .lookFilled_dd4f85.colorBrandNew__8872c,
-.warning_f20685,
+.warning_bc1f7a,
 .lookOutlined_dd4f85.colorGreen_dd4f85,
 .buttonSize_c6eb7b,
 .lookOutlined_dd4f85.colorPrimary_dd4f85,
@@ -1627,8 +1627,8 @@ button.button_f67531 {
 .lookInverted_a299dc.colorBrand_dd4f85:hover,
 .buttonColor_dfbe6b:hover,
 .lookFilled_dd4f85.colorGreen_dd4f85:hover,
-.pageButtonPrev_cb56ee:hover,
-.pageButtonNext_cb56ee:hover,
+.pageButtonPrev_d6a4eb:hover,
+.pageButtonNext_d6a4eb:hover,
 .lookFilled_dd4f85.colorBrandNew__8872c:hover,
 .lookOutlined_dd4f85.colorGreen_dd4f85:hover,
 .buttonSize_c6eb7b:hover,
@@ -1680,8 +1680,8 @@ button.button_f67531 {
 .lookInverted_a299dc.colorBrand_dd4f85:active,
 .buttonColor_dfbe6b:active,
 .lookFilled_dd4f85.colorGreen_dd4f85:active,
-.pageButtonPrev_cb56ee:active,
-.pageButtonNext_cb56ee:active,
+.pageButtonPrev_d6a4eb:active,
+.pageButtonNext_d6a4eb:active,
 .lookFilled_dd4f85.colorBrandNew__8872c:active,
 .lookOutlined_dd4f85.colorGreen_dd4f85:active,
 .buttonSize_c6eb7b:active,
