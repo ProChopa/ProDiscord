@@ -102,6 +102,9 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     border-radius: var(--border-radius);
 	margin-left: var(--spacing);
 }
+.content_a7d72e:before {
+    box-shadow: none;
+}
 .container_fc4f04 {
 	margin-right: var(--spacing);
 	width: auto;
