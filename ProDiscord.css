@@ -86,7 +86,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 .notice_e2ecbf,
 .notice_dd5a33,
 .header_dd5a33,
-.colorDefault_be03aa {
+.colorDefault_be03aa,
+.colorStreamerMode_be03aa {
     background: var(--second-color);
     color: var(--blue-color-text);
 	border-radius: var(--border-radius);
