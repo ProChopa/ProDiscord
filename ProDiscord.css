@@ -244,7 +244,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     background: var(--hover-color);
     box-shadow: var(--elevation-high);
     border-radius: var(--border-radius);
-    margin-bottom: var(--spacing);
+    margin-bottom: 17px;
     opacity: 1;
 }
 .modeUnreadImportant_d8bfb3 .icon_d8bfb3,
@@ -368,6 +368,7 @@ button.button_adca65 {
 .navButtons_cd377c {
     background: var(--second-color);
 	border-radius: var(--border-radius);
+	margin-bottom: 28px;
 }
 .scrollerSpacer_e2e187 {
     height: 6px;
@@ -904,7 +905,7 @@ button.button_adca65 {
     border-radius: var(--border-radius);
 	width: 305px;
 }
-.footer_be6801,
+.footer_ecc60d,
 .statusBubbleOuter_d0a252:before,
 .theme-dark .statusBubbleOuter_d0a252:after,
 .footer_b07019 {
@@ -931,6 +932,12 @@ button.button_adca65 {
     background: var(--second-color);
 	border-radius: var(--border-radius);
 	border: none;
+}
+.colorDefault_d90b3d .check_d90b3d {
+	fill: var(--second-color);
+}
+.colorDefault_d90b3d.focused_d90b3d .checkbox_d90b3d {
+	fill: var(--hover-color);
 }
 
 /* Приглашение друзей */
@@ -1472,6 +1479,9 @@ button.button_adca65 {
 }
 .divider_af45f8 {
     display: none;
+}
+.divider_c2654d {
+    border-top: none;
 }
 
 /* Подсказки при наведении */
