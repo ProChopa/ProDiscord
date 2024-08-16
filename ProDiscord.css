@@ -244,7 +244,7 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     background: var(--hover-color);
     box-shadow: var(--elevation-high);
     border-radius: var(--border-radius);
-    margin-bottom: 17px;
+    margin-bottom: var(--spacing);
     opacity: 1;
 }
 .modeUnreadImportant_d8bfb3 .icon_d8bfb3,
@@ -368,10 +368,6 @@ button.button_adca65 {
 .navButtons_cd377c {
     background: var(--second-color);
 	border-radius: var(--border-radius);
-	margin-bottom: 28px;
-}
-.scrollerSpacer_e2e187 {
-    height: 6px;
 }
 .thin_c49869 {
     background: var(--second-color);
@@ -1747,21 +1743,21 @@ button.button_adca65 {
 }
 
 /* Кнопка "Загрузить"*/
-.hoverButton_e5c1dc,
-.hoverButtonGroup_e5c1dc {
+.hoverButton_d0395d,
+.hoverButtonGroup_d0395d {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 }
-.hoverButton_e5c1dc:hover {
+.hoverButton_d0395d:hover {
     background: var(--link-color);
 	color: var(--second-color);
 }
-.hoverButton_e5c1dc:active {
+.hoverButton_d0395d:active {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 }
-.nonMediaMosaicItem_e5c1dc {
+.nonMediaMosaicItem_d0395d {
     outline: none;
 }
 
