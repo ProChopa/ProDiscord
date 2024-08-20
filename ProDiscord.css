@@ -662,6 +662,7 @@ button.button_adca65 {
     background: var(--second-color);
 	border-radius: var(--border-radius);
 	margin-bottom: -24px;
+	margin-right: -16px;
 }
 .channelTextAreaDisabled_d0696b .scrollableContainer_d0696b,
 .media_f847a3 {
@@ -680,6 +681,9 @@ button.button_adca65 {
 	border-radius: var(--border-radius);
 	bottom: 61px;
 	height: 24px;
+}
+.button_df39bd {
+    display: none;
 }
 
 /* MEMBERS BAR */
