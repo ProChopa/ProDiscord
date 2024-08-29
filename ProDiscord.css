@@ -802,7 +802,6 @@ button.button_adca65 {
 .fullSizeInnerThemed_c69a7b,
 .custom-profile-theme .fullSizeInnerThemed_c69a7b,
 .container_c1519f,
-.fullSizeOverlayBackground_c69a7b,
 .container_e5a42d,
 .custom-profile-theme .container_e5a42d,
 .theme-dark.custom-profile-theme .biteSizeOverlayBackground_c69a7b,
@@ -811,6 +810,10 @@ button.button_adca65 {
 .theme-dark.custom-profile-theme .activity_cd74cc {
 	background: var(--second-color);
 	border-color: var(--second-color);
+}
+.biteSizeOverlayBackground_c69a7b,
+.fullSizeOverlayBackground_c69a7b {
+	background: var(--main-color);
 }
 .connectedAccountContainer_f3eb60 {
     background: var(--hover-color);
@@ -860,7 +863,7 @@ button.button_adca65 {
 .button_edead5,
 .listRow_e4be58:hover,
 .pill_c83b44 {
-    background: var(--hover-color);
+    background: var(--main-color);
 	border-radius: var(--border-radius);
 	border: none;
 }
@@ -1011,7 +1014,6 @@ button.button_adca65 {
 .numberBadge_df8943 {
     color: var(--main-color);
 }
-
 
 /* Демонстрация экрана */
 .sourceThumbnail_d7ec26,
@@ -1206,12 +1208,9 @@ button.button_adca65 {
 .item_d90b3d.colorDefault_d90b3d.hideInteraction_d90b3d {
     background: none;
 }
-.themed_ec2fa7 .barInner_ec2fa7 {
+.themed_ec2fa7 .barInner_ec2fa7,
+.progress_b5cd55 {
     background: var(--link-color);
-	border-radius: var(--border-radius);
-}
-.bar_ec2fa7 {
-    background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
 .audioControls_f316dd {
@@ -1234,6 +1233,11 @@ button.button_adca65 {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
+.bar_b5cd55 {
+    background: var(--second-color);
+	border-radius: var(--border-radius);
+}
+
 .fakeEdges_f7877e:before,
 .fakeEdges_f7877e:after {
     left: 1px;
