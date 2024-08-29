@@ -312,10 +312,10 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
     background: var(--second-color);
 	border-radius: var(--border-radius);
 }
-.avatarWrapper_b2ca13:hover {
-	border-radius: var(--border-radius);
-}
-#vc-spotify-info-wrapper img {
+.avatarWrapper_b2ca13:hover,
+#vc-spotify-info-wrapper img,
+#vc-spotify-album-expanded-wrapper img,
+button.button_adca65 {
     border-radius: var(--border-radius);
 }
 [class*=vc-spotify-shuffle]>svg,
@@ -335,9 +335,6 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 .actionButtons_adcaac {
     display: block;
-}
-button.button_adca65 {
-	border-radius: var(--border-radius);
 }
 
 /* CHAT BAR */
@@ -672,7 +669,7 @@ button.button_adca65 {
 }
 .form_a7d72e {
 	padding-left: var(--spacing);
-    padding-right: var(--spacing);
+    padding-right: 18px;
     margin-top: 0px;
 }
 .activityInviteEducationFadeIn_d7ebeb,
@@ -807,13 +804,14 @@ button.button_adca65 {
 .theme-dark.custom-profile-theme .biteSizeOverlayBackground_c69a7b,
 .theme-dark.custom-profile-theme .fullSizeOverlayBackground_c69a7b,
 .custom-profile-theme .inner_dc0b43,
-.theme-dark.custom-profile-theme .activity_cd74cc {
+.theme-dark.custom-profile-theme .activity_cd74cc,
+.biteSizeOverlayBackground_c69a7b,
+.fullSizeOverlayBackground_c69a7b {
 	background: var(--second-color);
 	border-color: var(--second-color);
 }
-.biteSizeOverlayBackground_c69a7b,
-.fullSizeOverlayBackground_c69a7b {
-	background: var(--main-color);
+.card_ae1fa2 {
+    padding: 0px;
 }
 .connectedAccountContainer_f3eb60 {
     background: var(--hover-color);
@@ -863,7 +861,7 @@ button.button_adca65 {
 .button_edead5,
 .listRow_e4be58:hover,
 .pill_c83b44 {
-    background: var(--main-color);
+    background: var(--hover-color);
 	border-radius: var(--border-radius);
 	border: none;
 }
@@ -1181,7 +1179,9 @@ button.button_adca65 {
 	border-radius: var(--border-radius);
 }
 .theme-dark .bar_c7a159,
-.theme-dark .markDash_c7a159 {
+.theme-dark .markDash_c7a159,
+.audioControls_f316dd,
+.bar_b5cd55 {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
@@ -1201,21 +1201,14 @@ button.button_adca65 {
 .mediaBarGrabber_f7877e:after,
 .mediaBarProgress_f7877e,
 .mediaBarProgress_f7877e:before,
-.mediaBarProgress_f7877e:after {
-    background: var(--link-color);
-	border-radius: var(--border-radius);
-}
-.item_d90b3d.colorDefault_d90b3d.hideInteraction_d90b3d {
-    background: none;
-}
+.mediaBarProgress_f7877e:after,
 .themed_ec2fa7 .barInner_ec2fa7,
 .progress_b5cd55 {
     background: var(--link-color);
 	border-radius: var(--border-radius);
 }
-.audioControls_f316dd {
-    background: var(--hover-color);
-    border-radius: var(--border-radius);
+.item_d90b3d.colorDefault_d90b3d.hideInteraction_d90b3d {
+    background: none;
 }
 .controlIcon_f316dd {
     color: var(--link-color);
@@ -1225,19 +1218,11 @@ button.button_adca65 {
 .buffer_f7877e:after,
 .mediaBarWrapper_f7877e,
 .mediaBarWrapper_f7877e:before,
-.mediaBarWrapper_f7877e:after {
-    background: var(--main-color);
-	border-radius: var(--border-radius);
-}
+.mediaBarWrapper_f7877e:after,
 .mediaBarPreview_f7877e {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
-.bar_b5cd55 {
-    background: var(--second-color);
-	border-radius: var(--border-radius);
-}
-
 .fakeEdges_f7877e:before,
 .fakeEdges_f7877e:after {
     left: 1px;
@@ -1276,7 +1261,8 @@ button.button_adca65 {
 .colorDefault_d90b3d:hover,
 .colorDefault_d90b3d:active,
 .colorDefault_d90b3d:active:not(.hideInteraction_d90b3d),
-.colorDefault_d90b3d.focused_d90b3d {
+.colorDefault_d90b3d.focused_d90b3d,
+.item_eef3ef:hover:not(.disabled_eef3ef), .focused_eef3ef {
     background: var(--hover-color);
     border-radius: var(--border-radius);
 }
