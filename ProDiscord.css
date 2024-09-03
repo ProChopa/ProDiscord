@@ -375,6 +375,10 @@ button.button_adca65 {
 .theme-dark.mouse-mode.full-motion .message_d5deea:hover {
     background: var(--second-color);
 }
+.theme-dark .invite_f61cb8 {
+    background: var(--main-color);
+	border: none;
+}
 .attachment_b52bef.newMosaicStyle_b52bef,
 .newMosaicStyle_d8e2d0 .codeView_d8e2d0,
 .newMosaicStyle_d8e2d0 .footer_d8e2d0,
@@ -611,6 +615,7 @@ button.button_adca65 {
 	border-radius: var(--border-radius);
 	padding-bottom: 2px;
 	margin-bottom: 17px;
+	margin-right: -52px;
 	height: 22px;
 }
 .chatHeaderBar_efb691 {
@@ -806,7 +811,8 @@ button.button_adca65 {
 .custom-profile-theme .inner_dc0b43,
 .theme-dark.custom-profile-theme .activity_cd74cc,
 .biteSizeOverlayBackground_c69a7b,
-.fullSizeOverlayBackground_c69a7b {
+.fullSizeOverlayBackground_c69a7b,
+.overlayBackground_c69a7b {
 	background: var(--second-color);
 	border-color: var(--second-color);
 }
