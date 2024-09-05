@@ -812,7 +812,10 @@ button.button_adca65 {
 .theme-dark.custom-profile-theme .activity_f00225,
 .biteSizeOverlayBackground_c69a7b,
 .fullSizeOverlayBackground_c69a7b,
-.overlayBackground_c69a7b {
+.overlayBackground_c69a7b,
+.popoutContentWrapper_a35965,
+.interactionsContainer_a35965,
+.interactionsContainerHeader_a35965 {
 	background: var(--second-color);
 	border-color: var(--second-color);
 }
@@ -866,7 +869,9 @@ button.button_adca65 {
 .role_f9575e,
 .button_edead5,
 .listRow_d2d6cb:hover,
-.pill_e6f2d0 {
+.pill_e6f2d0,
+.sansAttachButton_d0696b,
+.replyInput_d0fc0d {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 	border: none;
