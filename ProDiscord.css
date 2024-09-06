@@ -1102,7 +1102,6 @@ button.button_adca65 {
 .wrapper_e06857,
 .wrapper_ba23fe,
 .categoryItemDefaultCategory_dfa278,
-.container_effbe2,
 .upsell_b6ac1a {
     background: var(--second-color);
 	border-radius: var(--border-radius);
@@ -1159,6 +1158,9 @@ button.button_adca65 {
 .gif_bad108 {
 	background: none;
 	border-radius: var(--border-radius);
+}
+.container_effbe2 {
+    background: var(--second-color);
 }
 
 /* Голосовое сообщение */
