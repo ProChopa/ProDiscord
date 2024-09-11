@@ -1080,14 +1080,16 @@ button.button_adca65 {
 
 /* Реакции */
 .reaction_ec6b19,
-.reaction_f61c73 {
+.reaction_f61c73,
+.reactionBtn_ec6b19.forceShowLook_ec6b19 {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
 .reaction_ec6b19:hover,
 .reaction_f61c73:hover,
 .buttonInner_b385c8:hover,
-.addReactButton_b385c8:hover {
+.addReactButton_b385c8:hover,
+.reactionBtn_ec6b19.forceShowLook_ec6b19:hover {
 	border-color: var(--link-color);
 }
 .reaction_ec6b19.reactionMe_ec6b19,
