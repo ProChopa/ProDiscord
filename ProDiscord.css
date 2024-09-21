@@ -662,9 +662,9 @@ button.button_adca65 {
 /* WRITE BAR */
 .themedBackground_d0696b {
     background: var(--second-color);
-    border-radius: var(--border-radius);
-    margin-bottom: -24px;
-    margin-right: -16px;
+	border-radius: var(--border-radius);
+	margin-bottom: -24px;
+	margin-right: -16px;
 }
 .channelTextAreaDisabled_d0696b .scrollableContainer_d0696b,
 .media_f847a3 {
@@ -674,7 +674,6 @@ button.button_adca65 {
 }
 .form_a7d72e {
 	padding-left: var(--spacing);
-    padding-right: 18px;
     margin-top: 0px;
 }
 .activityInviteEducationFadeIn_d7ebeb,
