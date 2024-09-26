@@ -416,16 +416,19 @@ button.button_adca65 {
 .intentsContainer_f6d180 {
     border-radius: var(--border-radius);
 }
-.wrapper_f7e168 {
-    background: var(--hover-color);
+.wrapper_f7e168,
+.popoverReactionHoverBar_e986d9,
+.popoverReactionHoverBar_e986d9:hover {
+    background: var(--main-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
+	border: none;
 	box-shadow: var(--elevation-high);
 }
 .button_f7e168:hover,
 .button_f7e168.selected_f7e168 {
-    background: var(--link-color);
-	color: var(--main-color);
+    background: var(--hover-color);
+	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 }
 .mentioned_d5deea {
@@ -996,7 +999,9 @@ button.button_adca65 {
 	box-shadow: none;
 	border: none;
 }
-.container_acb8b3 {
+.container_acb8b3,
+.friendRequestsButton_c0c071,
+.controlButton_f0cd33 {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 	box-shadow: none;
@@ -1476,12 +1481,16 @@ button.button_adca65 {
 .divider_dc0b54,
 .dotSpacer_f005b2 {
     background: var(--link-color);
+	border-radius: var(--border-radius);
 }
-.statusOffline_a71a1c {
+.statusOffline_a71a1c,
+.separator_e986d9 {
     background: var(--hover-color);
+	border-radius: var(--border-radius);
 }
 .separator_a06035:before {
     border-left: 1px solid var(--main-color);
+	border-radius: var(--border-radius);
 }
 .divider_af45f8 {
     display: none;
