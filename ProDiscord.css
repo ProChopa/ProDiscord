@@ -908,7 +908,8 @@ button.button_adca65 {
 }
 .listRow_d2d6cb,
 .overlayBackground_c69a7b,
-.profileEffects_f867f9.hovered_f867f9 {
+.profileEffects_f867f9.hovered_f867f9,
+.button_dd4f85 {
     border-radius: var(--border-radius);
 }
 .screenshareIcon_c1d9fd,
