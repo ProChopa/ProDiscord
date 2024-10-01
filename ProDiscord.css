@@ -1761,6 +1761,9 @@ button.button_adca65 {
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 }
+.footer_aa1bff {
+    background: none;
+}
 
 /* Кнопка "Загрузить"*/
 .hoverButton_d0395d,
