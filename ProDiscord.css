@@ -661,6 +661,13 @@ button.button_adca65 {
 .iconWrapper_ec583a {
     background: var(--hover-color);
 }
+.unreadPillCap_c2654d {
+    display: none;
+}
+.endCap_c2654d {
+    border-radius: var(--border-radius);
+    color: var(--second-color);
+}
 
 /* WRITE BAR */
 .themedBackground_d0696b {
@@ -880,10 +887,11 @@ button.button_adca65 {
 	border-radius: var(--border-radius);
 	border: none;
 }
+.statusBubble_d0a252,
 .statusBubbleShape_d0a252,
 .theme-dark .statusBubbleOuter_d0a252 {
-    background: var(--second-color);
-    box-shadow: var(--elevation-high);
+    background: var(--hover-color);
+	border-radius: var(--border-radius);
 	border: none;
 }
 .userPanelInnerThemed_c69a7b {
