@@ -1564,7 +1564,8 @@ button.button_adca65 {
 .border_ba4b17,
 .border_ba4b17.speaking_ba4b17,
 .picker_cd703d,
-.container_bdea70 {
+.container_bdea70,
+.overlayTitle_ba4b17 {
     border-radius: var(--border-radius);
 }
 .baseShapeRoundLeft_df8943 {
