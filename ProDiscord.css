@@ -673,11 +673,14 @@ button.button_adca65 {
 }
 
 /* WRITE BAR */
-.themedBackground_d0696b {
+.themedBackground_bdf0de {
     background: var(--second-color);
 	border-radius: var(--border-radius);
 	margin-bottom: -24px;
 	margin-right: -16px;
+}
+.operations_baf0d6 {
+    padding-top: 24px;
 }
 .channelTextAreaDisabled_d0696b .scrollableContainer_d0696b,
 .media_f847a3 {
