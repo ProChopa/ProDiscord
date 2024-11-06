@@ -1371,7 +1371,9 @@ button.button_adca65 {
 .membershipDialog_dc8e43,
 .headerCollapsedClickableContainer_af8856,
 .questsCard_c366aa,
-.video_c15a81 {
+.video_c15a81,
+.group_d25d19,
+.settingCard_dd864e {
     border-radius: var(--border-radius);
 	box-shadow: none;
 	border: none;
@@ -1385,7 +1387,7 @@ button.button_adca65 {
     border-bottom-color: var(--link-color);
 }
 .theme-dark .progress_e5cdf3,
-.selectedBackground_ae3c77{
+.selectedBackground_ae3c77 {
     background: var(--hover-color);
 }
 .game_fd966d {
@@ -1485,6 +1487,26 @@ button.button_adca65 {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 	box-shadow: var(--elevation-high);
+}
+.deny_d25d19 {
+	color: var(--blue-color-text);
+    border-radius: 24px 0 0 24px;
+}
+.deny_d25d19.selected_d25d19 {
+	color: var(--second-color);
+    border-radius: 24px 0 0 24px;
+}
+.passthrough_d25d19.selected_d25d19 {
+    background: var(--link-color);
+	color: var(--second-color);
+}
+.allow_d25d19 {
+	color: var(--blue-color-text);
+    border-radius: 0 24px  24px 0;
+}
+.allow_d25d19.selected_d25d19 {
+	color: var(--second-color);
+    border-radius: 0 24px  24px 0;
 }
 
 /* Авторство */
