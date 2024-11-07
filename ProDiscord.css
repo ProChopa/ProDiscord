@@ -829,11 +829,12 @@ button.button_adca65 {
 .custom-profile-theme .inner_c59af2,
 .theme-dark.custom-profile-theme .activity_f00225,
 .biteSizeOverlayBackground_c69a7b,
-.fullSizeOverlayBackground_c69a7b,
-.overlayBackground_c69a7b,
+.inner_c69a7b.fullSize_c69a7b,
 .popoutContentWrapper_a35965,
 .interactionsContainer_a35965,
-.interactionsContainerHeader_a35965 {
+.interactionsContainerHeader_a35965,
+:where(.overlay_c69a7b),
+.inner_c69a7b.biteSize_c69a7b {
 	background: var(--second-color);
 	border-color: var(--second-color);
 }
@@ -871,7 +872,8 @@ button.button_adca65 {
 	border-radius: var(--border-radius);
 	width: auto;
 }
-.divider_c3e427:before {
+.divider_c3e427:before,
+:where(.banner_d5fdb1):before {
     border-bottom: none;
 }
 .activity_f00225 {
