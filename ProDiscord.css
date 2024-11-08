@@ -1028,7 +1028,9 @@ button.button_adca65 {
 	border: none;
 }
 .rootContainer_b3552d,
-.carouselModal_d2b9a1 {
+.carouselModal_d2b9a1,
+.temporaryMembershipContainerBackground_cedfaf:before,
+.temporaryMembershipContainerBackground_cedfaf {
     background: none;
 }
 .row_fd8ff1:hover,
