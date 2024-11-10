@@ -834,7 +834,8 @@ button.button_adca65 {
 .interactionsContainer_a35965,
 .interactionsContainerHeader_a35965,
 :where(.overlay_c69a7b),
-.inner_c69a7b.biteSize_c69a7b {
+.inner_c69a7b.biteSize_c69a7b,
+.inner_c69a7b.panel_c69a7b {
 	background: var(--second-color);
 	border-color: var(--second-color);
 }
@@ -854,23 +855,13 @@ button.button_adca65 {
 .overlay_b9fccc {
     height: auto;
 }
-.userProfileInnerThemedWithBanner_c69a7b,
-.biteSizeInnerThemed_c69a7b,
-.popoutBannerPremium_c3e427,
-.userProfileInnerThemedNonPremium_c69a7b {
+:root .panel_c69a7b {
 	background: var(--second-color);
 	border-radius: var(--border-radius);
-	width: 305px;
-}
-.userProfileOuter_c69a7b {
-	background: var(--second-color);
-	border-radius: var(--border-radius);
-	width: auto;
 }
 .banner_d5fdb1 {
 	background: var(--second-color);
 	border-radius: var(--border-radius);
-	width: auto;
 }
 .divider_c3e427:before,
 :where(.banner_d5fdb1):before {
@@ -905,26 +896,6 @@ button.button_adca65 {
 	border-radius: var(--border-radius);
 	border: none;
 }
-.userPanelInnerThemed_c69a7b {
-	background: var(--second-color);
-	border-radius: var(--border-radius);
-	margin-right: var(--spacing);
-	width: 305px;
-}
-.userProfileInner_c69a7b:before {
-	background: var(--second-color);
-	border-radius: var(--border-radius);
-	margin-right: var(--spacing);
-	width: 305px;
-}
-.userPanelOuter_c69a7b {
-	background: var(--second-color);
-	border-radius: var(--border-radius);
-	margin-top: var(--spacing);
-	margin-right: var(--spacing);
-	height: auto;
-	width: 305px;
-}
 .listRow_d2d6cb,
 .overlayBackground_c69a7b,
 .profileEffects_f867f9.hovered_f867f9,
@@ -939,7 +910,7 @@ button.button_adca65 {
 }
 .panelBanner_c3e427 {
     border-radius: var(--border-radius);
-	width: 305px;
+	width: auto;
 }
 .footer_a823cd,
 .statusBubbleOuter_d0a252:before,
