@@ -1498,10 +1498,7 @@ button.button_adca65 {
 }
 .tile_ba4b17.idle_ba4b17,
 .tile_ba4b17.noInteraction_ba4b17,
-.tile_dc5fc4 {
-    background: var(--second-color);
-	border-radius: var(--border-radius);
-}
+.tile_dc5fc4,
 .background_cff728 {
     background: var(--second-color);
 	border-radius: var(--border-radius);
@@ -1516,7 +1513,8 @@ button.button_adca65 {
 .border_ba4b17.speaking_ba4b17,
 .picker_cd703d,
 .container_bdea70,
-.overlayTitle_ba4b17 {
+.overlayTitle_ba4b17,
+.memberListItem_d22f5a {
     border-radius: var(--border-radius);
 }
 .baseShapeRoundLeft_df8943 {
