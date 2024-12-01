@@ -1064,8 +1064,14 @@ button.button_adca65 {
 .selectorButton_a78967.selectorButtonSelected_a78967 .selectorText_a78967 {
     color: var(--main-color);
 }
-.pictureInPicture_e0c856 {
+/*.pictureInPicture_e0c856 {
     display: none;
+}*/
+.videoBackgroundTransition_c84990,
+.pictureInPictureVideo_cadaa5 {
+	background: var(--second-color);
+	border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
 }
 
 /* Меню команд */
