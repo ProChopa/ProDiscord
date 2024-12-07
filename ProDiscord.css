@@ -1017,7 +1017,8 @@ button.button_adca65 {
     background: none;
 }
 .row_fd8ff1:hover,
-.categoryItem_c72b37.selectedCategoryItem_c72b37 .itemInner_c72b37 {
+.categoryItem_c72b37.selectedCategoryItem_c72b37 .itemInner_c72b37,
+.interactiveRow_b5365d:hover {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 }
@@ -1033,6 +1034,9 @@ button.button_adca65 {
 }
 .numberBadge_df8943 {
     color: var(--main-color);
+}
+.banner_b747e2 {
+    border-radius: 24px 24px 0 0;
 }
 
 /* Демонстрация экрана */
