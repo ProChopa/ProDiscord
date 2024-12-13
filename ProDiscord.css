@@ -188,8 +188,8 @@ div:has(> button[aria-label="Открыть меню выбора стикеро
 }
 
 /* CHANNELS & DM BAR */
-.sidebar_a4d4d9 {
-	width: 305px;
+html:not(.visual-refresh_a4d4d9) .sidebar_a4d4d9 {
+	width: 305px !important;
 }
 .content_eed6a8,
 .scroller_c43953,
