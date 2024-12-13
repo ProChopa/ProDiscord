@@ -678,6 +678,11 @@ button.button_adca65 {
     border-radius: var(--border-radius);
     color: var(--second-color);
 }
+.repliedMessageClickableSpine_f9f2ca,
+.repliedMessageClickableSpine_f9f2ca:hover {
+    border-radius: var(--border-radius) 0 0 0;
+	border-color: var(--link-color);
+}
 
 /* WRITE BAR */
 .themedBackground_bdf0de {
