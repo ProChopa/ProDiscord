@@ -936,6 +936,11 @@ button.button_adca65 {
 .item_d90b3d.colorDefault_d90b3d.hideInteraction_d90b3d {
     background: none;
 }
+.container_ac01d6 {
+    background: var(--main-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--elevation-high);
+}
 
 /* OTHER BAR */
 .guildSidebar_a74b6f,
