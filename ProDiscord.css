@@ -671,7 +671,8 @@ button.button_adca65 {
 .iconWrapper_ec583a {
     background: var(--hover-color);
 }
-.unreadPillCap_c2654d {
+.unreadPillCap_c2654d,
+.icon_d76df7 {
     display: none;
 }
 .endCap_c2654d {
