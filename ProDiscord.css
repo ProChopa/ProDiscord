@@ -930,7 +930,8 @@ button.button_adca65 {
 .footer_b8cc6d {
     display: none;
 }
-.barFill_c7a159 {
+.barFill_c7a159,
+.progress_b5cd55 {
     background: var(--link-color);
     height: 100%;
 	border-radius: var(--border-radius);
