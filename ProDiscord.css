@@ -347,7 +347,12 @@ button.button_adca65 {
 }
 .content_c49869,
 .messageContainer_ddb5b4,
-.container_efc1ac {
+.container_efc1ac,
+.actionButtons_dda074,
+.group-spacing-16 .groupStart_d5deea,
+.prompt_cd377c,
+.navButtons_cd377c,
+.mediaBarWrapper_d12f5a {
     background: var(--second-color);
 	border-radius: var(--border-radius);
 }
@@ -362,13 +367,6 @@ button.button_adca65 {
 	background: var(--second-color);
 	border-radius: var(--border-radius);
 	margin-top: 2px;
-}
-.group-spacing-16 .groupStart_d5deea,
-.prompt_cd377c,
-.navButtons_cd377c,
-.mediaBarWrapper_d12f5a {
-    background: var(--second-color);
-	border-radius: var(--border-radius);
 }
 .thin_c49869 {
     background: var(--second-color);
@@ -1118,15 +1116,20 @@ button.button_adca65 {
 /* Реакции */
 .reaction_ec6b19,
 .reaction_f61c73,
-.reactionBtn_ec6b19.forceShowLook_ec6b19 {
+.reactionBtn_ec6b19.forceShow_ec6b19,
+.emptyHintCard_bad108 {
     background: var(--main-color);
 	border-radius: var(--border-radius);
+}
+.reaction_ec6b19,
+.reaction_ec6b19.reactionMe_ec6b19 {
+	border: none;
 }
 .reaction_ec6b19:hover,
 .reaction_f61c73:hover,
 .buttonInner_b385c8:hover,
 .addReactButton_b385c8:hover,
-.reactionBtn_ec6b19.forceShowLook_ec6b19:hover {
+.reactionBtn_ec6b19.forceShow_ec6b19:hover {
 	border-color: var(--link-color);
 }
 .reaction_ec6b19.reactionMe_ec6b19,
@@ -1175,7 +1178,9 @@ button.button_adca65 {
 	box-shadow: none;
 }
 .navButton_af5dbb,
-.result_bad108 {
+.result_bad108,
+.categoryFadeBlurple_af1167,
+.categoryFadeBlurple_af1167:hover {
     border-radius: var(--border-radius);
 }
 .stickerAsset_cb3343:hover,
@@ -1198,7 +1203,7 @@ button.button_adca65 {
 	background: none;
 	border-radius: var(--border-radius);
 }
-.container_effbe2 {
+.container_b56bbc {
     background: var(--second-color);
 }
 
