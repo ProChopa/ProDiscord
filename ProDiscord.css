@@ -943,6 +943,10 @@ button.button_adca65 {
     border-radius: var(--border-radius);
     box-shadow: var(--elevation-high);
 }
+.addCustomStatusButtonBubble_af9888.fullSize_af9888 {
+    top: 16px;
+    left: 190px;
+}
 
 /* OTHER BAR */
 .guildSidebar_a74b6f,
