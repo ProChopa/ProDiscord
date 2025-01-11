@@ -395,7 +395,8 @@ button.button_adca65 {
 .channelHeader_f3978e,
 .wrapperAudio_f72aac.newMosaicStyle_f72aac,
 .audioControls_f72aac,
-.fakeEdges_d12f5a:before {
+.fakeEdges_d12f5a:before,
+.file_f46c86 {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
