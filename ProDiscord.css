@@ -913,7 +913,10 @@ button.button_adca65 {
 .theme-dark .bar_c7a159,
 .theme-dark .markDash_c7a159,
 .audioControls_f316dd,
-.bar_b5cd55 {
+.bar_b5cd55,
+.inner_af9888,
+.outer_af9888,
+.theme-dark .outer_af9888 {
     background: var(--hover-color);
 	border-radius: var(--border-radius);
 	border: none;
@@ -938,8 +941,8 @@ button.button_adca65 {
 	width: auto;
 }
 .footer_a823cd,
-.statusBubbleOuter_af9888:before,
-.theme-dark .statusBubbleOuter_af9888:after,
+.outer_af9888:after,
+.outer_af9888:before,
 .footer_b8cc6d {
     display: none;
 }
@@ -957,9 +960,11 @@ button.button_adca65 {
     border-radius: var(--border-radius);
     box-shadow: var(--elevation-high);
 }
-.addCustomStatusButtonBubble_af9888.fullSize_af9888 {
-    top: 16px;
-    left: 190px;
+.container_af9888.fullSize_af9888 {
+    top: 18px;
+}
+.container_af9888.biteSize_af9888 {
+    top: 115px;
 }
 
 /* OTHER BAR */
