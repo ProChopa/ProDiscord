@@ -1605,7 +1605,8 @@ button.button_adca65 {
 .overlayTitle_ba4b17,
 .memberListItem_d22f5a,
 .cameraPreview_e5da2b,
-.backgroundOption_ad7d79{
+.backgroundOption_ad7d79,
+.actionButton_dda074 {
     border-radius: var(--border-radius);
 }
 .baseShapeRoundLeft_df8943 {
