@@ -437,6 +437,12 @@ button.button_adca65 {
 .mediaBarInteraction_d12f5a:hover .mediaBarGrabber_d12f5a {
     border-radius: var(--border-radius);
 }
+.contentContainer_e97a06 {
+    border-radius: 24px 0 0 24px;
+}
+.imgContainer_e97a06 {
+    border-radius: 0 24px 24px 0;
+}
 .wrapper_f7e168,
 .popoverReactionHoverBar_e986d9,
 .popoverReactionHoverBar_e986d9:hover {
