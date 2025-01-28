@@ -933,7 +933,8 @@ button.button_adca65 {
 }
 .listRow_d2d6cb,
 .overlayBackground_c69a7b,
-.profileEffects_f867f9.hovered_f867f9 {
+.profileEffects_f867f9.hovered_f867f9,
+.button_dd4f85 {
     border-radius: var(--border-radius);
 }
 .screenshareIcon_c1d9fd,
@@ -1024,7 +1025,8 @@ button.button_adca65 {
 .container_ac201b,
 .contentWrapper_ed5743:only-child,
 .theme-dark .contentWrapper_ed5743,
-.debugPanelStandalone_feab95 {
+.debugPanelStandalone_feab95,
+.container_effbe2 {
     background: var(--second-color);
     border-radius: var(--border-radius);
 	box-shadow: var(--elevation-high);
@@ -1035,7 +1037,6 @@ button.button_adca65 {
 .header_e664f3,
 .theme-dark .separator_f9a4c9,
 .content_fa4e6d,
-.root_f9a4c9,
 .container_c18ec9,
 .addFriendInputWrapper_de812f,
 .addFriendInputWrapper_de812f:focus-within {
@@ -1060,8 +1061,14 @@ button.button_adca65 {
 }
 .row_fd8ff1:hover,
 .categoryItem_c72b37.selectedCategoryItem_c72b37 .itemInner_c72b37,
-.interactiveRow_b5365d:hover {
+.interactiveRow_b5365d:hover,
+.theme-dark .friendSelected_ebf869 {
     background: var(--hover-color);
+	border-radius: var(--border-radius);
+}
+.tag_effbe2 {
+    background: var(--link-color);
+	color: var(--second-color);
 	border-radius: var(--border-radius);
 }
 .card_cc2c09,
@@ -1070,7 +1077,9 @@ button.button_adca65 {
 .wrappedLayout_d808b0,
 .optionContainer_e3f8c2:hover,
 .headerBackground_b3552d,
-.optionContainer_e3f8c2 {
+.optionContainer_e3f8c2,
+.root_f9a4c9,
+.friend_ebf869 {
 	border-radius: var(--border-radius);
 	border: none;
 }
@@ -1084,8 +1093,10 @@ button.button_adca65 {
 
 /* Демонстрация экрана */
 .sourceThumbnail_d7ec26,
+.sourceThumbnail_d7ec26.selected_d7ec26,
 .card_f30ffe {
     border-radius: var(--border-radius);
+	box-shadow: var(--elevation-high);
 }
 .theme-dark .tabItemSelected_a18ec1 {
     color: var(--blue-color-text);
@@ -1111,9 +1122,6 @@ button.button_adca65 {
 .selectorButton_a78967.selectorButtonSelected_a78967 .selectorText_a78967 {
     color: var(--main-color);
 }
-/*.pictureInPicture_e0c856 {
-    display: none;
-}*/
 .videoBackgroundTransition_c84990,
 .pictureInPictureVideo_cadaa5 {
 	background: var(--second-color);
