@@ -434,7 +434,8 @@ button.button__67645 {
 .imageWrapper_af017a,
 .mediaBarProgress_b26b79,
 .buffer_b26b79,
-.mediaBarInteraction_b26b79:hover .mediaBarGrabber_b26b79 {
+.mediaBarInteraction_b26b79:hover .mediaBarGrabber_b26b79,
+.gifFavoriteButton__43deb {
     border-radius: var(--border-radius);
 }
 .contentContainer_c55cae {
