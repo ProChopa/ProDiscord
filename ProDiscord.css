@@ -767,7 +767,8 @@ button.button__67645 {
     background: var(--second-color);
 	max-width: 500px;
 }
-.memberInner__5d473 {
+.memberInner__5d473,
+.childContainer__91a9d {
     border-radius: var(--border-radius);
 }
 .px__82f07.botTag__82f07,
@@ -960,7 +961,8 @@ button.button__67645 {
     height: 100%;
 	border-radius: var(--border-radius);
 }
-.item_c1e9c4.colorDefault_c1e9c4.hideInteraction_c1e9c4 {
+.item_c1e9c4.colorDefault_c1e9c4.hideInteraction_c1e9c4,
+.clickableContainer__39ec2:hover>.card__39ec2 {
     background: none;
 }
 .container__4413f {
@@ -1550,7 +1552,7 @@ button.button__67645 {
 
 /* Разделители и рамки */
 .divider__979dc,
-.divider_b50d96,
+.divider_c4eb81,
 .dotSpacer_f005b2 {
     background: var(--link-color);
 	border-radius: var(--border-radius);
@@ -1569,6 +1571,9 @@ button.button__67645 {
 }
 .divider__908e2 {
     border-top: none;
+}
+.activityText__5d473 {
+    color: var(--link-color);
 }
 
 /* Подсказки при наведении */
