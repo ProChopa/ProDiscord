@@ -335,7 +335,9 @@ button.button__67645 {
 [class*=vc-spotify-repeat]>svg {
     display: none;
 }
-.container__37e49 .withTagAsButton_b2ca13:hover {
+.container__37e49 .withTagAsButton_b2ca13:hover,
+button.button__67645.redGlow__67645,
+span.button__67645.redGlow__67645 {
     background: none;
 }
 .container__37e49 {
@@ -1408,10 +1410,18 @@ button.button__67645 {
 .questsCard__72a00,
 .video_b8f10d,
 .group__344e6,
-.settingCard_dd864e {
+.settingCard_dd864e,
+.grabber_a562c8,
+.nuxUserSettingsImage__9d98d,
+.nuxFirstImage__9d98d {
     border-radius: var(--border-radius);
 	box-shadow: none;
 	border: none;
+}
+.featureBorder__65c15,
+.premiumBackground__65c15,
+.clickable__75b30 {
+    border-radius: var(--border-radius);
 }
 .sidebarRegionScroller__23e6b {
     margin-left: var(--spacing);
@@ -1488,7 +1498,8 @@ button.button__67645 {
 .input__0f084,
 .textarea_dde0a8:focus,
 .note_fcb628 textarea,
-.note_fcb628 textarea:focus {
+.note_fcb628 textarea:focus,
+.card_b846e5::before {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 	border: none;
@@ -1632,7 +1643,8 @@ button.button__67645 {
 .baseShapeRoundLeft__2b1f5 {
     background: transparent !important;
 }
-.backgroundOptionInner__53965 {
+.backgroundOptionInner__53965,
+.buttonSection__1405b.experimentButtonSection__1405b {
     background: var(--main-color);
 	border-radius: var(--border-radius);
 }
@@ -1716,12 +1728,35 @@ button.button__67645 {
 .lookFilled__201d5.colorWhite__201d5,
 .lookOutlined__201d5.colorWhite__201d5,
 .theme-dark .button__6e2b9,
-.jumpMessageButton__95796 {
+.jumpMessageButton__95796,
+button.button__67645.enabled__67645.redGlow__67645:hover,
+span.button__67645.enabled__67645.redGlow__67645:hover,
+button.button__67645.enabled__67645.redGlow__67645:hover,
+span.button__67645.enabled__67645.redGlow__67645:hover,
+.theme-dark .experimentButton_e131a9 .buttonColor_e131a9.buttonActive_e131a9,
+.theme-dark.custom-theme-background .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9,
+.theme-dark.custom-theme-background .experimentButton_e131a9 .buttonColor_e131a9.buttonActive_e131a9,
+.theme-dark .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9:hover,
+.theme-dark .experimentButton_e131a9 .buttonColor_e131a9.buttonActive_e131a9:hover,
+.theme-dark.custom-theme-background .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9:hover,
+.theme-dark.custom-theme-background .experimentButton_e131a9 .buttonColor_e131a9.buttonActive_e131a9:hover,
+.colorable_f1ceac.experimentDark_f1ceac.active_f1ceac:not(.disabled_f1ceac),
+.colorable_f1ceac.experimentDark_f1ceac:hover:not(.disabled_f1ceac),
+.contextMenuNubExperiment_f1ceac.attachedCaret_f1ceac:hover,
+.attachedCaretButtonContainer_f1ceac.popoutOpen_f1ceac .experimentDark_f1ceac,
+.attachedCaretButtonContainer_f1ceac:hover .experimentDark_f1ceac,
+.experimentOverlayTitle__2f4f7,
+.overlayButton__2f4f7,
+.overlayButton__2f4f7:hover,
+.vc-settings-quickActions-pill {
     background: var(--hover-color);
 	color: var(--blue-color-text);
 	border-radius: var(--border-radius);
 	border: none;
 	opacity: 1;
+}
+.contextMenuNubExperiment_f1ceac.attachedCaret_f1ceac {
+	border-radius: var(--border-radius);
 }
 .vc-plugins-restart-card button {
     background: var(--hover-color) !important;
@@ -1767,7 +1802,17 @@ button.button__67645 {
 .colorWarning__6e2b9 .button__6e2b9:hover,
 .lookOutlined__201d5.colorWhite__201d5:hover,
 .headerButton__57d3f:hover,
-.keyboard-mode .headerButton__57d3f:focus {
+.keyboard-mode .headerButton__57d3f:focus,
+.theme-dark .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9,
+.colorable_f1ceac.greenGlow_f1ceac,
+.colorable_f1ceac.greenGlow_f1ceac .centerIcon_f1ceac,
+.colorable_f1ceac.redGlow_f1ceac,
+.colorable_f1ceac.redGlow_f1ceac .centerIcon_f1ceac,
+.colorable_f1ceac.greenGlow_f1ceac.popoutOpen_f1ceac,
+.colorable_f1ceac.greenGlow_f1ceac:hover,
+.colorable_f1ceac.redGlow_f1ceac.popoutOpen_f1ceac,
+.colorable_f1ceac.redGlow_f1ceac:hover,
+.vc-settings-quickActions-pill:hover {
 	background: var(--link-color);
 	color: var(--second-color);
 	border-radius: var(--border-radius);
@@ -1875,4 +1920,9 @@ button.button__67645 {
 .theme-dark .button_aa63ab:focus .activeButtonChild_aa63ab,
 .theme-dark .button_aa63ab:focus-within .activeButtonChild_aa63ab {
     color: var(--link-color);
+}
+
+/* Кнопка "Камера"  */
+.button__201d5 {
+    margin-top: 4px;
 }
